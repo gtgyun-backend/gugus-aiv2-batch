@@ -1,0 +1,68 @@
+<<<<<<< HEAD
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: validate
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    properties:
+      hibernate:
+        default_batch_fetch_size: 100
+        jdbc:
+          time_zone: Asia/Seoul
+
+externals:
+  letsur:
+    base-url: https://api.partner.com
+    api-key: ${LETSUR_API_KEY:dev-key}
+    endpoints:
+      brands: /v1/externals/letsur/brand
+      categories: /v1/externals/letsur/category
+      management-models: /v1/externals/letsur/management-models
+
+sync:
+  common:
+    zone: Asia/Seoul
+  brand:
+    enabled: false  # 개별 스케줄러 비활성화 (통합 스케줄러 사용)
+    cron: "0 10 2 * * *"     # 매일 02:10
+    page-size: 200
+  category:
+    enabled: false  # 개별 스케줄러 비활성화 (통합 스케줄러 사용)
+    cron: "0 20 2 * * *"     # 매일 02:20
+    page-size: 200
+  model:
+    enabled: false  # 개별 스케줄러 비활성화 (통합 스케줄러 사용)
+    cron: "0 30 2 * * *"     # 매일 02:30
+    page-size: 200
+
+ai:
+  gugus:
+    model: https://gugus-image-search-stg.letsur.ai
+
+scheduler:
+  daily-cron: "0 30 3 * * *"
+  zone: "Asia/Seoul"
+
+# Swagger/OpenAPI 설정
+springdoc:
+  api-docs:
+    path: /api-docs
+    enabled: true
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
+    tags-sorter: alpha
+    operations-sorter: alpha
+    doc-expansion: none
+  packages-to-scan: com.gugus.batch.controller
+  default-produces-media-type: application/json
+  default-consumes-media-type: application/json
+=======
+>>>>>>> dev

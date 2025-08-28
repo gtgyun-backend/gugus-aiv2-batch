@@ -1,0 +1,128 @@
+{
+  "data": [
+    {
+      "categoryCode": "BA",
+      "categoryName": "가방"
+    },
+    {
+      "categoryCode": "CL",
+      "categoryName": "의류"
+    },
+    {
+      "categoryCode": "WA",
+      "categoryName": "시계"
+    },
+    {
+      "categoryCode": "JW",
+      "categoryName": "주얼리"
+    },
+    {
+      "categoryCode": "AC",
+      "categoryName": "액세서리"
+    },
+    {
+      "categoryCode": "SH",
+      "categoryName": "신발"
+    },
+    {
+      "categoryCode": "WL",
+      "categoryName": "지갑"
+    },
+    {
+      "categoryCode": "KI",
+      "categoryName": "키즈"
+    },
+    {
+      "categoryCode": "SP",
+      "categoryName": "스포츠"
+    },
+    {
+      "categoryCode": "HO",
+      "categoryName": "홈&리빙"
+    },
+    {
+      "categoryCode": "BE",
+      "categoryName": "뷰티"
+    },
+    {
+      "categoryCode": "TE",
+      "categoryName": "테크"
+    },
+    {
+      "categoryCode": "BO",
+      "categoryName": "북스"
+    },
+    {
+      "categoryCode": "FO",
+      "categoryName": "푸드"
+    },
+    {
+      "categoryCode": "PE",
+      "categoryName": "펫"
+    },
+    {
+      "categoryCode": "GA",
+      "categoryName": "게임"
+    },
+    {
+      "categoryCode": "MU",
+      "categoryName": "뮤직"
+    },
+    {
+      "categoryCode": "AR",
+      "categoryName": "아트"
+    },
+    {
+      "categoryCode": "CO",
+      "categoryName": "컬렉터블"
+    },
+    {
+      "categoryCode": "VI",
+      "categoryName": "비닐"
+    },
+    {
+      "categoryCode": "CA",
+      "categoryName": "카메라"
+    },
+    {
+      "categoryCode": "TO",
+      "categoryName": "토이"
+    },
+    {
+      "categoryCode": "ST",
+      "categoryName": "스테이셔너리"
+    },
+    {
+      "categoryCode": "OU",
+      "categoryName": "아웃도어"
+    },
+    {
+      "categoryCode": "SW",
+      "categoryName": "수영"
+    },
+    {
+      "categoryCode": "SK",
+      "categoryName": "스키"
+    },
+    {
+      "categoryCode": "GO",
+      "categoryName": "골프"
+    },
+    {
+      "categoryCode": "TE",
+      "categoryName": "테니스"
+    },
+    {
+      "categoryCode": "BA",
+      "categoryName": "배드민턴"
+    },
+    {
+      "categoryCode": "CY",
+      "categoryName": "자전거"
+    }
+  ],
+  "page": 1,
+  "pageSize": 100,
+  "totalPage": 1,
+  "totalCount": 30
+}

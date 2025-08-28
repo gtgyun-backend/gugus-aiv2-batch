@@ -1,0 +1,204 @@
+{
+  "data": [
+    {
+      "brandCode": "CH",
+      "brandName": "샤넬"
+    },
+    {
+      "brandCode": "LV",
+      "brandName": "루이비통"
+    },
+    {
+      "brandCode": "GU",
+      "brandName": "구찌"
+    },
+    {
+      "brandCode": "HE",
+      "brandName": "에르메스"
+    },
+    {
+      "brandCode": "PR",
+      "brandName": "프라다"
+    },
+    {
+      "brandCode": "CA",
+      "brandName": "카르티에"
+    },
+    {
+      "brandCode": "RO",
+      "brandName": "로렉스"
+    },
+    {
+      "brandCode": "OM",
+      "brandName": "오메가"
+    },
+    {
+      "brandCode": "TI",
+      "brandName": "티파니"
+    },
+    {
+      "brandCode": "BU",
+      "brandName": "불가리"
+    },
+    {
+      "brandCode": "VA",
+      "brandName": "발렌티노"
+    },
+    {
+      "brandCode": "SA",
+      "brandName": "생로랑"
+    },
+    {
+      "brandCode": "BA",
+      "brandName": "발렌시아가"
+    },
+    {
+      "brandCode": "BO",
+      "brandName": "보테가베네타"
+    },
+    {
+      "brandCode": "FE",
+      "brandName": "페라가모"
+    },
+    {
+      "brandCode": "DI",
+      "brandName": "디올"
+    },
+    {
+      "brandCode": "CE",
+      "brandName": "셀린"
+    },
+    {
+      "brandCode": "GI",
+      "brandName": "지방시"
+    },
+    {
+      "brandCode": "BA",
+      "brandName": "바렌시아가"
+    },
+    {
+      "brandCode": "FE",
+      "brandName": "펜디"
+    },
+    {
+      "brandCode": "MI",
+      "brandName": "미우미우"
+    },
+    {
+      "brandCode": "AL",
+      "brandName": "알렉산더 맥퀸"
+    },
+    {
+      "brandCode": "ST",
+      "brandName": "스톤아일랜드"
+    },
+    {
+      "brandCode": "OF",
+      "brandName": "오프화이트"
+    },
+    {
+      "brandCode": "SU",
+      "brandName": "슈프림"
+    },
+    {
+      "brandCode": "PA",
+      "brandName": "팔라스"
+    },
+    {
+      "brandCode": "MO",
+      "brandName": "모스키노"
+    },
+    {
+      "brandCode": "VE",
+      "brandName": "베르사체"
+    },
+    {
+      "brandCode": "DO",
+      "brandName": "돌체앤가바나"
+    },
+    {
+      "brandCode": "AR",
+      "brandName": "아르마니"
+    },
+    {
+      "brandCode": "HU",
+      "brandName": "휴고보스"
+    },
+    {
+      "brandCode": "TO",
+      "brandName": "톰포드"
+    },
+    {
+      "brandCode": "MC",
+      "brandName": "마크제이콥스"
+    },
+    {
+      "brandCode": "KE",
+      "brandName": "케네스콜"
+    },
+    {
+      "brandCode": "MI",
+      "brandName": "마이클코어스"
+    },
+    {
+      "brandCode": "CO",
+      "brandName": "코치"
+    },
+    {
+      "brandCode": "KS",
+      "brandName": "케이스"
+    },
+    {
+      "brandCode": "DO",
+      "brandName": "도나카란"
+    },
+    {
+      "brandCode": "CA",
+      "brandName": "캘빈클라인"
+    },
+    {
+      "brandCode": "TO",
+      "brandName": "토미힐피거"
+    },
+    {
+      "brandCode": "RA",
+      "brandName": "랄프로렌"
+    },
+    {
+      "brandCode": "LA",
+      "brandName": "라코스테"
+    },
+    {
+      "brandCode": "NI",
+      "brandName": "나이키"
+    },
+    {
+      "brandCode": "AD",
+      "brandName": "아디다스"
+    },
+    {
+      "brandCode": "PU",
+      "brandName": "퓨마"
+    },
+    {
+      "brandCode": "UN",
+      "brandName": "언더아머"
+    },
+    {
+      "brandCode": "NE",
+      "brandName": "뉴발란스"
+    },
+    {
+      "brandCode": "AS",
+      "brandName": "아식스"
+    },
+    {
+      "brandCode": "MI",
+      "brandName": "미즈노"
+    }
+  ],
+  "page": 1,
+  "pageSize": 100,
+  "totalPage": 1,
+  "totalCount": 45
+}

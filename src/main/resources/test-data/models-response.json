@@ -1,0 +1,644 @@
+{
+  "data": [
+    {
+      "modelCode": "BAHE0208",
+      "modelName": "에르메스 미니 켈리",
+      "createdAt": "2025-01-16 11:19:38",
+      "modifiedAt": "2025-01-20 13:43:47"
+    },
+    {
+      "modelCode": "BAHE0205",
+      "modelName": "에르메스 벌킨",
+      "createdAt": "2025-01-09 17:35:05",
+      "modifiedAt": "2025-01-20 13:43:47"
+    },
+    {
+      "modelCode": "BAHE0204",
+      "modelName": "에르메스 가든파티",
+      "createdAt": "2025-01-09 13:53:43",
+      "modifiedAt": "2025-01-21 11:40:23"
+    },
+    {
+      "modelCode": "BALV0101",
+      "modelName": "루이비통 스피디",
+      "createdAt": "2025-01-10 09:15:22",
+      "modifiedAt": "2025-01-19 16:30:45"
+    },
+    {
+      "modelCode": "BALV0102",
+      "modelName": "루이비통 네버풀",
+      "createdAt": "2025-01-11 14:20:33",
+      "modifiedAt": "2025-01-18 10:25:12"
+    },
+    {
+      "modelCode": "BAGU0301",
+      "modelName": "구찌 마르몽트",
+      "createdAt": "2025-01-12 11:45:18",
+      "modifiedAt": "2025-01-17 15:20:30"
+    },
+    {
+      "modelCode": "BAGU0302",
+      "modelName": "구찌 디오니소스",
+      "createdAt": "2025-01-13 16:30:45",
+      "modifiedAt": "2025-01-16 12:10:25"
+    },
+    {
+      "modelCode": "WARO0401",
+      "modelName": "로렉스 서브마리너",
+      "createdAt": "2025-01-14 08:20:15",
+      "modifiedAt": "2025-01-15 14:35:40"
+    },
+    {
+      "modelCode": "WARO0402",
+      "modelName": "로렉스 데이토나",
+      "createdAt": "2025-01-15 13:45:30",
+      "modifiedAt": "2025-01-14 09:50:20"
+    },
+    {
+      "modelCode": "WAOM0501",
+      "modelName": "오메가 스피드마스터",
+      "createdAt": "2025-01-16 10:15:25",
+      "modifiedAt": "2025-01-13 11:30:15"
+    },
+    {
+      "modelCode": "WAOM0502",
+      "modelName": "오메가 시마스터",
+      "createdAt": "2025-01-17 15:25:40",
+      "modifiedAt": "2025-01-12 16:45:35"
+    },
+    {
+      "modelCode": "JWCA0601",
+      "modelName": "카르티에 러브",
+      "createdAt": "2025-01-18 12:30:50",
+      "modifiedAt": "2025-01-11 13:20:10"
+    },
+    {
+      "modelCode": "JWCA0602",
+      "modelName": "카르티에 팬데",
+      "createdAt": "2025-01-19 09:40:20",
+      "modifiedAt": "2025-01-10 10:15:45"
+    },
+    {
+      "modelCode": "JWTI0701",
+      "modelName": "티파니 T",
+      "createdAt": "2025-01-20 14:50:35",
+      "modifiedAt": "2025-01-09 15:30:25"
+    },
+    {
+      "modelCode": "JWTI0702",
+      "modelName": "티파니 키스",
+      "createdAt": "2025-01-21 11:20:15",
+      "modifiedAt": "2025-01-08 16:40:30"
+    },
+    {
+      "modelCode": "BACH0801",
+      "modelName": "샤넬 클래식 플랩",
+      "createdAt": "2025-01-22 08:30:45",
+      "modifiedAt": "2025-01-07 12:15:20"
+    },
+    {
+      "modelCode": "BACH0802",
+      "modelName": "샤넬 보이",
+      "createdAt": "2025-01-23 15:45:30",
+      "modifiedAt": "2025-01-06 14:25:40"
+    },
+    {
+      "modelCode": "BAPR0901",
+      "modelName": "프라다 리에조",
+      "createdAt": "2025-01-24 10:20:15",
+      "modifiedAt": "2025-01-05 16:30:25"
+    },
+    {
+      "modelCode": "BAPR0902",
+      "modelName": "프라다 갤리아",
+      "createdAt": "2025-01-25 13:35:50",
+      "modifiedAt": "2025-01-04 09:40:35"
+    },
+    {
+      "modelCode": "WABU1001",
+      "modelName": "불가리 옥토",
+      "createdAt": "2025-01-26 11:25:40",
+      "modifiedAt": "2025-01-03 11:50:15"
+    },
+    {
+      "modelCode": "WABU1002",
+      "modelName": "불가리 디아블로",
+      "createdAt": "2025-01-27 16:40:25",
+      "modifiedAt": "2025-01-02 13:20:45"
+    },
+    {
+      "modelCode": "CLVA1101",
+      "modelName": "발렌티노 가라바니",
+      "createdAt": "2025-01-28 09:15:30",
+      "modifiedAt": "2025-01-01 15:35:20"
+    },
+    {
+      "modelCode": "CLSA1201",
+      "modelName": "생로랑 루루",
+      "createdAt": "2025-01-29 14:50:45",
+      "modifiedAt": "2024-12-31 10:25:30"
+    },
+    {
+      "modelCode": "CLBA1301",
+      "modelName": "발렌시아가 트라이플 S",
+      "createdAt": "2025-01-30 12:30:20",
+      "modifiedAt": "2024-12-30 16:45:10"
+    },
+    {
+      "modelCode": "CLBO1401",
+      "modelName": "보테가베네타 카사",
+      "createdAt": "2025-01-31 08:45:35",
+      "modifiedAt": "2024-12-29 12:15:40"
+    },
+    {
+      "modelCode": "SHFE1501",
+      "modelName": "페라가모 바라",
+      "createdAt": "2025-02-01 15:20:50",
+      "modifiedAt": "2024-12-28 14:30:25"
+    },
+    {
+      "modelCode": "SHFE1502",
+      "modelName": "페라가모 바리나",
+      "createdAt": "2025-02-02 11:35:15",
+      "modifiedAt": "2024-12-27 09:50:35"
+    },
+    {
+      "modelCode": "CLDI1601",
+      "modelName": "디올 뉴 룩",
+      "createdAt": "2025-02-03 13:40:25",
+      "modifiedAt": "2024-12-26 11:20:15"
+    },
+    {
+      "modelCode": "CLCE1701",
+      "modelName": "셀린 트라이옴프",
+      "createdAt": "2025-02-04 16:25:40",
+      "modifiedAt": "2024-12-25 13:45:30"
+    },
+    {
+      "modelCode": "CLGI1801",
+      "modelName": "지방시 파티",
+      "createdAt": "2025-02-05 10:15:55",
+      "modifiedAt": "2024-12-24 15:10:20"
+    },
+    {
+      "modelCode": "CLFE1901",
+      "modelName": "펜디 바게트",
+      "createdAt": "2025-02-06 14:30:10",
+      "modifiedAt": "2024-12-23 12:35:45"
+    },
+    {
+      "modelCode": "CLMI2001",
+      "modelName": "미우미우 마티라세",
+      "createdAt": "2025-02-07 09:50:30",
+      "modifiedAt": "2024-12-22 16:20:15"
+    },
+    {
+      "modelCode": "CLAL2101",
+      "modelName": "알렉산더 맥퀸 크롭",
+      "createdAt": "2025-02-08 12:45:20",
+      "modifiedAt": "2024-12-21 10:40:35"
+    },
+    {
+      "modelCode": "CLST2201",
+      "modelName": "스톤아일랜드 오버셔트",
+      "createdAt": "2025-02-09 15:20:45",
+      "modifiedAt": "2024-12-20 14:15:25"
+    },
+    {
+      "modelCode": "CLOF2301",
+      "modelName": "오프화이트 아로우",
+      "createdAt": "2025-02-10 11:35:15",
+      "modifiedAt": "2024-12-19 09:30:40"
+    },
+    {
+      "modelCode": "CLSU2401",
+      "modelName": "슈프림 박스 로고",
+      "createdAt": "2025-02-11 13:50:30",
+      "modifiedAt": "2024-12-18 11:25:15"
+    },
+    {
+      "modelCode": "CLPA2501",
+      "modelName": "팔라스 스포츠",
+      "createdAt": "2025-02-12 16:15:40",
+      "modifiedAt": "2024-12-17 13:50:20"
+    },
+    {
+      "modelCode": "CLMO2601",
+      "modelName": "모스키노 체인",
+      "createdAt": "2025-02-13 10:25:55",
+      "modifiedAt": "2024-12-16 15:35:30"
+    },
+    {
+      "modelCode": "CLVE2701",
+      "modelName": "베르사체 메두사",
+      "createdAt": "2025-02-14 14:40:20",
+      "modifiedAt": "2024-12-15 12:45:10"
+    },
+    {
+      "modelCode": "CLDO2801",
+      "modelName": "돌체앤가바나 시칠리아",
+      "createdAt": "2025-02-15 09:30:35",
+      "modifiedAt": "2024-12-14 16:20:45"
+    },
+    {
+      "modelCode": "CLAR2901",
+      "modelName": "아르마니 익스체인지",
+      "createdAt": "2025-02-16 12:55:25",
+      "modifiedAt": "2024-12-13 10:15:30"
+    },
+    {
+      "modelCode": "CLHU3001",
+      "modelName": "휴고보스 셀렉트",
+      "createdAt": "2025-02-17 15:10:50",
+      "modifiedAt": "2024-12-12 14:40:20"
+    },
+    {
+      "modelCode": "CLTO3101",
+      "modelName": "톰포드 턱스",
+      "createdAt": "2025-02-18 11:20:15",
+      "modifiedAt": "2024-12-11 09:25:35"
+    },
+    {
+      "modelCode": "CLMC3201",
+      "modelName": "마크제이콥스 스냅샷",
+      "createdAt": "2025-02-19 13:35:40",
+      "modifiedAt": "2024-12-10 11:30:15"
+    },
+    {
+      "modelCode": "CLKE3301",
+      "modelName": "케네스콜 뉴욕",
+      "createdAt": "2025-02-20 16:45:30",
+      "modifiedAt": "2024-12-09 13:55:25"
+    },
+    {
+      "modelCode": "CLMI3401",
+      "modelName": "마이클코어스 제트셋",
+      "createdAt": "2025-02-21 10:15:45",
+      "modifiedAt": "2024-12-08 15:20:40"
+    },
+    {
+      "modelCode": "BACO3501",
+      "modelName": "코치 윌로우",
+      "createdAt": "2025-02-22 14:30:20",
+      "modifiedAt": "2024-12-07 12:35:10"
+    },
+    {
+      "modelCode": "BAKS3601",
+      "modelName": "케이스 크로스바디",
+      "createdAt": "2025-02-23 09:40:35",
+      "modifiedAt": "2024-12-06 16:45:30"
+    },
+    {
+      "modelCode": "CLDO3701",
+      "modelName": "도나카란 뉴욕",
+      "createdAt": "2025-02-24 12:50:15",
+      "modifiedAt": "2024-12-05 10:25:20"
+    },
+    {
+      "modelCode": "CLCA3801",
+      "modelName": "캘빈클라인 진",
+      "createdAt": "2025-02-25 15:25:40",
+      "modifiedAt": "2024-12-04 14:30:45"
+    },
+    {
+      "modelCode": "CLTO3901",
+      "modelName": "토미힐피거 스포츠",
+      "createdAt": "2025-02-26 11:35:25",
+      "modifiedAt": "2024-12-03 09:40:15"
+    },
+    {
+      "modelCode": "CLRA4001",
+      "modelName": "랄프로렌 폴로",
+      "createdAt": "2025-02-27 13:45:50",
+      "modifiedAt": "2024-12-02 11:50:35"
+    },
+    {
+      "modelCode": "CLLA4101",
+      "modelName": "라코스테 폴로",
+      "createdAt": "2025-02-28 16:20:30",
+      "modifiedAt": "2024-12-01 13:55:25"
+    },
+    {
+      "modelCode": "SHNI4201",
+      "modelName": "나이키 에어맥스",
+      "createdAt": "2025-03-01 10:30:45",
+      "modifiedAt": "2024-11-30 15:15:40"
+    },
+    {
+      "modelCode": "SHAD4301",
+      "modelName": "아디다스 스탠스미스",
+      "createdAt": "2025-03-02 14:40:20",
+      "modifiedAt": "2024-11-29 12:25:30"
+    },
+    {
+      "modelCode": "SHPU4401",
+      "modelName": "퓨마 RS-X",
+      "createdAt": "2025-03-03 09:50:35",
+      "modifiedAt": "2024-11-28 16:35:15"
+    },
+    {
+      "modelCode": "SHUN4501",
+      "modelName": "언더아머 커리",
+      "createdAt": "2025-03-04 12:55:25",
+      "modifiedAt": "2024-11-27 10:45:20"
+    },
+    {
+      "modelCode": "SHNE4601",
+      "modelName": "뉴발란스 574",
+      "createdAt": "2025-03-05 15:20:40",
+      "modifiedAt": "2024-11-26 14:30:35"
+    },
+    {
+      "modelCode": "SHAS4701",
+      "modelName": "아식스 젤",
+      "createdAt": "2025-03-06 11:35:15",
+      "modifiedAt": "2024-11-25 09:40:25"
+    },
+    {
+      "modelCode": "SHMI4801",
+      "modelName": "미즈노 웨이브",
+      "createdAt": "2025-03-07 13:45:30",
+      "modifiedAt": "2024-11-24 16:20:10"
+    },
+    {
+      "modelCode": "WACA4901",
+      "modelName": "카르티에 산토스",
+      "createdAt": "2025-03-08 10:25:45",
+      "modifiedAt": "2024-11-23 12:15:40"
+    },
+    {
+      "modelCode": "WACA4902",
+      "modelName": "카르티에 탱크",
+      "createdAt": "2025-03-09 14:30:20",
+      "modifiedAt": "2024-11-22 15:25:30"
+    },
+    {
+      "modelCode": "WATI5001",
+      "modelName": "티파니 이스트웨스트",
+      "createdAt": "2025-03-10 16:40:35",
+      "modifiedAt": "2024-11-21 11:35:15"
+    },
+    {
+      "modelCode": "WATI5002",
+      "modelName": "티파니 아틀라스",
+      "createdAt": "2025-03-11 09:50:25",
+      "modifiedAt": "2024-11-20 13:45:20"
+    },
+    {
+      "modelCode": "JWBU5101",
+      "modelName": "불가리 세르펜티",
+      "createdAt": "2025-03-12 12:15:40",
+      "modifiedAt": "2024-11-19 10:30:45"
+    },
+    {
+      "modelCode": "JWBU5102",
+      "modelName": "불가리 다이바",
+      "createdAt": "2025-03-13 15:25:30",
+      "modifiedAt": "2024-11-18 14:20:35"
+    },
+    {
+      "modelCode": "JWHE5201",
+      "modelName": "에르메스 켈리",
+      "createdAt": "2025-03-14 11:35:15",
+      "modifiedAt": "2024-11-17 16:15:25"
+    },
+    {
+      "modelCode": "JWHE5202",
+      "modelName": "에르메스 콘스텔레이션",
+      "createdAt": "2025-03-15 13:45:50",
+      "modifiedAt": "2024-11-16 12:40:10"
+    },
+    {
+      "modelCode": "ACCH5301",
+      "modelName": "샤넬 카메리아",
+      "createdAt": "2025-03-16 10:20:35",
+      "modifiedAt": "2024-11-15 09:25:40"
+    },
+    {
+      "modelCode": "ACLV5401",
+      "modelName": "루이비통 키프",
+      "createdAt": "2025-03-17 14:30:25",
+      "modifiedAt": "2024-11-14 15:30:20"
+    },
+    {
+      "modelCode": "ACGU5501",
+      "modelName": "구찌 마몬트",
+      "createdAt": "2025-03-18 16:40:40",
+      "modifiedAt": "2024-11-13 11:35:15"
+    },
+    {
+      "modelCode": "ACPR5601",
+      "modelName": "프라다 리에조",
+      "createdAt": "2025-03-19 09:50:30",
+      "modifiedAt": "2024-11-12 13:45:25"
+    },
+    {
+      "modelCode": "ACDI5701",
+      "modelName": "디올 뉴 룩",
+      "createdAt": "2025-03-20 12:15:45",
+      "modifiedAt": "2024-11-11 10:20:35"
+    },
+    {
+      "modelCode": "ACCE5801",
+      "modelName": "셀린 트라이옴프",
+      "createdAt": "2025-03-21 15:25:20",
+      "modifiedAt": "2024-11-10 14:15:30"
+    },
+    {
+      "modelCode": "WLHE5901",
+      "modelName": "에르메스 베르나",
+      "createdAt": "2025-03-22 11:35:35",
+      "modifiedAt": "2024-11-09 16:25:40"
+    },
+    {
+      "modelCode": "WLLV6001",
+      "modelName": "루이비통 조르제트",
+      "createdAt": "2025-03-23 13:45:15",
+      "modifiedAt": "2024-11-08 12:30:25"
+    },
+    {
+      "modelCode": "WLGU6101",
+      "modelName": "구찌 마몬트",
+      "createdAt": "2025-03-24 10:20:50",
+      "modifiedAt": "2024-11-07 09:35:15"
+    },
+    {
+      "modelCode": "WLPR6201",
+      "modelName": "프라다 갤리아",
+      "createdAt": "2025-03-25 14:30:40",
+      "modifiedAt": "2024-11-06 15:40:20"
+    },
+    {
+      "modelCode": "WLDI6301",
+      "modelName": "디올 뉴 룩",
+      "createdAt": "2025-03-26 16:40:25",
+      "modifiedAt": "2024-11-05 11:45:35"
+    },
+    {
+      "modelCode": "WLCE6401",
+      "modelName": "셀린 트라이옴프",
+      "createdAt": "2025-03-27 09:50:15",
+      "modifiedAt": "2024-11-04 13:50:30"
+    },
+    {
+      "modelCode": "KICH6501",
+      "modelName": "샤넬 클래식",
+      "createdAt": "2025-03-28 12:15:30",
+      "modifiedAt": "2024-11-03 10:55:25"
+    },
+    {
+      "modelCode": "KILV6601",
+      "modelName": "루이비통 스피디",
+      "createdAt": "2025-03-29 15:25:45",
+      "modifiedAt": "2024-11-02 14:20:40"
+    },
+    {
+      "modelCode": "KIGU6701",
+      "modelName": "구찌 마몬트",
+      "createdAt": "2025-03-30 11:35:20",
+      "modifiedAt": "2024-11-01 16:30:15"
+    },
+    {
+      "modelCode": "KIPR6801",
+      "modelName": "프라다 리에조",
+      "createdAt": "2025-03-31 13:45:35",
+      "modifiedAt": "2024-10-31 12:25:30"
+    },
+    {
+      "modelCode": "KIDI6901",
+      "modelName": "디올 뉴 룩",
+      "createdAt": "2025-04-01 10:20:50",
+      "modifiedAt": "2024-10-30 09:35:45"
+    },
+    {
+      "modelCode": "KICE7001",
+      "modelName": "셀린 트라이옴프",
+      "createdAt": "2025-04-02 14:30:15",
+      "modifiedAt": "2024-10-29 15:40:20"
+    },
+    {
+      "modelCode": "SPNI7101",
+      "modelName": "나이키 에어맥스",
+      "createdAt": "2025-04-03 16:40:40",
+      "modifiedAt": "2024-10-28 11:45:35"
+    },
+    {
+      "modelCode": "SPAD7201",
+      "modelName": "아디다스 스탠스미스",
+      "createdAt": "2025-04-04 09:50:25",
+      "modifiedAt": "2024-10-27 13:50:30"
+    },
+    {
+      "modelCode": "SPPU7301",
+      "modelName": "퓨마 RS-X",
+      "createdAt": "2025-04-05 12:15:30",
+      "modifiedAt": "2024-10-26 10:55:25"
+    },
+    {
+      "modelCode": "SPUN7401",
+      "modelName": "언더아머 커리",
+      "createdAt": "2025-04-06 15:25:45",
+      "modifiedAt": "2024-10-25 14:20:40"
+    },
+    {
+      "modelCode": "SPNE7501",
+      "modelName": "뉴발란스 574",
+      "createdAt": "2025-04-07 11:35:20",
+      "modifiedAt": "2024-10-24 16:30:15"
+    },
+    {
+      "modelCode": "SPAS7601",
+      "modelName": "아식스 젤",
+      "createdAt": "2025-04-08 13:45:35",
+      "modifiedAt": "2024-10-23 12:25:30"
+    },
+    {
+      "modelCode": "SPMI7701",
+      "modelName": "미즈노 웨이브",
+      "createdAt": "2025-04-09 10:20:50",
+      "modifiedAt": "2024-10-22 09:35:45"
+    },
+    {
+      "modelCode": "HOBE7801",
+      "modelName": "베르사체 메두사",
+      "createdAt": "2025-04-10 14:30:15",
+      "modifiedAt": "2024-10-21 15:40:20"
+    },
+    {
+      "modelCode": "HODO7901",
+      "modelName": "돌체앤가바나 시칠리아",
+      "createdAt": "2025-04-11 16:40:40",
+      "modifiedAt": "2024-10-20 11:45:35"
+    },
+    {
+      "modelCode": "HOAR8001",
+      "modelName": "아르마니 익스체인지",
+      "createdAt": "2025-04-12 09:50:25",
+      "modifiedAt": "2024-10-19 13:50:30"
+    },
+    {
+      "modelCode": "HOHU8101",
+      "modelName": "휴고보스 셀렉트",
+      "createdAt": "2025-04-13 12:15:30",
+      "modifiedAt": "2024-10-18 10:55:25"
+    },
+    {
+      "modelCode": "HOTO8201",
+      "modelName": "톰포드 턱스",
+      "createdAt": "2025-04-14 15:25:45",
+      "modifiedAt": "2024-10-17 14:20:40"
+    },
+    {
+      "modelCode": "HOMC8301",
+      "modelName": "마크제이콥스 스냅샷",
+      "createdAt": "2025-04-15 11:35:20",
+      "modifiedAt": "2024-10-16 16:30:15"
+    },
+    {
+      "modelCode": "HOKE8401",
+      "modelName": "케네스콜 뉴욕",
+      "createdAt": "2025-04-16 13:45:35",
+      "modifiedAt": "2024-10-15 12:25:30"
+    },
+    {
+      "modelCode": "HOMI8501",
+      "modelName": "마이클코어스 제트셋",
+      "createdAt": "2025-04-17 10:20:50",
+      "modifiedAt": "2024-10-14 09:35:45"
+    },
+    {
+      "modelCode": "HOCO8601",
+      "modelName": "코치 윌로우",
+      "createdAt": "2025-04-18 14:30:15",
+      "modifiedAt": "2024-10-13 15:40:20"
+    },
+    {
+      "modelCode": "HOKS8701",
+      "modelName": "케이스 크로스바디",
+      "createdAt": "2025-04-19 16:40:40",
+      "modifiedAt": "2024-10-12 11:45:35"
+    },
+    {
+      "modelCode": "HODO8801",
+      "modelName": "도나카란 뉴욕",
+      "createdAt": "2025-04-20 09:50:25",
+      "modifiedAt": "2024-10-11 13:50:30"
+    },
+    {
+      "modelCode": "HOCA8901",
+      "modelName": "캘빈클라인 진",
+      "createdAt": "2025-04-21 12:15:30",
+      "modifiedAt": "2024-10-10 10:55:25"
+    },
+    {
+      "modelCode": "HOTO9001",
+      "modelName": "토미힐피거 스포츠",
+      "createdAt": "2025-04-22 15:25:45",
+      "modifiedAt": "2024-10-09 14:20:40"
+    }
+  ],
+  "page": 1,
+  "pageSize": 100,
+  "totalPage": 1,
+  "totalCount": 90
+}
