@@ -39,6 +39,8 @@ public class CategorySyncService {
         log.info("[CategorySyncService] Starting category sync");
         
         int page = 1;
+        int totalProcessed = 0;
+        
         while (true) {
             CategoriesResponse res = client.getCategories(
                     CategorySearchReq.builder().page(page).pageSize(pageSize).build()
@@ -46,11 +48,13 @@ public class CategorySyncService {
             if (res == null || res.data() == null || res.data().isEmpty()) break;
 
             upsert(res.data());
+            totalProcessed += res.data().size();
+            
             if (res.page() >= res.totalPage()) break;
             page++;
         }
         
-        log.info("[CategorySyncService] Category sync completed");
+        log.info("[CategorySyncService] Category sync completed - Total processed: {}", totalProcessed);
     }
 
     /**
@@ -64,13 +68,18 @@ public class CategorySyncService {
         log.info("[CategorySyncService] Loaded {} categories from test data", res.data().size());
         
         upsert(res.data());
-        log.info("[CategorySyncService] Category sync with test data completed");
+        log.info("[CategorySyncService] Category sync with test data completed - Processed: {}", res.data().size());
     }
 
     private void upsert(List<CategoryItem> items) {
+        int createdCount = 0;
+        int updatedCount = 0;
+        int skippedCount = 0;
+        
         for (var item : items) {
             // categoryCode가 null인 경우 건너뛰기
             if (item.categoryCode() == null) {
+                skippedCount++;
                 continue;
             }
             
@@ -80,11 +89,18 @@ public class CategorySyncService {
                 // 기존 행 → 갱신
                     entity.updateNameByBatch(item.categoryName());
                 categoriesRepository.save(entity);
+                updatedCount++;
             } else {
                 // 신규 생성
                 var newEntity = Categories.createByBatch(item.categoryCode(), item.categoryName());
                 categoriesRepository.save(newEntity);
+                createdCount++;
             }            
+        }
+        
+        if (createdCount > 0 || updatedCount > 0 || skippedCount > 0) {
+            log.info("[CategorySyncService] Upsert completed - Created: {}, Updated: {}, Skipped: {}", 
+                    createdCount, updatedCount, skippedCount);
         }
     }
 

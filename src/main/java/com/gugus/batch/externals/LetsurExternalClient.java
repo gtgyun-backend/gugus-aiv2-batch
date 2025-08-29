@@ -4,6 +4,8 @@ import com.gugus.batch.dto.BrandSearchReq;
 import com.gugus.batch.dto.BrandsResponse;
 import com.gugus.batch.dto.CategoriesResponse;
 import com.gugus.batch.dto.CategorySearchReq;
+import com.gugus.batch.dto.AppraisalPointSearchReq;
+import com.gugus.batch.dto.AppraisalPointsResponse;
 import com.gugus.batch.dto.GoodsResponse;
 import com.gugus.batch.dto.GoodsSearchReq;
 import com.gugus.batch.dto.ModelSearchReq;
@@ -42,6 +44,9 @@ public class LetsurExternalClient {
     @Value("${externals.letsur.endpoints.goods}")
     private String goodsPath;
 
+    @Value("${externals.letsur.endpoints.appraisal-points}")
+    private String appraisalPointsPath;
+
     private HttpHeaders defaultHeaders() {
         HttpHeaders headers = new HttpHeaders();
         headers.add("x-api-key", apiKey);
@@ -67,5 +72,10 @@ public class LetsurExternalClient {
     public Mono<GoodsResponse> getGoods(GoodsSearchReq req) {
         return webClientUtil.api(HttpMethod.GET, goodsPath, req.toQueryMap(),
                 GoodsResponse.class, defaultHeaders());
+    }
+
+    public Mono<AppraisalPointsResponse> getAppraisalPoints(AppraisalPointSearchReq req) {
+        return webClientUtil.api(HttpMethod.GET, appraisalPointsPath, req.toQueryMap(),
+                AppraisalPointsResponse.class, defaultHeaders());
     }
 }

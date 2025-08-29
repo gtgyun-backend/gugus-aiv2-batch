@@ -1,6 +1,7 @@
 package com.gugus.batch.controller;
 
 import com.gugus.batch.job.SyncJob;
+import com.gugus.batch.service.AppraisalPointSyncService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;
@@ -71,4 +72,5 @@ public class TestController {
             return "Full sync with test data failed: " + e.getMessage();
         }
     }
+   
 }

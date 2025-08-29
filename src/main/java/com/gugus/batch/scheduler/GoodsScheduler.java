@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * @author : gtg
- * @fileName : ModelScheduler
+ * @fileName : GoodsScheduler
  * @date : 2025-08-23
  */
 @Slf4j
@@ -28,10 +28,13 @@ public class GoodsScheduler {
     @Scheduled(cron = "${sync.goods.cron}", zone = "${sync.common.zone:Asia/Seoul}")
     public void run() {
         if (!enabled) return;
+        log.info("[GoodsScheduler] Goods sync job started");
 
         try {
             goodsSyncService.syncPair("CREATED", "2025-05-01", "2025-05-20", pageSize);
-        } catch (Exception ignored) {
+            log.info("[GoodsScheduler] Goods sync job completed");
+        } catch (Exception e) {
+            log.error("[GoodsScheduler] Goods sync job failed", e);
         }
     }
 }

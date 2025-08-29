@@ -28,13 +28,13 @@ public class CategoryScheduler {
     @Scheduled(cron = "${sync.category.cron}", zone = "${sync.common.zone:Asia/Seoul}")
     public void run() {
         if (!enabled) return;
-        log.info("[CategorySyncScheduler] start");
+        log.info("[CategoryScheduler] Category sync job started");
 
         try {
             categorySyncService.syncAll(pageSize);
-            log.info("[CategorySyncScheduler] completed");
+            log.info("[CategoryScheduler] Category sync job completed");
         } catch (Exception e) {
-            log.error("[CategorySyncScheduler] failed", e);
+            log.error("[CategoryScheduler] Category sync job failed", e);
         }
     }
 }

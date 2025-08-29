@@ -28,13 +28,13 @@ public class BrandScheduler {
     @Scheduled(cron = "${sync.brand.cron}", zone = "${sync.common.zone:Asia/Seoul}")
     public void run() {
         if (!enabled) return;
-        log.info("[BrandSyncScheduler] start");
+        log.info("[BrandScheduler] Brand sync job started");
 
         try {
             brandSyncService.syncAll(pageSize);
-            log.info("[BrandSyncScheduler] completed");
+            log.info("[BrandScheduler] Brand sync job completed");
         } catch (Exception e) {
-            log.error("[BrandSyncScheduler] failed", e);
+            log.error("[BrandScheduler] Brand sync job failed", e);
         }
     }
 }

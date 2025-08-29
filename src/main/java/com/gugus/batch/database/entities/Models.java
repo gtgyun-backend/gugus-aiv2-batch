@@ -2,6 +2,7 @@ package com.gugus.batch.database.entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.gugus.batch.auditlog.service.Auditable;
+import com.gugus.batch.constants.SystemConstants;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
@@ -105,8 +106,6 @@ public class Models {
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "model")
     private List<Goods> goods = new ArrayList<>();
 
-    private static final Long SYSTEM_USER_NO = 0L;
-
     public static Models createByBatch(String code, String name, Integer brandNo, Integer categoryNo) {
         Models model = new Models();
         model.code = code;
@@ -114,12 +113,12 @@ public class Models {
         model.nameEnglish = name;
         model.brandNo = brandNo;
         model.categoryNo = categoryNo;
-        model.createdBy = SYSTEM_USER_NO;
+        model.createdBy = SystemConstants.SYSTEM_USER_NO;
         return model;
     }
 
     public void updateNameByBatch(String name, Long userNo) {
         this.name = name;
-        this.updatedBy = SYSTEM_USER_NO;
+        this.updatedBy = SystemConstants.SYSTEM_USER_NO;
     }
 }

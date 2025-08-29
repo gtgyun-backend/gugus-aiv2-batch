@@ -2,10 +2,10 @@ package com.gugus.batch.service;
 
 import com.gugus.batch.database.entities.Brands;
 import com.gugus.batch.database.entities.Categories;
-import com.gugus.batch.database.entities.Models;
+import com.gugus.batch.database.entities.ProductModels;
 import com.gugus.batch.database.repositories.BrandsRepository;
 import com.gugus.batch.database.repositories.CategoriesRepository;
-import com.gugus.batch.database.repositories.ModelsRepository;
+import com.gugus.batch.database.repositories.ProductModelsRepository;
 import com.gugus.batch.externals.LetsurExternalClient;
 import com.gugus.batch.dto.ModelItem;
 import com.gugus.batch.dto.ModelSearchReq;
@@ -33,7 +33,7 @@ public class ModelSyncService {
 
 
     private final LetsurExternalClient client;
-    private final ModelsRepository modelsRepository;
+    private final ProductModelsRepository productModelsRepository;
     private final BrandsRepository brandsRepository;       // 필요 시 전체 조합 생성용
     private final CategoriesRepository categoriesRepository; // 필요 시 전체 조합 생성용
     private final TestDataLoader testDataLoader;
@@ -53,12 +53,14 @@ public class ModelSyncService {
         Categories category = categoriesRepository.findByCode(categoryCode).orElse(null);
         
         if (brand == null || category == null) {
-            log.warn("Brand or Category not found: brandCode={}, categoryCode={}", brandCode, categoryCode);
+            log.warn("[ModelSyncService] Brand or Category not found: brandCode={}, categoryCode={}", brandCode, categoryCode);
             return;
         }
         
         int page = 1;
         int ps = (pageSize == null ? defaultPageSize : pageSize);
+        int totalProcessed = 0;
+        
         while (true) {
             ModelsResponse res = client.getModels(
                     ModelSearchReq.builder()
@@ -71,12 +73,15 @@ public class ModelSyncService {
 
             if (res == null || res.data() == null || res.data().isEmpty()) break;
 
-            upsert(res.data(), brand.getBrandNo(), category.getCategoryNo());
+            upsert(res.data());
+            totalProcessed += res.data().size();
+            
             if (res.page() >= res.totalPage()) break;
             page++;
         }
         
-        log.info("[ModelSyncService] Model sync completed for brandCode={}, categoryCode={}", brandCode, categoryCode);
+        log.info("[ModelSyncService] Model sync completed for brandCode={}, categoryCode={}, totalProcessed={}", 
+                brandCode, categoryCode, totalProcessed);
     }
 
     /**
@@ -91,7 +96,7 @@ public class ModelSyncService {
         Categories category = categoriesRepository.findByCode(categoryCode).orElse(null);
         
         if (brand == null || category == null) {
-            log.warn("Brand or Category not found: brandCode={}, categoryCode={}", brandCode, categoryCode);
+            log.warn("[ModelSyncService] Brand or Category not found: brandCode={}, categoryCode={}", brandCode, categoryCode);
             return;
         }
         
@@ -99,8 +104,9 @@ public class ModelSyncService {
         ModelsResponse res = testDataLoader.loadModelsResponse();
         log.info("[ModelSyncService] Loaded {} models from test data", res.data().size());
         
-        upsert(res.data(), brand.getBrandNo(), category.getCategoryNo());
-        log.info("[ModelSyncService] Model sync with test data completed for brandCode={}, categoryCode={}", brandCode, categoryCode);
+        upsert(res.data());
+        log.info("[ModelSyncService] Model sync with test data completed for brandCode={}, categoryCode={}, processed={}", 
+                brandCode, categoryCode, res.data().size());
     }
 
     /** 전체 브랜드×카테고리 조합을 DB에서 생성해 실행 (옵션) */
@@ -116,20 +122,37 @@ public class ModelSyncService {
     }
 
     @Transactional
-    public void upsert(List<ModelItem> items, Integer brandNo, Integer categoryNo) {
+    public void upsert(List<ModelItem> items) {
+        int createdCount = 0;
+        int updatedCount = 0;
+        int errorCount = 0;
+        
         for (var item : items) {
-            // 존재여부 판단 키: code
-            var entity = modelsRepository.findByCode(item.modelCode()).orElse(null);
+            try {
+                // 존재여부 판단 키: code
+                var entity = productModelsRepository.findByCode(item.modelCode()).orElse(null);
 
-            if (entity != null) {
-                // 기존 행 → 갱신
-                entity.updateNameByBatch(item.modelName(), 1L);
-                modelsRepository.save(entity);
-            } else {
-                // 신규 생성
-                var newEntity = Models.createByBatch(item.modelCode(), item.modelName(), brandNo, categoryNo);
-                modelsRepository.save(newEntity);
+                if (entity != null) {
+                    // 기존 행 → 갱신
+                    entity.updateNameByBatch(item.modelName());
+                    productModelsRepository.save(entity);
+                    updatedCount++;
+                } else {
+                    // 신규 생성
+                    var newEntity = ProductModels.createByBatch(item.modelCode(), item.modelName());
+                    productModelsRepository.save(newEntity);
+                    createdCount++;
+                }
+            } catch (Exception e) {
+                log.error("[ModelSyncService] Error during upsert for model: code={}, name={}", 
+                         item.modelCode(), item.modelName(), e);
+                errorCount++;
             }
+        }
+        
+        if (createdCount > 0 || updatedCount > 0 || errorCount > 0) {
+            log.info("[ModelSyncService] Upsert completed - Created: {}, Updated: {}, Errors: {}", 
+                    createdCount, updatedCount, errorCount);
         }
     }
 }

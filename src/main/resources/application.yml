@@ -18,53 +18,40 @@ spring:
 
 externals:
   letsur:
-    base-url: https://api.partner.com
-    api-key: ${LETSUR_API_KEY:dev-key}
+    base-url: https://ggsapi.gugus.co.kr/api
+    api-key: ${LETSUR_API_KEY}
     endpoints:
       brands: /v1/externals/letsur/brand
       categories: /v1/externals/letsur/category
       management-models: /v1/externals/letsur/management-models
+      appraisal-points: /v1/externals/letsur/appraisal-point
       goods: /v1/externals/letsur/goods/image-search
 
 sync:
   common:
     zone: Asia/Seoul
-  brand:
-    enabled: false  # 개별 스케줄러 비활성화 (통합 스케줄러 사용)
-    cron: "0 10 2 * * *"     # 매일 02:10
-    page-size: 200
+  # 통합 스케줄러 - 운영 시 사용
+  fullsync:
+    enabled: false
+    cron: "0 10 2 * * *"
+  # 개별 스케줄러 - 운영 시 미사용
   category:
-    enabled: false  # 개별 스케줄러 비활성화 (통합 스케줄러 사용)
-    cron: "0 20 2 * * *"     # 매일 02:20
+    enabled: true
+    cron: "0 5 2 * * *"
+    page-size: 200
+  brand:
+    enabled: false
+    cron: "0 20 2 * * *"
     page-size: 200
   model:
-    enabled: false  # 개별 스케줄러 비활성화 (통합 스케줄러 사용)
-    cron: "0 30 2 * * *"     # 매일 02:30
+    enabled: false
+    cron: "0 30 2 * * *"
+    page-size: 200
+  appraisal-point:
+    enabled: true
+    cron: "0 40 2 * * *"
     page-size: 200
   goods:
-    enabled: false  # 개별 스케줄러 비활성화 (통합 스케줄러 사용)
-    cron: "0 30 3 * * *"     # 매일 02:30
+    enabled: false
+    cron: "0 30 3 * * *"
     page-size: 200
-
-ai:
-  gugus:
-    model: https://gugus-image-search-stg.letsur.ai
-
-scheduler:
-  daily-cron: "0 30 3 * * *"
-  zone: "Asia/Seoul"
-
-# Swagger/OpenAPI 설정
-springdoc:
-  api-docs:
-    path: /api-docs
-    enabled: true
-  swagger-ui:
-    path: /swagger-ui.html
-    enabled: true
-    tags-sorter: alpha
-    operations-sorter: alpha
-    doc-expansion: none
-  packages-to-scan: com.gugus.batch.controller
-  default-produces-media-type: application/json
-  default-consumes-media-type: application/json

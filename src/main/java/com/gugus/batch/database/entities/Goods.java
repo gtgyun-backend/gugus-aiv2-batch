@@ -2,6 +2,7 @@ package com.gugus.batch.database.entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.gugus.batch.auditlog.service.Auditable;
+import com.gugus.batch.constants.SystemConstants;
 import com.gugus.batch.dto.GoodsItem;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -108,7 +109,7 @@ public class Goods {
     @Column(name = "updated_by")
     private Long updatedBy;
 
-    public static Goods createByBatch(GoodsItem item, Integer materialNo, Integer colorNo, Integer originNo, Long userNo, LocalDateTime createdAt, LocalDateTime updatedAt) {
+    public static Goods createByBatch(GoodsItem item, Integer materialNo, Integer colorNo, Integer originNo, LocalDateTime createdAt, LocalDateTime updatedAt) {
         var goods = new Goods();
         goods.legacyGoodsNo = item.goodsNo();
         goods.categoryCode = item.categoryCode();
@@ -130,7 +131,7 @@ public class Goods {
         }
         goods.createdAt = createdAt;
         goods.updatedAt = updatedAt;
-        goods.createdBy = userNo;
+        goods.createdBy = SystemConstants.SYSTEM_USER_NO;
         return goods;
     }
 
@@ -153,6 +154,6 @@ public class Goods {
         }
         this.createdAt = createdAt;
         this.updatedAt = updatedAt;
-        this.updatedBy = userNo;
+        this.updatedBy = SystemConstants.SYSTEM_USER_NO;
     }
 }

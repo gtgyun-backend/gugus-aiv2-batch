@@ -36,6 +36,8 @@ public class BrandSyncService {
         log.info("[BrandSyncService] Starting brand sync");
         
         int page = 1;
+        int totalProcessed = 0;
+        
         while (true) {
             BrandsResponse res = client.getBrands(
                     BrandSearchReq.builder().page(page).pageSize(pageSize).build()
@@ -43,11 +45,13 @@ public class BrandSyncService {
             if (res == null || res.data() == null || res.data().isEmpty()) break;
 
             upsert(res.data());
+            totalProcessed += res.data().size();
+            
             if (res.page() >= res.totalPage()) break;
             page++;
         }
         
-        log.info("[BrandSyncService] Brand sync completed");
+        log.info("[BrandSyncService] Brand sync completed - Total processed: {}", totalProcessed);
     }
 
     /**
@@ -61,22 +65,31 @@ public class BrandSyncService {
         log.info("[BrandSyncService] Loaded {} brands from test data", res.data().size());
         
         upsert(res.data());
-        log.info("[BrandSyncService] Brand sync with test data completed");
+        log.info("[BrandSyncService] Brand sync with test data completed - Processed: {}", res.data().size());
     }
 
     private void upsert(List<BrandItem> items) {
+        int createdCount = 0;
+        int updatedCount = 0;
+        
         for (var item : items) {
             var entity = brandsRepository.findByCode(item.brandCode()).orElse(null);
 
             if (entity != null) {
                 // 기존 행 → 갱신
-                entity.updateNameByBatch(item.brandName(), 1L);
+                entity.updateNameByBatch(item.brandName());
                 brandsRepository.save(entity);
+                updatedCount++;
             } else {
                 // 신규 생성
                 var newEntity = Brands.createByBatch(item.brandCode(), item.brandName());
                 brandsRepository.save(newEntity);
+                createdCount++;
             }
+        }
+        
+        if (createdCount > 0 || updatedCount > 0) {
+            log.info("[BrandSyncService] Upsert completed - Created: {}, Updated: {}", createdCount, updatedCount);
         }
     }
 

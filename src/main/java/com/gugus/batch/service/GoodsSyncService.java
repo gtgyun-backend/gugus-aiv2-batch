@@ -58,6 +58,9 @@ public class GoodsSyncService {
      */
     @Transactional
     public void syncPair(String dateType, String startDate, String endDate, Integer pageSize) {
+        log.info("[GoodsSyncService] Starting goods sync for dateType={}, startDate={}, endDate={}", 
+                dateType, startDate, endDate);
+        
         // ID만 추출한 Map 생성
         var originNoMap = originCountriesRepository.findAllByOrderByListOrderAsc()
                 .stream()
@@ -73,6 +76,8 @@ public class GoodsSyncService {
         
         int page = 1;
         int ps = (pageSize == null ? defaultPageSize : pageSize);
+        int totalProcessed = 0;
+        
         while (true) {
             GoodsResponse res = client.getGoods(
                     GoodsSearchReq.builder()
@@ -89,11 +94,15 @@ public class GoodsSyncService {
             }
 
             upsert(res.data(), originNoMap, colorNoMap, materialNoMap);
+            totalProcessed += res.data().size();
+            
             if (res.page() >= res.totalPage()) {
                 break;
             }
             page++;
         }
+        
+        log.info("[GoodsSyncService] Goods sync completed - Total processed: {}", totalProcessed);
     }
 
     /**
@@ -101,6 +110,8 @@ public class GoodsSyncService {
      */
     @Transactional
     public void syncPairWithTestData() {
+        log.info("[GoodsSyncService] Starting goods sync with test data");
+        
         GoodsResponse res = testDataLoader.loadGoodsResponse();
         var originNoMap = originCountriesRepository.findAllByOrderByListOrderAsc()
                 .stream()
@@ -113,35 +124,53 @@ public class GoodsSyncService {
         var materialNoMap = materialsRepository.findAll()
                 .stream()
                 .collect(Collectors.toMap(Materials::getName, Materials::getMaterialNo));
+        
         upsert(res.data(), originNoMap, colorNoMap, materialNoMap);
+        log.info("[GoodsSyncService] Goods sync with test data completed - Processed: {}", res.data().size());
     }
 
     @Transactional
     public void upsert(List<GoodsItem> items, Map<String, Integer> originNoMap, Map<String, Integer> colorNoMap, Map<String, Integer> materialNoMap) {
+        int createdCount = 0;
+        int updatedCount = 0;
+        int errorCount = 0;
+        
         for (var item : items) {
-            var entity = goodsRepository.findByLegacyGoodsNo(item.goodsNo()).orElse(null);
-            var materialNo = materialNoMap.get(item.material());
-            var colorNo = colorNoMap.get(item.color());
-            var originNo = originNoMap.get(item.origin());
-            
-            if (entity == null) {
-                LocalDateTime createdAt = LocalDateTime.parse(item.createdAt(), DF);
-                LocalDateTime updatedAt = LocalDateTime.parse(item.modifiedAt(), DF);
-                var newEntity = Goods.createByBatch(item, materialNo, colorNo, originNo, 1L, createdAt, updatedAt);
-                goodsRepository.save(newEntity);
-                if (item.goodsProperty() != null && !item.goodsProperty().isEmpty()) {
-                    for (var property : item.goodsProperty()) {
-                        goodsPropertyRepository.save(GoodsProperty.createByBatch(newEntity, property, 1L));
+            try {
+                var entity = goodsRepository.findByLegacyGoodsNo(item.goodsNo()).orElse(null);
+                var materialNo = materialNoMap.get(item.material());
+                var colorNo = colorNoMap.get(item.color());
+                var originNo = originNoMap.get(item.origin());
+                
+                if (entity == null) {
+                    LocalDateTime createdAt = LocalDateTime.parse(item.createdAt(), DF);
+                    LocalDateTime updatedAt = LocalDateTime.parse(item.modifiedAt(), DF);
+                    var newEntity = Goods.createByBatch(item, materialNo, colorNo, originNo, createdAt, updatedAt);
+                    goodsRepository.save(newEntity);
+                    if (item.goodsProperty() != null && !item.goodsProperty().isEmpty()) {
+                        for (var property : item.goodsProperty()) {
+                            goodsPropertyRepository.save(GoodsProperty.createByBatch(newEntity, property, 1L));
+                        }
                     }
+                    createdCount++;
+                } else {
+                    LocalDateTime createdAt = LocalDateTime.parse(item.createdAt(), DF);
+                    LocalDateTime updatedAt = LocalDateTime.parse(item.modifiedAt(), DF);
+                    entity.updateNameByBatch(item, materialNo, colorNo, originNo, 1L, createdAt, updatedAt);
+                    goodsRepository.save(entity);
+                    updatedCount++;
                 }
-            } else {
-                LocalDateTime createdAt = LocalDateTime.parse(item.createdAt(), DF);
-                LocalDateTime updatedAt = LocalDateTime.parse(item.modifiedAt(), DF);
-                entity.updateNameByBatch(item, materialNo, colorNo, originNo, 1L, createdAt, updatedAt);
-                goodsRepository.save(entity);
+                entityManager.flush();
+                entityManager.clear();
+            } catch (Exception e) {
+                log.error("[GoodsSyncService] Error during upsert for goods: goodsNo={}", item.goodsNo(), e);
+                errorCount++;
             }
-            entityManager.flush();
-            entityManager.clear();
+        }
+        
+        if (createdCount > 0 || updatedCount > 0 || errorCount > 0) {
+            log.info("[GoodsSyncService] Upsert completed - Created: {}, Updated: {}, Errors: {}", 
+                    createdCount, updatedCount, errorCount);
         }
     }
 }

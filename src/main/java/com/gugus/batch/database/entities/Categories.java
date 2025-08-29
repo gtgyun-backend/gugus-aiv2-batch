@@ -2,6 +2,7 @@ package com.gugus.batch.database.entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.gugus.batch.auditlog.service.Auditable;
+import com.gugus.batch.constants.SystemConstants;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
@@ -91,20 +92,17 @@ public class Categories {
     @JoinColumn(name = "updated_by", insertable = false, updatable = false)
     private Users updater;
 
-    private static final Long SYSTEM_USER_NO = 0L;
-
     public static Categories createByBatch(String code, String name) {
         Categories category = new Categories();
         category.code = code;
         category.name = name;
         category.nameEnglish = name;
-        category.createdBy = SYSTEM_USER_NO;
+        category.createdBy = SystemConstants.SYSTEM_USER_NO;
         return category;
     }
 
     public void updateNameByBatch(String name) {
         this.name = name;
-        this.updatedBy = SYSTEM_USER_NO;
-        this.updatedAt = LocalDateTime.now();
+        this.updatedBy = SystemConstants.SYSTEM_USER_NO;
     }
 }
