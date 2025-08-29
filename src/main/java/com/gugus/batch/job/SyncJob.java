@@ -77,7 +77,7 @@ public class SyncJob {
             }
         }
 
-        goodsSyncService.syncPairWithTestData();
+//        goodsSyncService.syncPairWithTestData();
         
         log.info("[SyncJob] all sync with test data completed");
     }
