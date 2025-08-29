@@ -3,6 +3,7 @@ package com.gugus.batch.util;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.gugus.batch.dto.BrandsResponse;
 import com.gugus.batch.dto.CategoriesResponse;
+import com.gugus.batch.dto.GoodsResponse;
 import com.gugus.batch.dto.ModelsResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.core.io.ClassPathResource;
@@ -48,6 +49,17 @@ public class TestDataLoader {
             ClassPathResource resource = new ClassPathResource("test-data/models-response.json");
             InputStream inputStream = resource.getInputStream();
             return objectMapper.readValue(inputStream, ModelsResponse.class);
+        } catch (IOException e) {
+            log.error("Failed to load models test data", e);
+            throw new RuntimeException("Failed to load models test data", e);
+        }
+    }
+
+    public GoodsResponse loadGoodsResponse() {
+        try {
+            ClassPathResource resource = new ClassPathResource("test-data/goods-response.json");
+            InputStream inputStream = resource.getInputStream();
+            return objectMapper.readValue(inputStream, GoodsResponse.class);
         } catch (IOException e) {
             log.error("Failed to load models test data", e);
             throw new RuntimeException("Failed to load models test data", e);

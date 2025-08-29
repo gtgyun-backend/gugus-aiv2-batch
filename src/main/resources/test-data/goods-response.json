@@ -1,0 +1,248 @@
+{
+  "data": [
+    {
+      "brandCode": "GU",
+      "categoryCode": "BA",
+      "goodsTypeCode": "GDS_TP31",
+      "saleStateCode": "SALE_MGMT_STAT31",
+      "goodsNo": 8431768,
+      "goodsName": "구찌 GG 마몽 미니 버킷백 (575163)",
+      "modelCode": "BAGU0243",
+      "modelName": "구찌 GG마몽 마틀라세 벨벳 벨트백 (476434)",
+      "material": "레더",
+      "color": "블랙",
+      "origin": "ITALY",
+      "goodsProperty": [
+        {
+          "label": "상세컬러",
+          "value": "블랙"
+        },
+        {
+          "label": "넓이(cm)",
+          "value": "20"
+        }
+      ],
+      "goodsImageUrl": "https://image.gugus.co.kr/goods/update2/img2024/04/000000000000_8431768_0.jpg",
+      "createdAt": "2025-04-01 14:20:30",
+      "modifiedAt": "2025-05-02 10:00:00"
+    },
+    {
+      "brandCode": "LV",
+      "categoryCode": "WA",
+      "goodsTypeCode": "GDS_TP32",
+      "saleStateCode": "SALE_MGMT_STAT31",
+      "goodsNo": 8431769,
+      "goodsName": "루이비통 스피디 25 모노그램 핸드백 (M41109)",
+      "modelCode": "WALV0125",
+      "modelName": "루이비통 스피디 모노그램 핸드백",
+      "material": "캔버스",
+      "color": "브라운",
+      "origin": "FRANCE",
+      "goodsProperty": [
+        {
+          "label": "상세컬러",
+          "value": "모노그램 브라운"
+        },
+        {
+          "label": "크기",
+          "value": "25x19x15cm"
+        },
+        {
+          "label": "무게(g)",
+          "value": "400"
+        }
+      ],
+      "goodsImageUrl": "https://image.gugus.co.kr/goods/update2/img2024/04/000000000000_8431769_0.jpg",
+      "createdAt": "2025-04-02 09:15:20",
+      "modifiedAt": "2025-05-03 11:30:00"
+    },
+    {
+      "brandCode": "CH",
+      "categoryCode": "SH",
+      "goodsTypeCode": "GDS_TP33",
+      "saleStateCode": "SALE_MGMT_STAT32",
+      "goodsNo": 8431770,
+      "goodsName": "샤넬 클래식 플랩백 미디움 (CF1113)",
+      "modelCode": "SHCH0456",
+      "modelName": "샤넬 클래식 퀼팅 플랩백",
+      "material": "램스킨",
+      "color": "베이지",
+      "origin": "FRANCE",
+      "goodsProperty": [
+        {
+          "label": "상세컬러",
+          "value": "베이지 골드체인"
+        },
+        {
+          "label": "높이(cm)",
+          "value": "15.5"
+        },
+        {
+          "label": "너비(cm)",
+          "value": "25"
+        },
+        {
+          "label": "깊이(cm)",
+          "value": "6.5"
+        }
+      ],
+      "goodsImageUrl": "https://image.gugus.co.kr/goods/update2/img2024/04/000000000000_8431770_0.jpg",
+      "createdAt": "2025-04-03 16:45:10",
+      "modifiedAt": "2025-05-04 14:20:00"
+    },
+    {
+      "brandCode": "HE",
+      "categoryCode": "WA",
+      "goodsTypeCode": "GDS_TP31",
+      "saleStateCode": "SALE_MGMT_STAT31",
+      "goodsNo": 8431771,
+      "goodsName": "에르메스 켈리 25 에토프 (Kelly25)",
+      "modelCode": "WAHE0789",
+      "modelName": "에르메스 켈리 25 토고",
+      "material": "토고",
+      "color": "에토프",
+      "origin": "FRANCE",
+      "goodsProperty": [
+        {
+          "label": "상세컬러",
+          "value": "에토프(타우페 그레이)"
+        },
+        {
+          "label": "사이즈",
+          "value": "25cm"
+        },
+        {
+          "label": "하드웨어",
+          "value": "팔라듐"
+        }
+      ],
+      "goodsImageUrl": "https://image.gugus.co.kr/goods/update2/img2024/04/000000000000_8431771_0.jpg",
+      "createdAt": "2025-04-04 11:20:45",
+      "modifiedAt": "2025-05-05 09:10:00"
+    },
+    {
+      "brandCode": "PR",
+      "categoryCode": "SH",
+      "goodsTypeCode": "GDS_TP34",
+      "saleStateCode": "SALE_MGMT_STAT31",
+      "goodsNo": 8431772,
+      "goodsName": "프라다 사피아노 럭스 토트백 (BN2274)",
+      "modelCode": "SHPR0321",
+      "modelName": "프라다 사피아노 럭스 토트",
+      "material": "사피아노",
+      "color": "네이비",
+      "origin": "ITALY",
+      "goodsProperty": [
+        {
+          "label": "상세컬러",
+          "value": "네이비 블루"
+        },
+        {
+          "label": "소재",
+          "value": "사피아노 레더"
+        },
+        {
+          "label": "크기",
+          "value": "미디움"
+        }
+      ],
+      "goodsImageUrl": "https://image.gugus.co.kr/goods/update2/img2024/04/000000000000_8431772_0.jpg",
+      "createdAt": "2025-04-05 13:30:25",
+      "modifiedAt": "2025-05-06 16:45:00"
+    },
+    {
+      "brandCode": "CE",
+      "categoryCode": "BA",
+      "goodsTypeCode": "GDS_TP35",
+      "saleStateCode": "SALE_MGMT_STAT31",
+      "goodsNo": 8431773,
+      "goodsName": "셀린느 라게지 마이크로 (168243)",
+      "modelCode": "BACE0567",
+      "modelName": "셀린느 라게지 마이크로",
+      "material": "드럼드 카프스킨",
+      "color": "탄",
+      "origin": "ITALY",
+      "goodsProperty": [
+        {
+          "label": "상세컬러",
+          "value": "탄 브라운"
+        },
+        {
+          "label": "사이즈",
+          "value": "마이크로"
+        },
+        {
+          "label": "스타일",
+          "value": "핸드백/숄더백"
+        }
+      ],
+      "goodsImageUrl": "https://image.gugus.co.kr/goods/update2/img2024/04/000000000000_8431773_0.jpg",
+      "createdAt": "2025-04-06 10:55:30",
+      "modifiedAt": "2025-05-07 12:15:00"
+    },
+    {
+      "brandCode": "BV",
+      "categoryCode": "WA",
+      "goodsTypeCode": "GDS_TP36",
+      "saleStateCode": "SALE_MGMT_STAT32",
+      "goodsNo": 8431774,
+      "goodsName": "보테가 베네타 인트레치아토 카세트 (650592)",
+      "modelCode": "WABV0892",
+      "modelName": "보테가 베네타 인트레치아토 카세트",
+      "material": "나파",
+      "color": "바이올렛",
+      "origin": "ITALY",
+      "goodsProperty": [
+        {
+          "label": "상세컬러",
+          "value": "바이올렛 퍼플"
+        },
+        {
+          "label": "위빙",
+          "value": "인트레치아토"
+        },
+        {
+          "label": "체인길이(cm)",
+          "value": "60"
+        }
+      ],
+      "goodsImageUrl": "https://image.gugus.co.kr/goods/update2/img2024/04/000000000000_8431774_0.jpg",
+      "createdAt": "2025-04-07 15:40:15",
+      "modifiedAt": "2025-05-08 18:25:00"
+    },
+    {
+      "brandCode": "BL",
+      "categoryCode": "SH",
+      "goodsTypeCode": "GDS_TP37",
+      "saleStateCode": "SALE_MGMT_STAT31",
+      "goodsNo": 8431775,
+      "goodsName": "발렌시아가 시티 클래식 (115748)",
+      "modelCode": "SHBL0445",
+      "modelName": "발렌시아가 시티 클래식",
+      "material": "애그드 램스킨",
+      "color": "블랙",
+      "origin": "ITALY",
+      "goodsProperty": [
+        {
+          "label": "상세컬러",
+          "value": "클래식 블랙"
+        },
+        {
+          "label": "하드웨어",
+          "value": "실버"
+        },
+        {
+          "label": "스타일",
+          "value": "모터사이클백"
+        }
+      ],
+      "goodsImageUrl": "https://image.gugus.co.kr/goods/update2/img2024/04/000000000000_8431775_0.jpg",
+      "createdAt": "2025-04-08 12:10:50",
+      "modifiedAt": "2025-05-09 14:35:00"
+    }
+  ],
+  "page": 1,
+  "pageSize": 50,
+  "totalPage": 1,
+  "totalCount": 8
+}

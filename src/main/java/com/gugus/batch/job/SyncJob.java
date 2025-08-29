@@ -3,6 +3,7 @@ package com.gugus.batch.job;
 import com.gugus.batch.service.BrandCategoryPairProvider;
 import com.gugus.batch.service.BrandSyncService;
 import com.gugus.batch.service.CategorySyncService;
+import com.gugus.batch.service.GoodsSyncService;
 import com.gugus.batch.service.ModelSyncService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -21,6 +22,7 @@ public class SyncJob {
     private final CategorySyncService categorySyncService;
     private final ModelSyncService modelSyncService;
     private final BrandCategoryPairProvider pairProvider;
+    private final GoodsSyncService goodsSyncService;
 
     /** 1) 카테고리 동기화 → 2) 브랜드 동기화 → 3) 조합별 모델 동기화 */
     public void runAll(int pageSize) {
@@ -74,6 +76,8 @@ public class SyncJob {
                 log.error("[SyncJob] model sync with test data failed {}-{}", p.brandCode(), p.categoryCode(), e);
             }
         }
+
+        goodsSyncService.syncPairWithTestData();
         
         log.info("[SyncJob] all sync with test data completed");
     }
