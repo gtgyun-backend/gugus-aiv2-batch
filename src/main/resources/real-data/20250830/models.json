@@ -1,0 +1,4562 @@
+{
+  "data" : [ {
+    "modelCode" : "BAYG0039",
+    "modelName" : "컬리지 파우치",
+    "createdAt" : "2025-08-26 11:22:07",
+    "modifiedAt" : "2025-08-26 11:23:02"
+  }, {
+    "modelCode" : "BAYG0038",
+    "modelName" : "뉴 카바시크",
+    "createdAt" : "2025-08-26 10:59:25",
+    "modifiedAt" : "2025-08-26 10:59:41"
+  }, {
+    "modelCode" : "BAYG0037",
+    "modelName" : "비키 카메라백",
+    "createdAt" : "2025-08-26 10:49:55",
+    "modifiedAt" : "2025-08-26 10:50:56"
+  }, {
+    "modelCode" : "BAYG0036",
+    "modelName" : "벨드쥬르 클러치",
+    "createdAt" : "2025-08-26 10:41:56",
+    "modifiedAt" : "2025-08-26 10:44:18"
+  }, {
+    "modelCode" : "BAYG0035",
+    "modelName" : "카바시크 클러치겸 크로스백",
+    "createdAt" : "2025-08-26 10:39:04",
+    "modifiedAt" : "2025-08-26 10:53:48"
+  }, {
+    "modelCode" : "BAYG0034",
+    "modelName" : "카산드라 탑핸들",
+    "createdAt" : "2025-08-26 10:23:39",
+    "modifiedAt" : "2025-08-26 10:54:27"
+  }, {
+    "modelCode" : "BAYG0033",
+    "modelName" : "르 37",
+    "createdAt" : "2025-08-26 10:23:19",
+    "modifiedAt" : "2025-08-26 10:24:33"
+  }, {
+    "modelCode" : "BAYG0032",
+    "modelName" : "카산드라",
+    "createdAt" : "2025-08-26 10:10:11",
+    "modifiedAt" : "2025-08-26 10:54:22"
+  }, {
+    "modelCode" : "BAYG0031",
+    "modelName" : "더플",
+    "createdAt" : "2025-08-26 10:08:26",
+    "modifiedAt" : "2025-08-26 10:27:50"
+  }, {
+    "modelCode" : "BAYG0030",
+    "modelName" : "케이트",
+    "createdAt" : "2025-08-26 10:07:34",
+    "modifiedAt" : "2025-08-26 10:07:34"
+  }, {
+    "modelCode" : "BAYG0029",
+    "modelName" : "모노그램 카바스",
+    "createdAt" : "2025-08-26 10:03:09",
+    "modifiedAt" : "2025-08-26 10:33:18"
+  }, {
+    "modelCode" : "BAYG0028",
+    "modelName" : "루 카메라백",
+    "createdAt" : "2025-08-26 09:48:17",
+    "modifiedAt" : "2025-08-26 10:26:05"
+  }, {
+    "modelCode" : "BAYG0027",
+    "modelName" : "컬리지",
+    "createdAt" : "2025-08-25 15:53:25",
+    "modifiedAt" : "2025-08-26 10:33:45"
+  }, {
+    "modelCode" : "BAYG0026",
+    "modelName" : "삭드쥬르",
+    "createdAt" : "2025-08-25 15:52:32",
+    "modifiedAt" : "2025-08-26 10:51:39"
+  }, {
+    "modelCode" : "BAYG0025",
+    "modelName" : "카바시크 클러치",
+    "createdAt" : "2025-08-25 15:51:31",
+    "modifiedAt" : "2025-08-26 10:37:05"
+  }, {
+    "modelCode" : "BAYG0024",
+    "modelName" : "카바시크",
+    "createdAt" : "2025-08-25 15:51:21",
+    "modifiedAt" : "2025-08-25 15:51:21"
+  }, {
+    "modelCode" : "BAYG0023",
+    "modelName" : "다운타운",
+    "createdAt" : "2025-08-22 18:13:28",
+    "modifiedAt" : "2025-08-22 18:13:28"
+  }, {
+    "modelCode" : "BAYG0022",
+    "modelName" : "뮤즈투",
+    "createdAt" : "2025-08-22 18:13:24",
+    "modifiedAt" : "2025-08-22 18:13:24"
+  }, {
+    "modelCode" : "BAYG0021",
+    "modelName" : "뮤즈백",
+    "createdAt" : "2025-08-22 18:13:20",
+    "modifiedAt" : "2025-08-22 18:13:20"
+  }, {
+    "modelCode" : "BAYG0020",
+    "modelName" : "조이",
+    "createdAt" : "2025-08-22 18:08:00",
+    "modifiedAt" : "2025-08-26 10:36:12"
+  }, {
+    "modelCode" : "BAYG0019",
+    "modelName" : "선셋",
+    "createdAt" : "2025-08-22 18:07:28",
+    "modifiedAt" : "2025-08-22 18:07:28"
+  }, {
+    "modelCode" : "BAYG0018",
+    "modelName" : "니키",
+    "createdAt" : "2025-08-22 18:07:24",
+    "modifiedAt" : "2025-08-26 10:33:38"
+  }, {
+    "modelCode" : "BAYG0017",
+    "modelName" : "비키",
+    "createdAt" : "2025-08-22 18:07:20",
+    "modifiedAt" : "2025-08-26 10:50:45"
+  }, {
+    "modelCode" : "BAYG0016",
+    "modelName" : "루루",
+    "createdAt" : "2025-08-22 18:07:09",
+    "modifiedAt" : "2025-08-22 18:07:09"
+  }, {
+    "modelCode" : "BAYG0015",
+    "modelName" : "아이케어",
+    "createdAt" : "2025-08-21 16:01:59",
+    "modifiedAt" : "2025-08-26 10:53:40"
+  }, {
+    "modelCode" : "BAYG0014",
+    "modelName" : "생로랑_컬리지",
+    "createdAt" : "2025-07-29 09:00:05",
+    "modifiedAt" : "2025-07-29 09:00:05"
+  }, {
+    "modelCode" : "BAYG0013",
+    "modelName" : "생로랑_모노그램",
+    "createdAt" : "2025-07-29 09:00:05",
+    "modifiedAt" : "2025-07-29 09:00:05"
+  }, {
+    "modelCode" : "BAYG0012",
+    "modelName" : "생로랑_비키백",
+    "createdAt" : "2025-07-29 09:00:05",
+    "modifiedAt" : "2025-07-29 09:00:05"
+  }, {
+    "modelCode" : "BAYG0011",
+    "modelName" : "생로랑_엔벨로프",
+    "createdAt" : "2025-07-29 09:00:05",
+    "modifiedAt" : "2025-07-29 09:00:05"
+  }, {
+    "modelCode" : "BAYG0010",
+    "modelName" : "생로랑_모노그램_클러치",
+    "createdAt" : "2025-07-28 15:00:47",
+    "modifiedAt" : "2025-07-28 15:00:47"
+  }, {
+    "modelCode" : "BAYG0009",
+    "modelName" : "생로랑_삭드쥬르",
+    "createdAt" : "2025-07-28 15:00:47",
+    "modifiedAt" : "2025-07-28 15:00:47"
+  }, {
+    "modelCode" : "BAYG0008",
+    "modelName" : "생로랑_조이",
+    "createdAt" : "2025-07-28 15:00:47",
+    "modifiedAt" : "2025-07-28 15:00:47"
+  }, {
+    "modelCode" : "BAYG0007",
+    "modelName" : "생로랑_카산드라",
+    "createdAt" : "2025-07-28 15:00:46",
+    "modifiedAt" : "2025-07-28 15:00:46"
+  }, {
+    "modelCode" : "BAYG0006",
+    "modelName" : "생로랑_니키",
+    "createdAt" : "2025-07-28 15:00:46",
+    "modifiedAt" : "2025-07-28 15:00:46"
+  }, {
+    "modelCode" : "BAYG0005",
+    "modelName" : "생로랑_르5A7",
+    "createdAt" : "2025-07-28 15:00:45",
+    "modifiedAt" : "2025-07-28 15:00:45"
+  }, {
+    "modelCode" : "BAYG0004",
+    "modelName" : "생로랑_루루",
+    "createdAt" : "2025-07-28 15:00:45",
+    "modifiedAt" : "2025-07-28 15:00:45"
+  }, {
+    "modelCode" : "BAYG0003",
+    "modelName" : "생로랑_아이케어",
+    "createdAt" : "2025-07-28 15:00:44",
+    "modifiedAt" : "2025-07-28 15:00:44"
+  }, {
+    "modelCode" : "BAYG0002",
+    "modelName" : "르 5A7",
+    "createdAt" : "2025-07-18 13:49:53",
+    "modifiedAt" : "2025-08-25 15:54:23"
+  }, {
+    "modelCode" : "BAPR0013",
+    "modelName" : "사피아노",
+    "createdAt" : "2025-08-29 15:59:12",
+    "modifiedAt" : "2025-08-29 15:59:12"
+  }, {
+    "modelCode" : "BAPR0012",
+    "modelName" : "버킷백_레더",
+    "createdAt" : "2025-08-28 14:05:30",
+    "modifiedAt" : "2025-08-28 14:05:30"
+  }, {
+    "modelCode" : "BAPR0011",
+    "modelName" : "버킷백_테수토",
+    "createdAt" : "2025-08-28 14:05:18",
+    "modifiedAt" : "2025-08-28 14:05:18"
+  }, {
+    "modelCode" : "BAPR0010",
+    "modelName" : "고프레_테수토",
+    "createdAt" : "2025-08-28 14:04:58",
+    "modifiedAt" : "2025-08-28 14:04:58"
+  }, {
+    "modelCode" : "BAPR0009",
+    "modelName" : "고프레_레더",
+    "createdAt" : "2025-08-28 14:04:51",
+    "modifiedAt" : "2025-08-28 14:04:51"
+  }, {
+    "modelCode" : "BAPR0008",
+    "modelName" : "다이어그램",
+    "createdAt" : "2025-08-28 14:04:44",
+    "modifiedAt" : "2025-08-28 14:04:44"
+  }, {
+    "modelCode" : "BAPR0007",
+    "modelName" : "투포켓 백팩_테수토",
+    "createdAt" : "2025-08-28 14:04:37",
+    "modifiedAt" : "2025-08-28 14:04:37"
+  }, {
+    "modelCode" : "BAPR0006",
+    "modelName" : "프라다_버킷백",
+    "createdAt" : "2025-07-28 15:00:41",
+    "modifiedAt" : "2025-07-28 15:00:41"
+  }, {
+    "modelCode" : "BAPR0005",
+    "modelName" : "프라다_리에디션_호보",
+    "createdAt" : "2025-07-28 15:00:40",
+    "modifiedAt" : "2025-07-28 15:00:40"
+  }, {
+    "modelCode" : "BAPR0004",
+    "modelName" : "프라다_투포켓_백팩",
+    "createdAt" : "2025-07-28 15:00:40",
+    "modifiedAt" : "2025-07-28 15:00:40"
+  }, {
+    "modelCode" : "BAPR0003",
+    "modelName" : "프라다_다이어그램",
+    "createdAt" : "2025-07-28 15:00:39",
+    "modifiedAt" : "2025-07-28 15:00:39"
+  }, {
+    "modelCode" : "BAPR0002",
+    "modelName" : "리나일론 호보",
+    "createdAt" : "2025-07-18 10:27:36",
+    "modifiedAt" : "2025-07-18 10:27:36"
+  }, {
+    "modelCode" : "BALV0874",
+    "modelName" : "알마BB_모노그램",
+    "createdAt" : "2025-08-29 17:14:59",
+    "modifiedAt" : "2025-08-29 17:14:59"
+  }, {
+    "modelCode" : "BALV0873",
+    "modelName" : "스피디45_다미에",
+    "createdAt" : "2025-08-29 17:01:01",
+    "modifiedAt" : "2025-08-29 17:01:01"
+  }, {
+    "modelCode" : "BALV0872",
+    "modelName" : "스피디40_다미에",
+    "createdAt" : "2025-08-29 17:00:54",
+    "modifiedAt" : "2025-08-29 17:00:54"
+  }, {
+    "modelCode" : "BALV0871",
+    "modelName" : "스피디35_다미에",
+    "createdAt" : "2025-08-29 17:00:49",
+    "modifiedAt" : "2025-08-29 17:00:49"
+  }, {
+    "modelCode" : "BALV0870",
+    "modelName" : "스피디30_다미에",
+    "createdAt" : "2025-08-29 17:00:44",
+    "modifiedAt" : "2025-08-29 17:00:44"
+  }, {
+    "modelCode" : "BALV0869",
+    "modelName" : "스피디25_다미에",
+    "createdAt" : "2025-08-29 17:00:39",
+    "modifiedAt" : "2025-08-29 17:00:39"
+  }, {
+    "modelCode" : "BALV0868",
+    "modelName" : "스피디45_모노그램",
+    "createdAt" : "2025-08-29 17:00:29",
+    "modifiedAt" : "2025-08-29 17:00:29"
+  }, {
+    "modelCode" : "BALV0867",
+    "modelName" : "스피디_나노_모노그램",
+    "createdAt" : "2025-08-29 17:00:18",
+    "modifiedAt" : "2025-08-29 17:00:18"
+  }, {
+    "modelCode" : "BALV0866",
+    "modelName" : "스피디40_모노그램",
+    "createdAt" : "2025-08-29 17:00:07",
+    "modifiedAt" : "2025-08-29 17:00:07"
+  }, {
+    "modelCode" : "BALV0865",
+    "modelName" : "스피디35_모노그램",
+    "createdAt" : "2025-08-29 17:00:00",
+    "modifiedAt" : "2025-08-29 17:00:00"
+  }, {
+    "modelCode" : "BALV0864",
+    "modelName" : "스피디30_모노그램",
+    "createdAt" : "2025-08-29 16:59:54",
+    "modifiedAt" : "2025-08-29 16:59:54"
+  }, {
+    "modelCode" : "BALV0863",
+    "modelName" : "스피디25_모노그램",
+    "createdAt" : "2025-08-29 16:59:21",
+    "modifiedAt" : "2025-08-29 16:59:21"
+  }, {
+    "modelCode" : "BALV0862",
+    "modelName" : "멀티 플리시떼_모노그램",
+    "createdAt" : "2025-08-27 18:29:33",
+    "modifiedAt" : "2025-08-27 18:29:33"
+  }, {
+    "modelCode" : "BALV0861",
+    "modelName" : "애니_멀티",
+    "createdAt" : "2025-08-27 18:28:01",
+    "modifiedAt" : "2025-08-27 18:28:01"
+  }, {
+    "modelCode" : "BALV0860",
+    "modelName" : "코트니_멀티",
+    "createdAt" : "2025-08-27 18:26:23",
+    "modifiedAt" : "2025-08-27 18:26:23"
+  }, {
+    "modelCode" : "BALV0859",
+    "modelName" : "벨몬트_다미에",
+    "createdAt" : "2025-08-27 18:22:36",
+    "modifiedAt" : "2025-08-27 18:22:36"
+  }, {
+    "modelCode" : "BALV0858",
+    "modelName" : "데일리_모노그램",
+    "createdAt" : "2025-08-27 18:22:04",
+    "modifiedAt" : "2025-08-27 18:22:04"
+  }, {
+    "modelCode" : "BALV0857",
+    "modelName" : "빠삐용_모노그램",
+    "createdAt" : "2025-08-27 18:21:26",
+    "modifiedAt" : "2025-08-27 18:21:26"
+  }, {
+    "modelCode" : "BALV0856",
+    "modelName" : "조쉬_마카사르",
+    "createdAt" : "2025-08-27 18:21:01",
+    "modifiedAt" : "2025-08-27 18:21:01"
+  }, {
+    "modelCode" : "BALV0855",
+    "modelName" : "오렐리아_멀티",
+    "createdAt" : "2025-08-27 18:20:28",
+    "modifiedAt" : "2025-08-27 18:20:28"
+  }, {
+    "modelCode" : "BALV0854",
+    "modelName" : "엘리자_멀티",
+    "createdAt" : "2025-08-27 18:19:57",
+    "modifiedAt" : "2025-08-27 18:19:57"
+  }, {
+    "modelCode" : "BALV0853",
+    "modelName" : "리타_멀티",
+    "createdAt" : "2025-08-27 18:19:49",
+    "modifiedAt" : "2025-08-27 18:19:49"
+  }, {
+    "modelCode" : "BALV0852",
+    "modelName" : "셜리_멀티",
+    "createdAt" : "2025-08-27 18:19:41",
+    "modifiedAt" : "2025-08-27 18:19:41"
+  }, {
+    "modelCode" : "BALV0851",
+    "modelName" : "메릴린_멀티",
+    "createdAt" : "2025-08-27 18:19:30",
+    "modifiedAt" : "2025-08-27 18:19:30"
+  }, {
+    "modelCode" : "BALV0850",
+    "modelName" : "오드라_멀티",
+    "createdAt" : "2025-08-27 18:19:16",
+    "modifiedAt" : "2025-08-27 18:19:16"
+  }, {
+    "modelCode" : "BALV0849",
+    "modelName" : "그레타_멀티",
+    "createdAt" : "2025-08-27 18:19:08",
+    "modifiedAt" : "2025-08-27 18:19:08"
+  }, {
+    "modelCode" : "BALV0848",
+    "modelName" : "우슐라_멀티",
+    "createdAt" : "2025-08-27 18:17:34",
+    "modifiedAt" : "2025-08-27 18:17:34"
+  }, {
+    "modelCode" : "BALV0847",
+    "modelName" : "자스민_에삐",
+    "createdAt" : "2025-08-27 18:16:59",
+    "modifiedAt" : "2025-08-27 18:16:59"
+  }, {
+    "modelCode" : "BALV0846",
+    "modelName" : "리버사이드_다미에",
+    "createdAt" : "2025-08-27 18:16:33",
+    "modifiedAt" : "2025-08-27 18:16:33"
+  }, {
+    "modelCode" : "BALV0845",
+    "modelName" : "올라브_다미에",
+    "createdAt" : "2025-08-27 18:16:20",
+    "modifiedAt" : "2025-08-27 18:16:20"
+  }, {
+    "modelCode" : "BALV0844",
+    "modelName" : "시스티나_다미에",
+    "createdAt" : "2025-08-27 18:16:06",
+    "modifiedAt" : "2025-08-27 18:16:06"
+  }, {
+    "modelCode" : "BALV0843",
+    "modelName" : "브레라_다미에",
+    "createdAt" : "2025-08-27 18:15:50",
+    "modifiedAt" : "2025-08-27 18:15:50"
+  }, {
+    "modelCode" : "BALV0842",
+    "modelName" : "브리타니_다미에",
+    "createdAt" : "2025-08-27 18:15:40",
+    "modifiedAt" : "2025-08-27 18:15:40"
+  }, {
+    "modelCode" : "BALV0841",
+    "modelName" : "네비글리오_다미에",
+    "createdAt" : "2025-08-27 18:14:50",
+    "modifiedAt" : "2025-08-27 18:14:50"
+  }, {
+    "modelCode" : "BALV0840",
+    "modelName" : "온더고_1854",
+    "createdAt" : "2025-08-27 18:14:09",
+    "modifiedAt" : "2025-08-27 18:14:09"
+  }, {
+    "modelCode" : "BALV0839",
+    "modelName" : "리베라_다미에",
+    "createdAt" : "2025-08-27 18:12:50",
+    "modifiedAt" : "2025-08-27 18:12:50"
+  }, {
+    "modelCode" : "BALV0838",
+    "modelName" : "빠삐용_다미에",
+    "createdAt" : "2025-08-27 18:12:32",
+    "modifiedAt" : "2025-08-27 18:12:32"
+  }, {
+    "modelCode" : "BALV0837",
+    "modelName" : "제로니모스_다미에",
+    "createdAt" : "2025-08-27 18:12:23",
+    "modifiedAt" : "2025-08-27 18:12:23"
+  }, {
+    "modelCode" : "BALV0836",
+    "modelName" : "블랑쉐_앙프렝뜨",
+    "createdAt" : "2025-08-27 18:12:06",
+    "modifiedAt" : "2025-08-27 18:12:06"
+  }, {
+    "modelCode" : "BALV0835",
+    "modelName" : "블룸즈버리_다미에",
+    "createdAt" : "2025-08-27 18:11:42",
+    "modifiedAt" : "2025-08-27 18:11:42"
+  }, {
+    "modelCode" : "BALV0834",
+    "modelName" : "브로드웨이_다미에",
+    "createdAt" : "2025-08-27 18:11:24",
+    "modifiedAt" : "2025-08-27 18:11:24"
+  }, {
+    "modelCode" : "BALV0833",
+    "modelName" : "기모노_모노그램",
+    "createdAt" : "2025-08-27 18:11:08",
+    "modifiedAt" : "2025-08-27 18:11:08"
+  }, {
+    "modelCode" : "BALV0832",
+    "modelName" : "노르망디_다미에",
+    "createdAt" : "2025-08-27 18:10:51",
+    "modifiedAt" : "2025-08-27 18:10:51"
+  }, {
+    "modelCode" : "BALV0831",
+    "modelName" : "롯지_멀티",
+    "createdAt" : "2025-08-27 18:10:31",
+    "modifiedAt" : "2025-08-27 18:23:35"
+  }, {
+    "modelCode" : "BALV0830",
+    "modelName" : "뉴 웨이브",
+    "createdAt" : "2025-08-27 18:09:47",
+    "modifiedAt" : "2025-08-27 18:09:47"
+  }, {
+    "modelCode" : "BALV0829",
+    "modelName" : "보부르_다미에",
+    "createdAt" : "2025-08-27 18:08:20",
+    "modifiedAt" : "2025-08-27 18:08:20"
+  }, {
+    "modelCode" : "BALV0828",
+    "modelName" : "두오모_다미에",
+    "createdAt" : "2025-08-27 18:08:02",
+    "modifiedAt" : "2025-08-27 18:08:02"
+  }, {
+    "modelCode" : "BALV0827",
+    "modelName" : "포쉐트 주르",
+    "createdAt" : "2025-08-19 16:53:54",
+    "modifiedAt" : "2025-08-19 16:53:54"
+  }, {
+    "modelCode" : "BALV0826",
+    "modelName" : "포쉐트_다미에",
+    "createdAt" : "2025-08-14 10:26:56",
+    "modifiedAt" : "2025-08-14 10:26:56"
+  }, {
+    "modelCode" : "BALV0825",
+    "modelName" : "포쉐트",
+    "createdAt" : "2025-08-13 13:53:54",
+    "modifiedAt" : "2025-08-13 13:53:54"
+  }, {
+    "modelCode" : "BALV0824",
+    "modelName" : "볼가",
+    "createdAt" : "2025-08-13 10:25:32",
+    "modifiedAt" : "2025-08-13 10:25:32"
+  }, {
+    "modelCode" : "BALV0823",
+    "modelName" : "루이비통_스피디(1)",
+    "createdAt" : "2025-07-29 09:00:05",
+    "modifiedAt" : "2025-07-29 09:00:05"
+  }, {
+    "modelCode" : "BALV0822",
+    "modelName" : "루이비통_팔레르모",
+    "createdAt" : "2025-07-29 09:00:05",
+    "modifiedAt" : "2025-07-29 09:00:05"
+  }, {
+    "modelCode" : "BALV0821",
+    "modelName" : "루이비통_토탈리",
+    "createdAt" : "2025-07-29 09:00:05",
+    "modifiedAt" : "2025-07-29 09:00:05"
+  }, {
+    "modelCode" : "BALV0820",
+    "modelName" : "루이비통_빠삐용",
+    "createdAt" : "2025-07-29 09:00:05",
+    "modifiedAt" : "2025-07-29 09:00:05"
+  }, {
+    "modelCode" : "BALV0819",
+    "modelName" : "프리실라_멀티",
+    "createdAt" : "2025-07-28 16:23:11",
+    "modifiedAt" : "2025-07-28 16:23:11"
+  }, {
+    "modelCode" : "BALV0818",
+    "modelName" : "루이비통_레티로",
+    "createdAt" : "2025-07-28 15:00:38",
+    "modifiedAt" : "2025-07-28 15:00:38"
+  }, {
+    "modelCode" : "BALV0817",
+    "modelName" : "루이비통_벨레뷰",
+    "createdAt" : "2025-07-28 15:00:38",
+    "modifiedAt" : "2025-07-28 15:00:38"
+  }, {
+    "modelCode" : "BALV0816",
+    "modelName" : "루이비통_트위스트",
+    "createdAt" : "2025-07-28 15:00:38",
+    "modifiedAt" : "2025-07-28 15:00:38"
+  }, {
+    "modelCode" : "BALV0815",
+    "modelName" : "루이비통_스피디",
+    "createdAt" : "2025-07-28 15:00:38",
+    "modifiedAt" : "2025-07-28 15:00:38"
+  }, {
+    "modelCode" : "BALV0814",
+    "modelName" : "루이비통_네오노에",
+    "createdAt" : "2025-07-28 15:00:38",
+    "modifiedAt" : "2025-07-28 15:00:38"
+  }, {
+    "modelCode" : "BALV0813",
+    "modelName" : "루이비통_키폴",
+    "createdAt" : "2025-07-28 15:00:37",
+    "modifiedAt" : "2025-07-28 15:00:37"
+  }, {
+    "modelCode" : "BALV0812",
+    "modelName" : "루이비통_클루니",
+    "createdAt" : "2025-07-28 15:00:37",
+    "modifiedAt" : "2025-07-28 15:00:37"
+  }, {
+    "modelCode" : "BALV0811",
+    "modelName" : "루이비통_알마",
+    "createdAt" : "2025-07-28 15:00:36",
+    "modifiedAt" : "2025-07-28 15:00:36"
+  }, {
+    "modelCode" : "BALV0810",
+    "modelName" : "루이비통_뉴웨이브",
+    "createdAt" : "2025-07-28 15:00:35",
+    "modifiedAt" : "2025-07-28 15:00:35"
+  }, {
+    "modelCode" : "BALV0809",
+    "modelName" : "루이비통_네버풀",
+    "createdAt" : "2025-07-28 15:00:35",
+    "modifiedAt" : "2025-08-25 14:24:36"
+  }, {
+    "modelCode" : "BALV0808",
+    "modelName" : "루이비통_네버풀_다미에_(기존)",
+    "createdAt" : "2025-07-28 15:00:34",
+    "modifiedAt" : "2025-07-28 15:00:34"
+  }, {
+    "modelCode" : "BALV0807",
+    "modelName" : "소뮤르NM",
+    "createdAt" : "2025-07-24 11:37:03",
+    "modifiedAt" : "2025-07-24 11:37:03"
+  }, {
+    "modelCode" : "BALV0806",
+    "modelName" : "소뮤르",
+    "createdAt" : "2025-07-24 11:36:53",
+    "modifiedAt" : "2025-07-24 11:36:53"
+  }, {
+    "modelCode" : "BALV0805",
+    "modelName" : "네오노에_에스칼",
+    "createdAt" : "2025-07-22 15:47:38",
+    "modifiedAt" : "2025-07-22 15:47:38"
+  }, {
+    "modelCode" : "BALV0804",
+    "modelName" : "슬라우치",
+    "createdAt" : "2025-07-03 15:09:55",
+    "modifiedAt" : "2025-07-03 15:09:55"
+  }, {
+    "modelCode" : "BALV0803",
+    "modelName" : "알마_멀티NM",
+    "createdAt" : "2025-07-01 17:04:32",
+    "modifiedAt" : "2025-07-01 17:04:32"
+  }, {
+    "modelCode" : "BALV0802",
+    "modelName" : "도핀_에삐",
+    "createdAt" : "2025-06-26 16:57:10",
+    "modifiedAt" : "2025-06-26 16:57:10"
+  }, {
+    "modelCode" : "BALV0801",
+    "modelName" : "올인_멀티",
+    "createdAt" : "2025-06-26 14:00:21",
+    "modifiedAt" : "2025-06-26 14:00:21"
+  }, {
+    "modelCode" : "BALV0800",
+    "modelName" : "스피디_멀티NM",
+    "createdAt" : "2025-06-23 10:25:53",
+    "modifiedAt" : "2025-06-23 10:25:53"
+  }, {
+    "modelCode" : "BALV0799",
+    "modelName" : "사이드 트렁크",
+    "createdAt" : "2025-06-18 15:40:16",
+    "modifiedAt" : "2025-06-18 15:40:16"
+  }, {
+    "modelCode" : "BALV0798",
+    "modelName" : "보에티NM",
+    "createdAt" : "2025-06-13 13:59:37",
+    "modifiedAt" : "2025-06-13 15:25:09"
+  }, {
+    "modelCode" : "BALV0797",
+    "modelName" : "캐리올NM",
+    "createdAt" : "2025-06-12 14:44:56",
+    "modifiedAt" : "2025-06-12 14:44:56"
+  }, {
+    "modelCode" : "BALV0796",
+    "modelName" : "다이앤",
+    "createdAt" : "2025-06-12 14:29:05",
+    "modifiedAt" : "2025-06-12 14:29:05"
+  }, {
+    "modelCode" : "BALV0795",
+    "modelName" : "올인",
+    "createdAt" : "2025-06-12 14:15:17",
+    "modifiedAt" : "2025-06-12 18:48:17"
+  }, {
+    "modelCode" : "BALV0794",
+    "modelName" : "스피디_에삐",
+    "createdAt" : "2025-06-05 18:25:35",
+    "modifiedAt" : "2025-06-05 18:25:35"
+  }, {
+    "modelCode" : "BALV0793",
+    "modelName" : "스피디_이딜",
+    "createdAt" : "2025-06-05 18:20:10",
+    "modifiedAt" : "2025-06-05 18:20:10"
+  }, {
+    "modelCode" : "BALV0792",
+    "modelName" : "스피디_그래피티",
+    "createdAt" : "2025-06-05 18:19:31",
+    "modifiedAt" : "2025-06-05 18:19:31"
+  }, {
+    "modelCode" : "BALV0791",
+    "modelName" : "루프_앙프렝뜨",
+    "createdAt" : "2025-06-04 16:53:16",
+    "modifiedAt" : "2025-06-04 16:53:16"
+  }, {
+    "modelCode" : "BALV0790",
+    "modelName" : "발리젯_다미에",
+    "createdAt" : "2025-06-04 16:43:12",
+    "modifiedAt" : "2025-08-25 14:27:46"
+  }, {
+    "modelCode" : "BALV0789",
+    "modelName" : "니스_에스",
+    "createdAt" : "2025-06-04 16:37:19",
+    "modifiedAt" : "2025-06-04 16:37:19"
+  }, {
+    "modelCode" : "BALV0788",
+    "modelName" : "도빌NM",
+    "createdAt" : "2025-06-04 16:00:25",
+    "modifiedAt" : "2025-06-04 16:00:25"
+  }, {
+    "modelCode" : "BALV0787",
+    "modelName" : "발리젯",
+    "createdAt" : "2025-06-02 18:39:15",
+    "modifiedAt" : "2025-06-02 18:39:15"
+  }, {
+    "modelCode" : "BALV0786",
+    "modelName" : "플라워+모노그램",
+    "createdAt" : "2025-06-02 18:39:02",
+    "modifiedAt" : "2025-06-02 18:39:02"
+  }, {
+    "modelCode" : "BALV0785",
+    "modelName" : "삭보스포",
+    "createdAt" : "2025-06-02 18:24:22",
+    "modifiedAt" : "2025-06-02 18:24:22"
+  }, {
+    "modelCode" : "BALV0784",
+    "modelName" : "쁘띠뜨 팔레",
+    "createdAt" : "2025-06-02 18:24:04",
+    "modifiedAt" : "2025-06-02 18:24:04"
+  }, {
+    "modelCode" : "BALV0783",
+    "modelName" : "멜리",
+    "createdAt" : "2025-06-02 18:22:54",
+    "modifiedAt" : "2025-06-02 18:22:54"
+  }, {
+    "modelCode" : "BALV0782",
+    "modelName" : "네오캐비",
+    "createdAt" : "2025-06-02 18:22:19",
+    "modifiedAt" : "2025-06-02 18:22:19"
+  }, {
+    "modelCode" : "BALV0781",
+    "modelName" : "베로나",
+    "createdAt" : "2025-06-02 18:22:00",
+    "modifiedAt" : "2025-08-25 14:27:53"
+  }, {
+    "modelCode" : "BALV0780",
+    "modelName" : "온 마이 사이드",
+    "createdAt" : "2025-06-02 18:20:44",
+    "modifiedAt" : "2025-06-02 18:20:44"
+  }, {
+    "modelCode" : "BALV0779",
+    "modelName" : "펠리시_앙프렝뜨",
+    "createdAt" : "2025-06-02 18:20:25",
+    "modifiedAt" : "2025-06-02 18:20:25"
+  }, {
+    "modelCode" : "BALV0778",
+    "modelName" : "펠리시_모노그램",
+    "createdAt" : "2025-06-02 18:20:09",
+    "modifiedAt" : "2025-06-02 18:20:09"
+  }, {
+    "modelCode" : "BALV0777",
+    "modelName" : "튈르리",
+    "createdAt" : "2025-06-02 18:19:10",
+    "modifiedAt" : "2025-06-02 18:19:10"
+  }, {
+    "modelCode" : "BALV0776",
+    "modelName" : "쿠상",
+    "createdAt" : "2025-06-02 18:18:57",
+    "modifiedAt" : "2025-06-02 18:18:57"
+  }, {
+    "modelCode" : "BALV0775",
+    "modelName" : "클레버_에삐",
+    "createdAt" : "2025-06-02 18:17:11",
+    "modifiedAt" : "2025-06-02 18:17:11"
+  }, {
+    "modelCode" : "BALV0774",
+    "modelName" : "말리_에삐",
+    "createdAt" : "2025-06-02 18:16:49",
+    "modifiedAt" : "2025-06-02 18:16:49"
+  }, {
+    "modelCode" : "BALV0773",
+    "modelName" : "마들렌_앙프렝뜨",
+    "createdAt" : "2025-06-02 18:16:20",
+    "modifiedAt" : "2025-06-02 18:16:20"
+  }, {
+    "modelCode" : "BALV0772",
+    "modelName" : "그레이스풀",
+    "createdAt" : "2025-06-02 18:16:01",
+    "modifiedAt" : "2025-06-02 18:16:01"
+  }, {
+    "modelCode" : "BALV0771",
+    "modelName" : "수플로_모노그램",
+    "createdAt" : "2025-06-02 18:15:10",
+    "modifiedAt" : "2025-06-02 18:15:10"
+  }, {
+    "modelCode" : "BALV0770",
+    "modelName" : "파시",
+    "createdAt" : "2025-06-02 18:14:49",
+    "modifiedAt" : "2025-06-02 18:14:49"
+  }, {
+    "modelCode" : "BALV0769",
+    "modelName" : "겐지",
+    "createdAt" : "2025-06-02 18:13:16",
+    "modifiedAt" : "2025-08-25 14:23:29"
+  }, {
+    "modelCode" : "BALV0768",
+    "modelName" : "마이클 백팩",
+    "createdAt" : "2025-06-02 18:13:01",
+    "modifiedAt" : "2025-08-25 14:27:16"
+  }, {
+    "modelCode" : "BALV0767",
+    "modelName" : "믹",
+    "createdAt" : "2025-06-02 18:12:48",
+    "modifiedAt" : "2025-06-02 18:12:48"
+  }, {
+    "modelCode" : "BALV0766",
+    "modelName" : "쁘띠뜨말",
+    "createdAt" : "2025-05-29 17:30:49",
+    "modifiedAt" : "2025-05-29 17:30:49"
+  }, {
+    "modelCode" : "BALV0765",
+    "modelName" : "쁘띠뜨말 수플",
+    "createdAt" : "2025-05-29 17:30:02",
+    "modifiedAt" : "2025-05-29 17:30:02"
+  }, {
+    "modelCode" : "BALV0764",
+    "modelName" : "켄싱턴_다미에",
+    "createdAt" : "2025-05-29 17:29:14",
+    "modifiedAt" : "2025-05-29 17:29:14"
+  }, {
+    "modelCode" : "BALV0763",
+    "modelName" : "베티놀즈",
+    "createdAt" : "2025-05-29 17:28:46",
+    "modifiedAt" : "2025-08-25 14:28:10"
+  }, {
+    "modelCode" : "BALV0762",
+    "modelName" : "스트레사",
+    "createdAt" : "2025-05-29 17:28:19",
+    "modifiedAt" : "2025-05-29 17:28:19"
+  }, {
+    "modelCode" : "BALV0761",
+    "modelName" : "트리아나",
+    "createdAt" : "2025-05-29 17:26:25",
+    "modifiedAt" : "2025-05-29 17:26:25"
+  }, {
+    "modelCode" : "BALV0760",
+    "modelName" : "보에티",
+    "createdAt" : "2025-05-29 17:26:07",
+    "modifiedAt" : "2025-05-29 17:26:07"
+  }, {
+    "modelCode" : "BALV0759",
+    "modelName" : "퐁뇌프 소프트",
+    "createdAt" : "2025-05-29 17:19:48",
+    "modifiedAt" : "2025-05-29 17:19:48"
+  }, {
+    "modelCode" : "BALV0758",
+    "modelName" : "퐁뇌프",
+    "createdAt" : "2025-05-29 17:16:38",
+    "modifiedAt" : "2025-05-29 17:16:38"
+  }, {
+    "modelCode" : "BALV0757",
+    "modelName" : "시떼",
+    "createdAt" : "2025-05-29 17:15:57",
+    "modifiedAt" : "2025-05-29 17:15:57"
+  }, {
+    "modelCode" : "BALV0756",
+    "modelName" : "선셋불바르",
+    "createdAt" : "2025-05-29 17:15:28",
+    "modifiedAt" : "2025-05-29 17:15:28"
+  }, {
+    "modelCode" : "BALV0755",
+    "modelName" : "바빌론_마히나",
+    "createdAt" : "2025-05-29 17:14:25",
+    "modifiedAt" : "2025-05-29 17:14:25"
+  }, {
+    "modelCode" : "BALV0754",
+    "modelName" : "L_마히나",
+    "createdAt" : "2025-05-29 17:14:08",
+    "modifiedAt" : "2025-08-25 14:22:58"
+  }, {
+    "modelCode" : "BALV0753",
+    "modelName" : "오데온NM",
+    "createdAt" : "2025-05-29 17:13:38",
+    "modifiedAt" : "2025-08-25 14:28:52"
+  }, {
+    "modelCode" : "BALV0752",
+    "modelName" : "오데온",
+    "createdAt" : "2025-05-29 17:13:28",
+    "modifiedAt" : "2025-08-25 14:28:36"
+  }, {
+    "modelCode" : "BALV0751",
+    "modelName" : "보지라르",
+    "createdAt" : "2025-05-29 17:13:05",
+    "modifiedAt" : "2025-05-29 17:13:05"
+  }, {
+    "modelCode" : "BALV0750",
+    "modelName" : "버클리",
+    "createdAt" : "2025-05-29 17:11:58",
+    "modifiedAt" : "2025-05-29 17:11:58"
+  }, {
+    "modelCode" : "BALV0749",
+    "modelName" : "비버리",
+    "createdAt" : "2025-05-29 17:11:41",
+    "modifiedAt" : "2025-05-29 17:11:41"
+  }, {
+    "modelCode" : "BALV0748",
+    "modelName" : "부아뜨샤포_리버스",
+    "createdAt" : "2025-05-29 17:09:24",
+    "modifiedAt" : "2025-05-29 17:09:24"
+  }, {
+    "modelCode" : "BALV0747",
+    "modelName" : "부아뜨샤포",
+    "createdAt" : "2025-05-29 17:09:02",
+    "modifiedAt" : "2025-05-29 17:09:02"
+  }, {
+    "modelCode" : "BALV0746",
+    "modelName" : "베니티_리버스",
+    "createdAt" : "2025-05-29 17:07:34",
+    "modifiedAt" : "2025-05-29 17:07:34"
+  }, {
+    "modelCode" : "BALV0745",
+    "modelName" : "락미",
+    "createdAt" : "2025-05-29 16:57:00",
+    "modifiedAt" : "2025-05-29 16:57:00"
+  }, {
+    "modelCode" : "BALV0744",
+    "modelName" : "리볼리",
+    "createdAt" : "2025-05-28 14:38:07",
+    "modifiedAt" : "2025-05-28 14:38:07"
+  }, {
+    "modelCode" : "BALV0743",
+    "modelName" : "몽수리",
+    "createdAt" : "2025-05-28 14:37:29",
+    "modifiedAt" : "2025-05-28 14:37:29"
+  }, {
+    "modelCode" : "BALV0742",
+    "modelName" : "튀렌느",
+    "createdAt" : "2025-05-28 14:34:15",
+    "modifiedAt" : "2025-05-28 14:34:15"
+  }, {
+    "modelCode" : "BALV0741",
+    "modelName" : "바뱅",
+    "createdAt" : "2025-05-28 14:33:08",
+    "modifiedAt" : "2025-08-25 14:27:57"
+  }, {
+    "modelCode" : "BALV0740",
+    "modelName" : "루프",
+    "createdAt" : "2025-05-28 14:32:57",
+    "modifiedAt" : "2025-05-28 14:32:57"
+  }, {
+    "modelCode" : "BALV0739",
+    "modelName" : "엘립스",
+    "createdAt" : "2025-05-28 14:32:25",
+    "modifiedAt" : "2025-08-25 14:28:46"
+  }, {
+    "modelCode" : "BALV0738",
+    "modelName" : "포쉐트 토일렛",
+    "createdAt" : "2025-05-28 14:32:00",
+    "modifiedAt" : "2025-05-28 14:32:00"
+  }, {
+    "modelCode" : "BALV0737",
+    "modelName" : "노에",
+    "createdAt" : "2025-05-28 14:30:10",
+    "modifiedAt" : "2025-05-28 14:30:10"
+  }, {
+    "modelCode" : "BALV0736",
+    "modelName" : "노에_에삐",
+    "createdAt" : "2025-05-28 14:30:01",
+    "modifiedAt" : "2025-05-28 14:30:01"
+  }, {
+    "modelCode" : "BALV0735",
+    "modelName" : "에튀 보야주",
+    "createdAt" : "2025-05-28 14:24:22",
+    "modifiedAt" : "2025-08-25 14:28:29"
+  }, {
+    "modelCode" : "BALV0734",
+    "modelName" : "마렐",
+    "createdAt" : "2025-05-28 14:23:33",
+    "modifiedAt" : "2025-05-28 14:23:33"
+  }, {
+    "modelCode" : "BALV0733",
+    "modelName" : "그르넬",
+    "createdAt" : "2025-05-28 14:23:19",
+    "modifiedAt" : "2025-05-28 14:23:19"
+  }, {
+    "modelCode" : "BALV0732",
+    "modelName" : "기리가미",
+    "createdAt" : "2025-05-28 14:22:38",
+    "modifiedAt" : "2025-05-28 14:22:38"
+  }, {
+    "modelCode" : "BALV0731",
+    "modelName" : "주디_멀티",
+    "createdAt" : "2025-05-28 14:20:45",
+    "modifiedAt" : "2025-05-28 14:20:45"
+  }, {
+    "modelCode" : "BALV0730",
+    "modelName" : "브레아_에삐",
+    "createdAt" : "2025-05-28 14:19:34",
+    "modifiedAt" : "2025-05-28 14:19:34"
+  }, {
+    "modelCode" : "BALV0729",
+    "modelName" : "브레아_베르니",
+    "createdAt" : "2025-05-28 14:19:22",
+    "modifiedAt" : "2025-05-28 14:19:22"
+  }, {
+    "modelCode" : "BALV0728",
+    "modelName" : "포쉐트 보야주",
+    "createdAt" : "2025-05-28 14:18:16",
+    "modifiedAt" : "2025-05-28 14:18:16"
+  }, {
+    "modelCode" : "BALV0727",
+    "modelName" : "포쉐트 보야주_다미에",
+    "createdAt" : "2025-05-28 14:18:07",
+    "modifiedAt" : "2025-05-28 14:18:07"
+  }, {
+    "modelCode" : "BALV0726",
+    "modelName" : "트위스트",
+    "createdAt" : "2025-05-28 14:16:26",
+    "modifiedAt" : "2025-06-09 18:30:19"
+  }, {
+    "modelCode" : "BALV0725",
+    "modelName" : "에덴",
+    "createdAt" : "2025-05-28 14:15:47",
+    "modifiedAt" : "2025-08-25 14:28:58"
+  }, {
+    "modelCode" : "BALV0724",
+    "modelName" : "네오 알마",
+    "createdAt" : "2025-05-28 14:15:08",
+    "modifiedAt" : "2025-08-25 14:23:46"
+  }, {
+    "modelCode" : "BALV0723",
+    "modelName" : "부시_에삐",
+    "createdAt" : "2025-05-28 14:13:55",
+    "modifiedAt" : "2025-05-28 14:13:55"
+  }, {
+    "modelCode" : "BALV0722",
+    "modelName" : "에스트렐라",
+    "createdAt" : "2025-05-28 14:13:40",
+    "modifiedAt" : "2025-05-28 14:13:40"
+  }, {
+    "modelCode" : "BALV0721",
+    "modelName" : "삭플라_에삐",
+    "createdAt" : "2025-05-28 14:12:22",
+    "modifiedAt" : "2025-05-28 14:12:22"
+  }, {
+    "modelCode" : "BALV0720",
+    "modelName" : "삭플라_앙프렝뜨",
+    "createdAt" : "2025-05-28 14:12:15",
+    "modifiedAt" : "2025-05-28 14:12:15"
+  }, {
+    "modelCode" : "BALV0719",
+    "modelName" : "삭플라",
+    "createdAt" : "2025-05-28 14:11:58",
+    "modifiedAt" : "2025-05-28 14:11:58"
+  }, {
+    "modelCode" : "BALV0718",
+    "modelName" : "몽테뉴_앙프렝뜨",
+    "createdAt" : "2025-05-28 14:09:45",
+    "modifiedAt" : "2025-05-28 14:09:45"
+  }, {
+    "modelCode" : "BALV0717",
+    "modelName" : "몽테뉴",
+    "createdAt" : "2025-05-28 14:09:33",
+    "modifiedAt" : "2025-05-28 14:09:33"
+  }, {
+    "modelCode" : "BALV0716",
+    "modelName" : "트루빌_멀티",
+    "createdAt" : "2025-05-28 14:07:20",
+    "modifiedAt" : "2025-05-28 14:07:20"
+  }, {
+    "modelCode" : "BALV0715",
+    "modelName" : "트루빌",
+    "createdAt" : "2025-05-28 14:07:07",
+    "modifiedAt" : "2025-05-28 14:07:07"
+  }, {
+    "modelCode" : "BALV0714",
+    "modelName" : "도빌_모노그램",
+    "createdAt" : "2025-05-28 14:06:55",
+    "modifiedAt" : "2025-05-28 14:06:55"
+  }, {
+    "modelCode" : "BALV0713",
+    "modelName" : "크로아제트",
+    "createdAt" : "2025-05-28 14:06:10",
+    "modifiedAt" : "2025-05-28 14:06:10"
+  }, {
+    "modelCode" : "BALV0712",
+    "modelName" : "팔라스",
+    "createdAt" : "2025-05-28 14:05:02",
+    "modifiedAt" : "2025-05-28 14:05:02"
+  }, {
+    "modelCode" : "BALV0711",
+    "modelName" : "맨하탄",
+    "createdAt" : "2025-05-28 14:00:48",
+    "modifiedAt" : "2025-08-25 14:27:23"
+  }, {
+    "modelCode" : "BALV0710",
+    "modelName" : "라스빠이",
+    "createdAt" : "2025-05-28 13:56:23",
+    "modifiedAt" : "2025-05-28 13:56:23"
+  }, {
+    "modelCode" : "BALV0709",
+    "modelName" : "락킷",
+    "createdAt" : "2025-05-28 13:55:38",
+    "modifiedAt" : "2025-05-28 13:55:38"
+  }, {
+    "modelCode" : "BALV0708",
+    "modelName" : "레티로NM",
+    "createdAt" : "2025-05-28 13:48:56",
+    "modifiedAt" : "2025-08-25 14:24:21"
+  }, {
+    "modelCode" : "BALV0707",
+    "modelName" : "레티로",
+    "createdAt" : "2025-05-28 13:48:47",
+    "modifiedAt" : "2025-08-25 14:27:06"
+  }, {
+    "modelCode" : "BALV0706",
+    "modelName" : "포쉐트 주르_에삐",
+    "createdAt" : "2025-05-28 13:45:21",
+    "modifiedAt" : "2025-05-28 13:45:21"
+  }, {
+    "modelCode" : "BALV0705",
+    "modelName" : "포쉐트 주르_다미에",
+    "createdAt" : "2025-05-28 13:45:10",
+    "modifiedAt" : "2025-05-28 13:45:10"
+  }, {
+    "modelCode" : "BALV0704",
+    "modelName" : "알마_다미에",
+    "createdAt" : "2025-05-28 13:39:42",
+    "modifiedAt" : "2025-08-25 14:29:32"
+  }, {
+    "modelCode" : "BALV0703",
+    "modelName" : "알마_에삐",
+    "createdAt" : "2025-05-28 13:39:29",
+    "modifiedAt" : "2025-08-25 14:29:13"
+  }, {
+    "modelCode" : "BALV0702",
+    "modelName" : "알마_베르니",
+    "createdAt" : "2025-05-28 13:39:13",
+    "modifiedAt" : "2025-08-25 14:29:21"
+  }, {
+    "modelCode" : "BALV0701",
+    "modelName" : "알마_멀티",
+    "createdAt" : "2025-05-28 13:38:59",
+    "modifiedAt" : "2025-05-28 13:38:59"
+  }, {
+    "modelCode" : "BALV0700",
+    "modelName" : "토탈리_아주르",
+    "createdAt" : "2025-05-28 13:13:37",
+    "modifiedAt" : "2025-05-28 13:13:37"
+  }, {
+    "modelCode" : "BALV0699",
+    "modelName" : "클루니_에삐",
+    "createdAt" : "2025-05-28 13:11:59",
+    "modifiedAt" : "2025-05-28 13:11:59"
+  }, {
+    "modelCode" : "BALV0698",
+    "modelName" : "페이보릿_다미에",
+    "createdAt" : "2025-05-28 13:11:35",
+    "modifiedAt" : "2025-05-28 13:11:35"
+  }, {
+    "modelCode" : "BALV0697",
+    "modelName" : "캐리올",
+    "createdAt" : "2025-05-28 13:09:26",
+    "modifiedAt" : "2025-05-28 13:09:26"
+  }, {
+    "modelCode" : "BALV0696",
+    "modelName" : "더플백",
+    "createdAt" : "2025-05-28 13:08:43",
+    "modifiedAt" : "2025-05-28 13:08:43"
+  }, {
+    "modelCode" : "BALV0695",
+    "modelName" : "네버풀_다미에",
+    "createdAt" : "2025-05-28 13:08:03",
+    "modifiedAt" : "2025-08-25 14:24:02"
+  }, {
+    "modelCode" : "BALV0694",
+    "modelName" : "스피디_다미에",
+    "createdAt" : "2025-05-28 13:06:50",
+    "modifiedAt" : "2025-05-28 13:06:50"
+  }, {
+    "modelCode" : "BALV0693",
+    "modelName" : "앗치_앙프렝뜨",
+    "createdAt" : "2025-05-28 13:02:46",
+    "modifiedAt" : "2025-08-25 14:28:18"
+  }, {
+    "modelCode" : "BALV0692",
+    "modelName" : "에바클러치_다미에",
+    "createdAt" : "2025-05-28 11:50:21",
+    "modifiedAt" : "2025-08-25 14:28:23"
+  }, {
+    "modelCode" : "BALV0691",
+    "modelName" : "온더고_앙프렝뜨",
+    "createdAt" : "2025-05-28 11:48:41",
+    "modifiedAt" : "2025-05-28 11:48:41"
+  }, {
+    "modelCode" : "BALV0690",
+    "modelName" : "생통주_앙프렝뜨",
+    "createdAt" : "2025-05-28 11:45:37",
+    "modifiedAt" : "2025-05-28 11:45:37"
+  }, {
+    "modelCode" : "BALV0689",
+    "modelName" : "생통주_모노그램",
+    "createdAt" : "2025-05-28 11:45:28",
+    "modifiedAt" : "2025-05-28 11:45:28"
+  }, {
+    "modelCode" : "BALV0688",
+    "modelName" : "메티스_앙프렝뜨",
+    "createdAt" : "2025-05-28 11:44:48",
+    "modifiedAt" : "2025-05-28 11:44:48"
+  }, {
+    "modelCode" : "BALV0687",
+    "modelName" : "메티스_모노그램",
+    "createdAt" : "2025-05-28 11:44:37",
+    "modifiedAt" : "2025-05-28 11:44:37"
+  }, {
+    "modelCode" : "BALV0686",
+    "modelName" : "네오노에_앙프렝뜨",
+    "createdAt" : "2025-05-28 11:42:02",
+    "modifiedAt" : "2025-05-28 11:42:02"
+  }, {
+    "modelCode" : "BALV0685",
+    "modelName" : "네오노에_에삐",
+    "createdAt" : "2025-05-28 11:41:43",
+    "modifiedAt" : "2025-05-28 11:41:43"
+  }, {
+    "modelCode" : "BALV0684",
+    "modelName" : "스피디_앙프렝뜨",
+    "createdAt" : "2025-05-28 11:40:45",
+    "modifiedAt" : "2025-05-28 11:40:45"
+  }, {
+    "modelCode" : "BALV0683",
+    "modelName" : "스피디_멀티",
+    "createdAt" : "2025-05-28 11:40:14",
+    "modifiedAt" : "2025-05-28 11:40:14"
+  }, {
+    "modelCode" : "BALV0682",
+    "modelName" : "갈리에라_아주르",
+    "createdAt" : "2025-05-28 11:38:48",
+    "modifiedAt" : "2025-08-25 14:23:22"
+  }, {
+    "modelCode" : "BALV0681",
+    "modelName" : "카푸신",
+    "createdAt" : "2025-05-28 11:12:24",
+    "modifiedAt" : "2025-05-28 11:12:24"
+  }, {
+    "modelCode" : "BALV0680",
+    "modelName" : "햄스테드_다미에",
+    "createdAt" : "2025-05-28 11:10:32",
+    "modifiedAt" : "2025-05-28 11:10:32"
+  }, {
+    "modelCode" : "BALV0679",
+    "modelName" : "깐느 베니티_리버스",
+    "createdAt" : "2025-05-28 11:09:03",
+    "modifiedAt" : "2025-08-25 14:23:57"
+  }, {
+    "modelCode" : "BALV0678",
+    "modelName" : "도핀_리버스",
+    "createdAt" : "2025-05-28 11:08:44",
+    "modifiedAt" : "2025-05-28 11:08:44"
+  }, {
+    "modelCode" : "BALV0677",
+    "modelName" : "멀티 포쉐트 악세수아_뉴웨이브",
+    "createdAt" : "2025-05-28 11:07:24",
+    "modifiedAt" : "2025-08-25 14:27:33"
+  }, {
+    "modelCode" : "BALV0676",
+    "modelName" : "멀티 포쉐트 악세수아_모노그램",
+    "createdAt" : "2025-05-28 11:07:10",
+    "modifiedAt" : "2025-08-25 14:27:39"
+  }, {
+    "modelCode" : "BALV0675",
+    "modelName" : "루핑",
+    "createdAt" : "2025-05-23 15:08:09",
+    "modifiedAt" : "2025-05-23 15:08:09"
+  }, {
+    "modelCode" : "BAJ80024",
+    "modelName" : "쿨박스",
+    "createdAt" : "2025-05-23 14:19:12",
+    "modifiedAt" : "2025-05-23 14:19:12"
+  }, {
+    "modelCode" : "BAJ80023",
+    "modelName" : "핀",
+    "createdAt" : "2025-05-23 14:18:34",
+    "modifiedAt" : "2025-05-23 14:18:34"
+  }, {
+    "modelCode" : "BAJ80022",
+    "modelName" : "톰페트",
+    "createdAt" : "2025-05-23 14:18:20",
+    "modifiedAt" : "2025-05-23 14:18:20"
+  }, {
+    "modelCode" : "BAJ80021",
+    "modelName" : "브리앙",
+    "createdAt" : "2025-05-23 14:18:09",
+    "modifiedAt" : "2025-05-23 14:18:09"
+  }, {
+    "modelCode" : "BAHE0279",
+    "modelName" : "켈리 무브",
+    "createdAt" : "2025-08-28 14:03:00",
+    "modifiedAt" : "2025-08-28 14:03:00"
+  }, {
+    "modelCode" : "BAHE0278",
+    "modelName" : "린디34",
+    "createdAt" : "2025-08-28 14:01:32",
+    "modifiedAt" : "2025-08-28 14:01:32"
+  }, {
+    "modelCode" : "BAHE0277",
+    "modelName" : "린디30",
+    "createdAt" : "2025-08-28 14:00:55",
+    "modifiedAt" : "2025-08-28 14:00:55"
+  }, {
+    "modelCode" : "BAHE0276",
+    "modelName" : "린디26+",
+    "createdAt" : "2025-08-28 14:00:06",
+    "modifiedAt" : "2025-08-28 14:00:06"
+  }, {
+    "modelCode" : "BAHE0275",
+    "modelName" : "린디19",
+    "createdAt" : "2025-08-28 13:59:30",
+    "modifiedAt" : "2025-08-28 13:59:30"
+  }, {
+    "modelCode" : "BAHE0274",
+    "modelName" : "델라 카발레리아 미니",
+    "createdAt" : "2025-08-28 13:58:30",
+    "modifiedAt" : "2025-08-28 14:02:43"
+  }, {
+    "modelCode" : "BAHE0273",
+    "modelName" : "핵 아도GM",
+    "createdAt" : "2025-08-28 13:58:20",
+    "modifiedAt" : "2025-08-28 13:58:20"
+  }, {
+    "modelCode" : "BAHE0272",
+    "modelName" : "핵 아도PM",
+    "createdAt" : "2025-08-28 13:58:14",
+    "modifiedAt" : "2025-08-28 13:58:14"
+  }, {
+    "modelCode" : "BAHE0271",
+    "modelName" : "파리스 봄베이37",
+    "createdAt" : "2025-08-28 13:52:54",
+    "modifiedAt" : "2025-08-28 14:02:25"
+  }, {
+    "modelCode" : "BAHE0270",
+    "modelName" : "브리드 어 브랙",
+    "createdAt" : "2025-08-28 13:51:20",
+    "modifiedAt" : "2025-08-28 14:02:13"
+  }, {
+    "modelCode" : "BAHE0269",
+    "modelName" : "포쉐트 켈리",
+    "createdAt" : "2025-08-28 13:50:29",
+    "modifiedAt" : "2025-08-28 13:50:29"
+  }, {
+    "modelCode" : "BAHE0268",
+    "modelName" : "숄더 벌킨",
+    "createdAt" : "2025-08-28 13:50:01",
+    "modifiedAt" : "2025-08-28 13:50:01"
+  }, {
+    "modelCode" : "BAHE0267",
+    "modelName" : "켈리 디스오더",
+    "createdAt" : "2025-08-28 13:48:59",
+    "modifiedAt" : "2025-08-28 13:48:59"
+  }, {
+    "modelCode" : "BAHE0266",
+    "modelName" : "켈리 투고",
+    "createdAt" : "2025-08-28 13:48:51",
+    "modifiedAt" : "2025-08-28 13:48:51"
+  }, {
+    "modelCode" : "BAHE0265",
+    "modelName" : "켈리컷",
+    "createdAt" : "2025-08-28 13:48:44",
+    "modifiedAt" : "2025-08-28 13:48:44"
+  }, {
+    "modelCode" : "BAHE0264",
+    "modelName" : "켈리 데펫슈",
+    "createdAt" : "2025-08-28 13:48:36",
+    "modifiedAt" : "2025-08-28 13:48:36"
+  }, {
+    "modelCode" : "BAHE0263",
+    "modelName" : "켈리 당스",
+    "createdAt" : "2025-08-28 13:48:22",
+    "modifiedAt" : "2025-08-28 13:48:22"
+  }, {
+    "modelCode" : "BAHE0262",
+    "modelName" : "켈리 아도",
+    "createdAt" : "2025-08-28 13:47:57",
+    "modifiedAt" : "2025-08-28 13:47:57"
+  }, {
+    "modelCode" : "BAHE0261",
+    "modelName" : "숄더 켈리",
+    "createdAt" : "2025-08-28 13:46:29",
+    "modifiedAt" : "2025-08-28 13:46:29"
+  }, {
+    "modelCode" : "BAHE0260",
+    "modelName" : "켈리35",
+    "createdAt" : "2025-08-28 13:46:25",
+    "modifiedAt" : "2025-08-28 13:46:25"
+  }, {
+    "modelCode" : "BAHE0259",
+    "modelName" : "셀리에 켈리35",
+    "createdAt" : "2025-08-28 13:46:20",
+    "modifiedAt" : "2025-08-28 13:46:20"
+  }, {
+    "modelCode" : "BAHE0258",
+    "modelName" : "켈리32",
+    "createdAt" : "2025-08-28 13:46:15",
+    "modifiedAt" : "2025-08-28 13:46:15"
+  }, {
+    "modelCode" : "BAHE0257",
+    "modelName" : "셀리에 켈리32",
+    "createdAt" : "2025-08-28 13:46:11",
+    "modifiedAt" : "2025-08-28 13:46:11"
+  }, {
+    "modelCode" : "BAHE0256",
+    "modelName" : "켈리28.",
+    "createdAt" : "2025-08-28 13:46:04",
+    "modifiedAt" : "2025-08-28 13:46:04"
+  }, {
+    "modelCode" : "BAHE0255",
+    "modelName" : "셀리에 켈리28",
+    "createdAt" : "2025-08-28 13:45:59",
+    "modifiedAt" : "2025-08-28 13:45:59"
+  }, {
+    "modelCode" : "BAHE0254",
+    "modelName" : "켈리25",
+    "createdAt" : "2025-08-28 13:45:53",
+    "modifiedAt" : "2025-08-28 13:45:53"
+  }, {
+    "modelCode" : "BAHE0253",
+    "modelName" : "셀리에 켈리25",
+    "createdAt" : "2025-08-28 13:45:49",
+    "modifiedAt" : "2025-08-28 13:45:49"
+  }, {
+    "modelCode" : "BAHE0252",
+    "modelName" : "셀리에 벌킨30",
+    "createdAt" : "2025-08-28 13:44:29",
+    "modifiedAt" : "2025-08-28 13:44:29"
+  }, {
+    "modelCode" : "BAHE0251",
+    "modelName" : "셀리에 벌킨25",
+    "createdAt" : "2025-08-28 13:44:23",
+    "modifiedAt" : "2025-08-28 13:44:23"
+  }, {
+    "modelCode" : "BAHE0250",
+    "modelName" : "벌킨40",
+    "createdAt" : "2025-08-28 13:43:42",
+    "modifiedAt" : "2025-08-28 13:43:42"
+  }, {
+    "modelCode" : "BAHE0249",
+    "modelName" : "벌킨35",
+    "createdAt" : "2025-08-28 13:42:52",
+    "modifiedAt" : "2025-08-28 13:42:52"
+  }, {
+    "modelCode" : "BAHE0248",
+    "modelName" : "벌킨30",
+    "createdAt" : "2025-08-28 13:41:38",
+    "modifiedAt" : "2025-08-28 13:41:38"
+  }, {
+    "modelCode" : "BAHE0247",
+    "modelName" : "벌킨25",
+    "createdAt" : "2025-08-28 13:40:04",
+    "modifiedAt" : "2025-08-28 13:40:04"
+  }, {
+    "modelCode" : "BAHe0246",
+    "modelName" : "에르메스_후르토",
+    "createdAt" : "2025-07-29 09:00:04",
+    "modifiedAt" : "2025-07-29 09:00:04"
+  }, {
+    "modelCode" : "BAHe0245",
+    "modelName" : "에르메스_룰리스",
+    "createdAt" : "2025-07-29 09:00:04",
+    "modifiedAt" : "2025-07-29 09:00:04"
+  }, {
+    "modelCode" : "BAHe0244",
+    "modelName" : "에르메스_브리드어브랙",
+    "createdAt" : "2025-07-29 09:00:04",
+    "modifiedAt" : "2025-07-29 09:00:04"
+  }, {
+    "modelCode" : "BAHe0243",
+    "modelName" : "에르메스_켈리(1)",
+    "createdAt" : "2025-07-29 09:00:03",
+    "modifiedAt" : "2025-07-29 09:00:03"
+  }, {
+    "modelCode" : "BAHe0242",
+    "modelName" : "에르메스_콘스탄스",
+    "createdAt" : "2025-07-29 09:00:03",
+    "modifiedAt" : "2025-07-29 09:00:03"
+  }, {
+    "modelCode" : "BAHe0241",
+    "modelName" : "에르메스_볼리드_파우치",
+    "createdAt" : "2025-07-29 09:00:03",
+    "modifiedAt" : "2025-07-29 09:00:03"
+  }, {
+    "modelCode" : "BAHe0240",
+    "modelName" : "에르메스_린디",
+    "createdAt" : "2025-07-29 09:00:03",
+    "modifiedAt" : "2025-07-29 09:00:03"
+  }, {
+    "modelCode" : "BAHe0239",
+    "modelName" : "에르메스_후루토(1)",
+    "createdAt" : "2025-07-29 09:00:03",
+    "modifiedAt" : "2025-07-29 09:00:03"
+  }, {
+    "modelCode" : "BAHe0238",
+    "modelName" : "에르메스_에블린",
+    "createdAt" : "2025-07-29 09:00:03",
+    "modifiedAt" : "2025-07-29 09:00:03"
+  }, {
+    "modelCode" : "BAHe0237",
+    "modelName" : "에르메스_할잔",
+    "createdAt" : "2025-07-28 15:00:34",
+    "modifiedAt" : "2025-07-28 15:00:34"
+  }, {
+    "modelCode" : "BAHe0236",
+    "modelName" : "에르메스_피코탄",
+    "createdAt" : "2025-07-28 15:00:34",
+    "modifiedAt" : "2025-07-28 15:00:34"
+  }, {
+    "modelCode" : "BAHe0235",
+    "modelName" : "에르메스_에르백",
+    "createdAt" : "2025-07-28 15:00:33",
+    "modifiedAt" : "2025-07-28 15:00:33"
+  }, {
+    "modelCode" : "BAHe0234",
+    "modelName" : "에르메스_벌킨켈리",
+    "createdAt" : "2025-07-28 15:00:33",
+    "modifiedAt" : "2025-07-28 15:00:33"
+  }, {
+    "modelCode" : "BAHe0233",
+    "modelName" : "에르메스_가든파티",
+    "createdAt" : "2025-07-28 15:00:32",
+    "modifiedAt" : "2025-07-28 15:00:32"
+  }, {
+    "modelCode" : "BAHe0232",
+    "modelName" : "에르메스_켈리",
+    "createdAt" : "2025-07-28 15:00:31",
+    "modifiedAt" : "2025-07-28 15:00:31"
+  }, {
+    "modelCode" : "BAHe0231",
+    "modelName" : "에르메스_후루토",
+    "createdAt" : "2025-07-28 15:00:30",
+    "modifiedAt" : "2025-07-28 15:00:30"
+  }, {
+    "modelCode" : "BAHe0230",
+    "modelName" : "에르메스_볼리드",
+    "createdAt" : "2025-07-28 15:00:30",
+    "modifiedAt" : "2025-07-28 15:00:30"
+  }, {
+    "modelCode" : "BAHe0229",
+    "modelName" : "에르메스_빅토리아",
+    "createdAt" : "2025-07-28 15:00:30",
+    "modifiedAt" : "2025-07-28 15:00:30"
+  }, {
+    "modelCode" : "BAHe0228",
+    "modelName" : "에르메스_벌킨",
+    "createdAt" : "2025-07-28 15:00:29",
+    "modifiedAt" : "2025-07-28 15:00:29"
+  }, {
+    "modelCode" : "BAHE0227",
+    "modelName" : "에르백",
+    "createdAt" : "2025-05-28 11:23:52",
+    "modifiedAt" : "2025-05-28 11:23:52"
+  }, {
+    "modelCode" : "BAHE0226",
+    "modelName" : "켈리",
+    "createdAt" : "2025-05-28 11:18:46",
+    "modifiedAt" : "2025-05-28 11:18:46"
+  }, {
+    "modelCode" : "BAHE0225",
+    "modelName" : "미니 켈리",
+    "createdAt" : "2025-05-28 11:17:35",
+    "modifiedAt" : "2025-05-28 11:17:35"
+  }, {
+    "modelCode" : "BAHE0224",
+    "modelName" : "볼리드1923",
+    "createdAt" : "2025-05-28 11:16:48",
+    "modifiedAt" : "2025-05-28 11:16:48"
+  }, {
+    "modelCode" : "BAHE0223",
+    "modelName" : "바자",
+    "createdAt" : "2025-05-23 15:05:40",
+    "modifiedAt" : "2025-05-23 15:05:40"
+  }, {
+    "modelCode" : "BAHE0222",
+    "modelName" : "게타",
+    "createdAt" : "2025-05-23 15:05:25",
+    "modifiedAt" : "2025-05-23 15:05:25"
+  }, {
+    "modelCode" : "BAHE0221",
+    "modelName" : "볼리드",
+    "createdAt" : "2025-05-23 15:04:54",
+    "modifiedAt" : "2025-05-23 15:04:54"
+  }, {
+    "modelCode" : "BAHE0220",
+    "modelName" : "프륨",
+    "createdAt" : "2025-05-23 15:03:54",
+    "modifiedAt" : "2025-05-23 15:03:54"
+  }, {
+    "modelCode" : "BAHE0219",
+    "modelName" : "발파라이소",
+    "createdAt" : "2025-05-23 15:00:55",
+    "modifiedAt" : "2025-05-23 15:00:55"
+  }, {
+    "modelCode" : "BAHE0218",
+    "modelName" : "꺄",
+    "createdAt" : "2025-05-23 15:00:43",
+    "modifiedAt" : "2025-05-23 15:00:43"
+  }, {
+    "modelCode" : "BAHE0217",
+    "modelName" : "베로우",
+    "createdAt" : "2025-05-23 14:59:48",
+    "modifiedAt" : "2025-05-23 14:59:48"
+  }, {
+    "modelCode" : "BAHE0216",
+    "modelName" : "카바셀리에",
+    "createdAt" : "2025-05-23 14:59:26",
+    "modifiedAt" : "2025-05-23 14:59:26"
+  }, {
+    "modelCode" : "BAHE0215",
+    "modelName" : "지제",
+    "createdAt" : "2025-05-23 14:58:39",
+    "modifiedAt" : "2025-05-23 14:58:39"
+  }, {
+    "modelCode" : "BAHE0214",
+    "modelName" : "인더루프",
+    "createdAt" : "2025-05-23 14:57:29",
+    "modifiedAt" : "2025-05-23 14:57:29"
+  }, {
+    "modelCode" : "BAHE0213",
+    "modelName" : "후루토",
+    "createdAt" : "2025-05-23 14:57:13",
+    "modifiedAt" : "2025-05-23 14:57:13"
+  }, {
+    "modelCode" : "BAHE0212",
+    "modelName" : "빅토리아",
+    "createdAt" : "2025-05-23 14:55:40",
+    "modifiedAt" : "2025-05-23 14:55:40"
+  }, {
+    "modelCode" : "BAHE0211",
+    "modelName" : "드블루상스",
+    "createdAt" : "2025-05-23 14:51:58",
+    "modifiedAt" : "2025-05-23 14:51:58"
+  }, {
+    "modelCode" : "BAHE0210",
+    "modelName" : "벌킨",
+    "createdAt" : "2025-05-23 14:50:57",
+    "modifiedAt" : "2025-05-23 14:50:57"
+  }, {
+    "modelCode" : "BAHE0209",
+    "modelName" : "소켈리",
+    "createdAt" : "2025-05-23 14:50:04",
+    "modifiedAt" : "2025-05-23 14:50:04"
+  }, {
+    "modelCode" : "BAHE0208",
+    "modelName" : "베를린",
+    "createdAt" : "2025-05-23 14:49:50",
+    "modifiedAt" : "2025-05-23 14:49:50"
+  }, {
+    "modelCode" : "BAHE0207",
+    "modelName" : "켈리2424",
+    "createdAt" : "2025-05-23 14:49:35",
+    "modifiedAt" : "2025-05-23 14:49:35"
+  }, {
+    "modelCode" : "BAHE0206",
+    "modelName" : "룰리스",
+    "createdAt" : "2025-05-23 14:48:24",
+    "modifiedAt" : "2025-05-23 14:48:24"
+  }, {
+    "modelCode" : "BAHE0205",
+    "modelName" : "린디",
+    "createdAt" : "2025-05-23 14:48:11",
+    "modifiedAt" : "2025-05-23 14:48:11"
+  }, {
+    "modelCode" : "BAHE0204",
+    "modelName" : "콘스탄스",
+    "createdAt" : "2025-05-23 14:47:19",
+    "modifiedAt" : "2025-05-23 14:47:19"
+  }, {
+    "modelCode" : "BAHE0203",
+    "modelName" : "피코탄",
+    "createdAt" : "2025-05-23 14:46:53",
+    "modifiedAt" : "2025-05-23 14:46:53"
+  }, {
+    "modelCode" : "BAHE0202",
+    "modelName" : "가든파티",
+    "createdAt" : "2025-05-23 14:46:12",
+    "modifiedAt" : "2025-05-23 14:46:12"
+  }, {
+    "modelCode" : "BAHE0201",
+    "modelName" : "할잔",
+    "createdAt" : "2025-05-23 14:44:51",
+    "modifiedAt" : "2025-05-23 14:44:51"
+  }, {
+    "modelCode" : "BAHE0200",
+    "modelName" : "집셰르",
+    "createdAt" : "2025-05-23 14:42:59",
+    "modifiedAt" : "2025-05-23 14:42:59"
+  }, {
+    "modelCode" : "BAHE0199",
+    "modelName" : "에블린",
+    "createdAt" : "2025-05-23 14:42:37",
+    "modifiedAt" : "2025-05-23 14:42:37"
+  }, {
+    "modelCode" : "BAHE0198",
+    "modelName" : "툴박스",
+    "createdAt" : "2025-05-23 14:41:44",
+    "modifiedAt" : "2025-05-23 14:41:44"
+  }, {
+    "modelCode" : "BAGY0120",
+    "modelName" : "콤파뇽 유니버셜",
+    "createdAt" : "2025-08-22 17:59:56",
+    "modifiedAt" : "2025-08-22 17:59:56"
+  }, {
+    "modelCode" : "BAGY0119",
+    "modelName" : "카페티엔",
+    "createdAt" : "2025-08-22 17:59:44",
+    "modifiedAt" : "2025-08-22 17:59:44"
+  }, {
+    "modelCode" : "BAGY0118",
+    "modelName" : "베니티 뮤즈",
+    "createdAt" : "2025-08-22 17:59:07",
+    "modifiedAt" : "2025-08-22 17:59:07"
+  }, {
+    "modelCode" : "BAGY0117",
+    "modelName" : "암바사드",
+    "createdAt" : "2025-08-22 17:58:45",
+    "modifiedAt" : "2025-08-22 17:58:45"
+  }, {
+    "modelCode" : "BAGY0116",
+    "modelName" : "몬테카를로",
+    "createdAt" : "2025-08-22 17:58:35",
+    "modifiedAt" : "2025-08-22 17:58:35"
+  }, {
+    "modelCode" : "BAGY0115",
+    "modelName" : "생마리",
+    "createdAt" : "2025-08-22 17:58:19",
+    "modifiedAt" : "2025-08-25 15:22:08"
+  }, {
+    "modelCode" : "BAGY0114",
+    "modelName" : "벨하라",
+    "createdAt" : "2025-08-22 17:58:10",
+    "modifiedAt" : "2025-08-22 17:58:10"
+  }, {
+    "modelCode" : "BAGY0113",
+    "modelName" : "보잉",
+    "createdAt" : "2025-08-22 17:57:55",
+    "modifiedAt" : "2025-08-22 17:57:55"
+  }, {
+    "modelCode" : "BAGY0112",
+    "modelName" : "생리갈",
+    "createdAt" : "2025-08-22 17:57:38",
+    "modifiedAt" : "2025-08-22 17:57:38"
+  }, {
+    "modelCode" : "BAGY0111",
+    "modelName" : "피지",
+    "createdAt" : "2025-08-01 15:01:45",
+    "modifiedAt" : "2025-08-01 15:01:45"
+  }, {
+    "modelCode" : "BAGY0110",
+    "modelName" : "크롸지에르",
+    "createdAt" : "2025-08-01 15:01:22",
+    "modifiedAt" : "2025-08-01 15:01:22"
+  }, {
+    "modelCode" : "BAGY0109",
+    "modelName" : "그레나딘",
+    "createdAt" : "2025-07-30 16:27:23",
+    "modifiedAt" : "2025-07-30 16:27:23"
+  }, {
+    "modelCode" : "BAGY0108",
+    "modelName" : "잔느",
+    "createdAt" : "2025-07-30 16:22:04",
+    "modifiedAt" : "2025-07-30 16:22:04"
+  }, {
+    "modelCode" : "BAGY0107",
+    "modelName" : "고야드_방돔",
+    "createdAt" : "2025-07-29 09:00:02",
+    "modifiedAt" : "2025-07-29 09:00:02"
+  }, {
+    "modelCode" : "BAGY0106",
+    "modelName" : "고야드_사이공",
+    "createdAt" : "2025-07-28 15:00:29",
+    "modifiedAt" : "2025-07-28 15:00:29"
+  }, {
+    "modelCode" : "BAGY0105",
+    "modelName" : "고야드_보헴",
+    "createdAt" : "2025-07-28 15:00:29",
+    "modifiedAt" : "2025-07-28 15:00:29"
+  }, {
+    "modelCode" : "BAGY0104",
+    "modelName" : "고야드_쁘띠플로",
+    "createdAt" : "2025-07-28 15:00:28",
+    "modifiedAt" : "2025-07-28 15:00:28"
+  }, {
+    "modelCode" : "BAGY0103",
+    "modelName" : "고야드_세나",
+    "createdAt" : "2025-07-28 15:00:27",
+    "modifiedAt" : "2025-07-28 15:00:27"
+  }, {
+    "modelCode" : "BAGY0102",
+    "modelName" : "고야드_생루이",
+    "createdAt" : "2025-07-28 15:00:27",
+    "modifiedAt" : "2025-07-28 15:00:27"
+  }, {
+    "modelCode" : "BAGY0101",
+    "modelName" : "고야드_벨베데르",
+    "createdAt" : "2025-07-28 15:00:27",
+    "modifiedAt" : "2025-07-28 15:00:27"
+  }, {
+    "modelCode" : "BAGY0100",
+    "modelName" : "고야드_앙주",
+    "createdAt" : "2025-07-28 15:00:26",
+    "modifiedAt" : "2025-07-28 15:00:26"
+  }, {
+    "modelCode" : "BAGY0099",
+    "modelName" : "부르고뉴",
+    "createdAt" : "2025-06-19 14:46:39",
+    "modifiedAt" : "2025-06-19 14:47:30"
+  }, {
+    "modelCode" : "BAGY0098",
+    "modelName" : "볼테르",
+    "createdAt" : "2025-05-29 16:49:35",
+    "modifiedAt" : "2025-05-29 16:49:35"
+  }, {
+    "modelCode" : "BAGY0097",
+    "modelName" : "카페르",
+    "createdAt" : "2025-05-23 14:17:39",
+    "modifiedAt" : "2025-05-23 14:17:39"
+  }, {
+    "modelCode" : "BAGY0096",
+    "modelName" : "쥬방스",
+    "createdAt" : "2025-05-23 14:17:26",
+    "modifiedAt" : "2025-05-23 14:17:26"
+  }, {
+    "modelCode" : "BAGY0095",
+    "modelName" : "하디",
+    "createdAt" : "2025-05-23 14:16:37",
+    "modifiedAt" : "2025-05-23 14:16:37"
+  }, {
+    "modelCode" : "BAGY0094",
+    "modelName" : "알핀",
+    "createdAt" : "2025-05-23 14:16:11",
+    "modifiedAt" : "2025-05-23 14:16:11"
+  }, {
+    "modelCode" : "BAGY0093",
+    "modelName" : "233",
+    "createdAt" : "2025-05-23 14:15:43",
+    "modifiedAt" : "2025-05-23 14:15:43"
+  }, {
+    "modelCode" : "BAGY0092",
+    "modelName" : "벨샤스",
+    "createdAt" : "2025-05-23 14:15:02",
+    "modifiedAt" : "2025-05-23 14:15:02"
+  }, {
+    "modelCode" : "BAGY0091",
+    "modelName" : "아르투아",
+    "createdAt" : "2025-05-23 14:14:51",
+    "modifiedAt" : "2025-05-23 14:14:51"
+  }, {
+    "modelCode" : "BAGY0090",
+    "modelName" : "쁘띠플로",
+    "createdAt" : "2025-05-23 14:14:27",
+    "modifiedAt" : "2025-05-23 14:14:27"
+  }, {
+    "modelCode" : "BAGY0089",
+    "modelName" : "사이공",
+    "createdAt" : "2025-05-23 14:14:17",
+    "modifiedAt" : "2025-05-23 15:09:58"
+  }, {
+    "modelCode" : "BAGY0088",
+    "modelName" : "방돔",
+    "createdAt" : "2025-05-23 14:13:56",
+    "modifiedAt" : "2025-05-23 14:13:56"
+  }, {
+    "modelCode" : "BAGY0087",
+    "modelName" : "빌렛",
+    "createdAt" : "2025-05-23 14:13:18",
+    "modifiedAt" : "2025-05-23 14:13:18"
+  }, {
+    "modelCode" : "BAGY0086",
+    "modelName" : "벨베데르",
+    "createdAt" : "2025-05-23 14:13:08",
+    "modifiedAt" : "2025-05-23 14:13:08"
+  }, {
+    "modelCode" : "BAGY0085",
+    "modelName" : "보헴",
+    "createdAt" : "2025-05-23 14:12:43",
+    "modifiedAt" : "2025-05-23 14:12:43"
+  }, {
+    "modelCode" : "BAGY0084",
+    "modelName" : "루에뜨",
+    "createdAt" : "2025-05-23 14:12:19",
+    "modifiedAt" : "2025-05-23 14:12:19"
+  }, {
+    "modelCode" : "BAGY0083",
+    "modelName" : "포아티에",
+    "createdAt" : "2025-05-23 14:09:42",
+    "modifiedAt" : "2025-05-23 14:09:42"
+  }, {
+    "modelCode" : "BAGY0082",
+    "modelName" : "플뤼메",
+    "createdAt" : "2025-05-23 14:09:17",
+    "modifiedAt" : "2025-05-23 14:09:17"
+  }, {
+    "modelCode" : "BAGY0081",
+    "modelName" : "앙주",
+    "createdAt" : "2025-05-23 14:08:59",
+    "modifiedAt" : "2025-06-13 15:25:24"
+  }, {
+    "modelCode" : "BAGY0080",
+    "modelName" : "세나",
+    "createdAt" : "2025-05-23 14:08:41",
+    "modifiedAt" : "2025-06-09 18:19:33"
+  }, {
+    "modelCode" : "BAGY0079",
+    "modelName" : "생루이",
+    "createdAt" : "2025-05-23 14:08:26",
+    "modifiedAt" : "2025-06-09 18:22:23"
+  }, {
+    "modelCode" : "BAGU0356",
+    "modelName" : "1955 홀스빗 숄더_602204_기타소재",
+    "createdAt" : "2025-08-29 13:41:24",
+    "modifiedAt" : "2025-08-29 13:41:24"
+  }, {
+    "modelCode" : "BAGU0355",
+    "modelName" : "1955 홀스빗 숄더_602204_레더",
+    "createdAt" : "2025-08-28 17:19:38",
+    "modifiedAt" : "2025-08-29 13:39:41"
+  }, {
+    "modelCode" : "BAGU0354",
+    "modelName" : "1955 홀스빗 미니 숄더_658574_데님",
+    "createdAt" : "2025-08-28 17:00:36",
+    "modifiedAt" : "2025-08-28 17:00:36"
+  }, {
+    "modelCode" : "BAGU0353",
+    "modelName" : "1955 홀스빗 미니 숄더_658574_쟈가드",
+    "createdAt" : "2025-08-28 17:00:29",
+    "modifiedAt" : "2025-08-28 17:13:07"
+  }, {
+    "modelCode" : "BAGU0352",
+    "modelName" : "1955 홀스빗 미니 숄더_658574_레더",
+    "createdAt" : "2025-08-28 17:00:19",
+    "modifiedAt" : "2025-08-28 17:19:06"
+  }, {
+    "modelCode" : "BAGU0351",
+    "modelName" : "1955 홀스빗 미니 숄더_658574_PVC",
+    "createdAt" : "2025-08-28 16:57:01",
+    "modifiedAt" : "2025-08-28 17:01:10"
+  }, {
+    "modelCode" : "BAGU0350",
+    "modelName" : "1955 홀스빗 숄더_602204_PVC",
+    "createdAt" : "2025-08-28 16:54:44",
+    "modifiedAt" : "2025-08-28 17:17:19"
+  }, {
+    "modelCode" : "BAGU0349",
+    "modelName" : "마몽_벨트백(스퀘어)_마트라세",
+    "createdAt" : "2025-08-28 16:50:26",
+    "modifiedAt" : "2025-08-28 16:50:26"
+  }, {
+    "modelCode" : "BAGU0348",
+    "modelName" : "오피디아_라운드_기타소재",
+    "createdAt" : "2025-08-28 16:44:41",
+    "modifiedAt" : "2025-08-28 16:44:41"
+  }, {
+    "modelCode" : "BAGU0347",
+    "modelName" : "재키 1961 토트백_데님",
+    "createdAt" : "2025-08-28 16:37:27",
+    "modifiedAt" : "2025-08-28 16:37:27"
+  }, {
+    "modelCode" : "BAGU0346",
+    "modelName" : "재키 1961 토트백_레더",
+    "createdAt" : "2025-08-28 16:37:18",
+    "modifiedAt" : "2025-08-28 16:37:18"
+  }, {
+    "modelCode" : "BAGU0345",
+    "modelName" : "재키 1961 토트백_PVC",
+    "createdAt" : "2025-08-28 16:37:07",
+    "modifiedAt" : "2025-08-28 16:37:07"
+  }, {
+    "modelCode" : "BAGU0344",
+    "modelName" : "재키 1961_발렌시아가",
+    "createdAt" : "2025-08-28 16:35:32",
+    "modifiedAt" : "2025-08-28 16:35:32"
+  }, {
+    "modelCode" : "BAGU0343",
+    "modelName" : "재키 1961_데님",
+    "createdAt" : "2025-08-28 16:34:59",
+    "modifiedAt" : "2025-08-28 16:34:59"
+  }, {
+    "modelCode" : "BAGU0342",
+    "modelName" : "재키 1961_레더",
+    "createdAt" : "2025-08-28 16:32:37",
+    "modifiedAt" : "2025-08-28 16:32:37"
+  }, {
+    "modelCode" : "BAGU0341",
+    "modelName" : "블론디_버킷백",
+    "createdAt" : "2025-08-28 16:31:17",
+    "modifiedAt" : "2025-08-28 16:31:17"
+  }, {
+    "modelCode" : "BAGU0340",
+    "modelName" : "블론디_탑핸들",
+    "createdAt" : "2025-08-26 21:01:37",
+    "modifiedAt" : "2025-08-26 21:02:10"
+  }, {
+    "modelCode" : "BAGU0339",
+    "modelName" : "1955 홀스빗_버킷_레더",
+    "createdAt" : "2025-08-26 20:54:49",
+    "modifiedAt" : "2025-08-28 17:07:03"
+  }, {
+    "modelCode" : "BAGU0338",
+    "modelName" : "1955 홀스빗_버킷_쟈가드",
+    "createdAt" : "2025-08-26 20:53:46",
+    "modifiedAt" : "2025-08-26 20:53:46"
+  }, {
+    "modelCode" : "BAGU0337",
+    "modelName" : "르벨_탑핸들",
+    "createdAt" : "2025-08-26 20:52:17",
+    "modifiedAt" : "2025-08-26 20:53:01"
+  }, {
+    "modelCode" : "BAGU0336",
+    "modelName" : "마몽_벨트백_벨벳",
+    "createdAt" : "2025-08-26 20:47:05",
+    "modifiedAt" : "2025-08-26 20:47:05"
+  }, {
+    "modelCode" : "BAGU0335",
+    "modelName" : "마몽_플랩_쟈가드",
+    "createdAt" : "2025-08-26 20:44:58",
+    "modifiedAt" : "2025-08-26 20:44:58"
+  }, {
+    "modelCode" : "BAGU0334",
+    "modelName" : "마몽_탑핸들_쟈가드",
+    "createdAt" : "2025-08-26 20:44:04",
+    "modifiedAt" : "2025-08-26 20:44:04"
+  }, {
+    "modelCode" : "BAGU0333",
+    "modelName" : "마몽_쇼퍼백_마트라세",
+    "createdAt" : "2025-08-26 20:42:29",
+    "modifiedAt" : "2025-08-26 20:42:29"
+  }, {
+    "modelCode" : "BAGU0332",
+    "modelName" : "마몽 하프문_마트라세",
+    "createdAt" : "2025-08-26 20:41:18",
+    "modifiedAt" : "2025-08-26 20:41:18"
+  }, {
+    "modelCode" : "BAGU0331",
+    "modelName" : "마몽_벨트백_마트라세",
+    "createdAt" : "2025-08-26 20:40:58",
+    "modifiedAt" : "2025-08-28 16:51:35"
+  }, {
+    "modelCode" : "BAGU0330",
+    "modelName" : "마몽_탑핸들_마트라세",
+    "createdAt" : "2025-08-26 20:40:20",
+    "modifiedAt" : "2025-08-29 13:35:03"
+  }, {
+    "modelCode" : "BAGU0329",
+    "modelName" : "마몽_클러치_마트라세",
+    "createdAt" : "2025-08-26 20:39:36",
+    "modifiedAt" : "2025-08-26 20:39:36"
+  }, {
+    "modelCode" : "BAGU0328",
+    "modelName" : "마몽 버킷_마트라세",
+    "createdAt" : "2025-08-26 20:39:10",
+    "modifiedAt" : "2025-08-26 20:48:24"
+  }, {
+    "modelCode" : "BAGU0327",
+    "modelName" : "재키백_쟈가드_구형",
+    "createdAt" : "2025-08-26 20:38:05",
+    "modifiedAt" : "2025-08-26 20:38:05"
+  }, {
+    "modelCode" : "BAGU0326",
+    "modelName" : "수키백_데님",
+    "createdAt" : "2025-08-26 20:34:30",
+    "modifiedAt" : "2025-08-26 20:34:30"
+  }, {
+    "modelCode" : "BAGU0325",
+    "modelName" : "소호 탑핸들_레더",
+    "createdAt" : "2025-08-26 20:31:05",
+    "modifiedAt" : "2025-08-29 13:26:51"
+  }, {
+    "modelCode" : "BAGU0324",
+    "modelName" : "재키 1961 클러치_PVC",
+    "createdAt" : "2025-08-26 20:29:22",
+    "modifiedAt" : "2025-08-26 20:29:41"
+  }, {
+    "modelCode" : "BAGU0323",
+    "modelName" : "실비 1969_레더_미니 숄더",
+    "createdAt" : "2025-08-26 20:24:15",
+    "modifiedAt" : "2025-08-26 20:24:53"
+  }, {
+    "modelCode" : "BAGU0322",
+    "modelName" : "뱀부 1947_기타소재",
+    "createdAt" : "2025-08-26 20:22:20",
+    "modifiedAt" : "2025-08-26 20:22:20"
+  }, {
+    "modelCode" : "BAGU0321",
+    "modelName" : "뱀부 1947_쟈가드",
+    "createdAt" : "2025-08-26 20:17:10",
+    "modifiedAt" : "2025-08-26 20:23:30"
+  }, {
+    "modelCode" : "BAGU0320",
+    "modelName" : "뱀부 1947_레더",
+    "createdAt" : "2025-08-26 20:17:04",
+    "modifiedAt" : "2025-08-26 20:18:18"
+  }, {
+    "modelCode" : "BAGU0319",
+    "modelName" : "수키백_레더",
+    "createdAt" : "2025-08-26 20:12:34",
+    "modifiedAt" : "2025-08-26 20:32:06"
+  }, {
+    "modelCode" : "BAGU0318",
+    "modelName" : "수키백_쟈가드",
+    "createdAt" : "2025-08-26 20:12:26",
+    "modifiedAt" : "2025-08-26 20:34:46"
+  }, {
+    "modelCode" : "BAGU0317",
+    "modelName" : "뱀부 탑핸들",
+    "createdAt" : "2025-08-26 20:11:48",
+    "modifiedAt" : "2025-08-26 20:11:48"
+  }, {
+    "modelCode" : "BAGU0316",
+    "modelName" : "오피디아_PVC_반달 크로스",
+    "createdAt" : "2025-08-26 12:26:45",
+    "modifiedAt" : "2025-08-26 12:26:45"
+  }, {
+    "modelCode" : "BAGU0315",
+    "modelName" : "오피디아_PVC_라운드",
+    "createdAt" : "2025-08-26 12:25:43",
+    "modifiedAt" : "2025-08-26 12:25:43"
+  }, {
+    "modelCode" : "BAGU0314",
+    "modelName" : "인터로킹_레더_탑핸들",
+    "createdAt" : "2025-08-26 12:17:09",
+    "modifiedAt" : "2025-08-26 12:18:11"
+  }, {
+    "modelCode" : "BAGU0313",
+    "modelName" : "패드락_레더",
+    "createdAt" : "2025-08-26 12:16:28",
+    "modifiedAt" : "2025-08-26 12:16:28"
+  }, {
+    "modelCode" : "BAGU0312",
+    "modelName" : "주미_레더_클러치",
+    "createdAt" : "2025-08-26 12:15:40",
+    "modifiedAt" : "2025-08-26 12:16:07"
+  }, {
+    "modelCode" : "BAGU0311",
+    "modelName" : "패드락_PVC_탑핸들",
+    "createdAt" : "2025-08-26 12:14:45",
+    "modifiedAt" : "2025-08-26 12:15:05"
+  }, {
+    "modelCode" : "BAGU0310",
+    "modelName" : "패드락_PVC_플랩",
+    "createdAt" : "2025-08-26 12:13:09",
+    "modifiedAt" : "2025-08-26 12:15:14"
+  }, {
+    "modelCode" : "BAGU0309",
+    "modelName" : "실비_레더_탑핸들",
+    "createdAt" : "2025-08-26 12:08:58",
+    "modifiedAt" : "2025-08-26 12:09:52"
+  }, {
+    "modelCode" : "BAGU0308",
+    "modelName" : "소호 테슬_체인 숄더",
+    "createdAt" : "2025-08-26 12:07:37",
+    "modifiedAt" : "2025-08-26 12:08:17"
+  }, {
+    "modelCode" : "BAGU0307",
+    "modelName" : "소호 테슬_디스코",
+    "createdAt" : "2025-08-26 12:06:07",
+    "modifiedAt" : "2025-08-26 12:06:07"
+  }, {
+    "modelCode" : "BAGU0306",
+    "modelName" : "소호 테슬_클러치",
+    "createdAt" : "2025-08-26 12:05:40",
+    "modifiedAt" : "2025-08-26 12:08:12"
+  }, {
+    "modelCode" : "BAGU0305",
+    "modelName" : "디오니소스_레더_뱀부 탑핸들",
+    "createdAt" : "2025-08-26 12:04:21",
+    "modifiedAt" : "2025-08-26 12:04:31"
+  }, {
+    "modelCode" : "BAGU0304",
+    "modelName" : "디오니소스_PVC_탑핸들",
+    "createdAt" : "2025-08-26 12:01:17",
+    "modifiedAt" : "2025-08-26 12:02:09"
+  }, {
+    "modelCode" : "BAGU0303",
+    "modelName" : "디오니소스_PVC_미니 체인백",
+    "createdAt" : "2025-08-26 12:00:37",
+    "modifiedAt" : "2025-08-26 12:01:28"
+  }, {
+    "modelCode" : "BAGU0302",
+    "modelName" : "1955 홀스빗_탑핸들_레더",
+    "createdAt" : "2025-08-26 11:38:01",
+    "modifiedAt" : "2025-08-28 17:04:09"
+  }, {
+    "modelCode" : "BAGU0301",
+    "modelName" : "1955 홀스빗_버킷_PVC",
+    "createdAt" : "2025-08-26 11:33:39",
+    "modifiedAt" : "2025-08-26 11:33:39"
+  }, {
+    "modelCode" : "BAGU0300",
+    "modelName" : "1955 홀스빗_탑핸들_PVC",
+    "createdAt" : "2025-08-26 11:27:36",
+    "modifiedAt" : "2025-08-26 11:30:04"
+  }, {
+    "modelCode" : "BAGU0299",
+    "modelName" : "수프림 토트_프린팅",
+    "createdAt" : "2025-08-21 16:32:12",
+    "modifiedAt" : "2025-08-21 16:32:12"
+  }, {
+    "modelCode" : "BAGU0298",
+    "modelName" : "수프림 클러치_프린팅",
+    "createdAt" : "2025-08-21 16:29:55",
+    "modifiedAt" : "2025-08-21 16:29:55"
+  }, {
+    "modelCode" : "BAGU0297",
+    "modelName" : "구찌 수프림 토트_프린팅",
+    "createdAt" : "2025-08-21 16:29:23",
+    "modifiedAt" : "2025-08-21 16:29:23"
+  }, {
+    "modelCode" : "BAGU0296",
+    "modelName" : "블론디",
+    "createdAt" : "2025-07-31 17:05:03",
+    "modifiedAt" : "2025-08-26 21:02:00"
+  }, {
+    "modelCode" : "BAGU0295",
+    "modelName" : "구찌_수프림(1)",
+    "createdAt" : "2025-07-29 09:00:02",
+    "modifiedAt" : "2025-07-29 09:00:02"
+  }, {
+    "modelCode" : "BAGU0294",
+    "modelName" : "구찌_주미",
+    "createdAt" : "2025-07-29 09:00:02",
+    "modifiedAt" : "2025-07-29 09:00:02"
+  }, {
+    "modelCode" : "BAGU0293",
+    "modelName" : "구찌_홀스빗(1)",
+    "createdAt" : "2025-07-29 09:00:02",
+    "modifiedAt" : "2025-07-29 09:00:02"
+  }, {
+    "modelCode" : "BAGU0292",
+    "modelName" : "구찌_오피디아(1)",
+    "createdAt" : "2025-07-29 09:00:02",
+    "modifiedAt" : "2025-07-29 09:00:02"
+  }, {
+    "modelCode" : "BAGU0291",
+    "modelName" : "구찌_뱀부",
+    "createdAt" : "2025-07-29 09:00:02",
+    "modifiedAt" : "2025-07-29 09:00:02"
+  }, {
+    "modelCode" : "BAGU0290",
+    "modelName" : "구찌_재키",
+    "createdAt" : "2025-07-29 09:00:02",
+    "modifiedAt" : "2025-07-29 09:00:02"
+  }, {
+    "modelCode" : "BAGU0289",
+    "modelName" : "구찌_웹테크노",
+    "createdAt" : "2025-07-28 15:00:26",
+    "modifiedAt" : "2025-07-28 15:00:26"
+  }, {
+    "modelCode" : "BAGU0288",
+    "modelName" : "구찌_디오니소스",
+    "createdAt" : "2025-07-28 15:00:25",
+    "modifiedAt" : "2025-07-28 15:00:25"
+  }, {
+    "modelCode" : "BAGU0287",
+    "modelName" : "구찌_실비",
+    "createdAt" : "2025-07-28 15:00:24",
+    "modifiedAt" : "2025-07-28 15:00:24"
+  }, {
+    "modelCode" : "BAGU0286",
+    "modelName" : "구찌_패드락",
+    "createdAt" : "2025-07-28 15:00:24",
+    "modifiedAt" : "2025-07-28 15:00:24"
+  }, {
+    "modelCode" : "BAGU0285",
+    "modelName" : "구찌_홀스빗",
+    "createdAt" : "2025-07-28 15:00:24",
+    "modifiedAt" : "2025-07-28 15:00:24"
+  }, {
+    "modelCode" : "BAGU0284",
+    "modelName" : "구찌_클러치",
+    "createdAt" : "2025-07-28 15:00:23",
+    "modifiedAt" : "2025-07-28 15:00:23"
+  }, {
+    "modelCode" : "BAGU0283",
+    "modelName" : "구찌_오피디아",
+    "createdAt" : "2025-07-28 15:00:22",
+    "modifiedAt" : "2025-07-28 15:00:22"
+  }, {
+    "modelCode" : "BAGU0282",
+    "modelName" : "구찌_소호",
+    "createdAt" : "2025-07-28 15:00:22",
+    "modifiedAt" : "2025-07-28 15:00:22"
+  }, {
+    "modelCode" : "BAGU0281",
+    "modelName" : "구찌_수프림",
+    "createdAt" : "2025-07-28 15:00:22",
+    "modifiedAt" : "2025-07-28 15:00:22"
+  }, {
+    "modelCode" : "BAGU0280",
+    "modelName" : "구찌_사보이",
+    "createdAt" : "2025-07-28 15:00:22",
+    "modifiedAt" : "2025-07-28 15:00:22"
+  }, {
+    "modelCode" : "BAGU0279",
+    "modelName" : "구찌_마몽",
+    "createdAt" : "2025-07-28 15:00:22",
+    "modifiedAt" : "2025-07-28 15:00:22"
+  }, {
+    "modelCode" : "BAGU0278",
+    "modelName" : "구찌_인터로킹",
+    "createdAt" : "2025-07-28 15:00:21",
+    "modifiedAt" : "2025-07-28 15:00:21"
+  }, {
+    "modelCode" : "BAGU0277",
+    "modelName" : "미니돔_GG참",
+    "createdAt" : "2025-06-19 18:06:44",
+    "modifiedAt" : "2025-08-26 12:21:39"
+  }, {
+    "modelCode" : "BAGU0276",
+    "modelName" : "디오니소스_데님",
+    "createdAt" : "2025-06-05 18:14:27",
+    "modifiedAt" : "2025-08-26 12:04:40"
+  }, {
+    "modelCode" : "BAGU0275",
+    "modelName" : "디오니소스_레더",
+    "createdAt" : "2025-06-05 18:12:02",
+    "modifiedAt" : "2025-08-26 12:03:39"
+  }, {
+    "modelCode" : "BAGU0274",
+    "modelName" : "오피디아_스웨이드",
+    "createdAt" : "2025-06-05 18:04:44",
+    "modifiedAt" : "2025-06-05 18:04:44"
+  }, {
+    "modelCode" : "BAGU0273",
+    "modelName" : "1955 홀스빗_쟈가드3",
+    "createdAt" : "2025-06-05 17:28:53",
+    "modifiedAt" : "2025-06-05 17:28:53"
+  }, {
+    "modelCode" : "BAGU0272",
+    "modelName" : "1955 홀스빗_데님",
+    "createdAt" : "2025-06-05 17:20:03",
+    "modifiedAt" : "2025-06-05 17:20:03"
+  }, {
+    "modelCode" : "BAGU0271",
+    "modelName" : "1955 홀스빗_쟈가드2",
+    "createdAt" : "2025-06-05 17:16:03",
+    "modifiedAt" : "2025-06-05 17:16:03"
+  }, {
+    "modelCode" : "BAGU0270",
+    "modelName" : "르벨",
+    "createdAt" : "2025-05-28 17:01:51",
+    "modifiedAt" : "2025-08-26 12:18:23"
+  }, {
+    "modelCode" : "BAGU0269",
+    "modelName" : "인터로킹_PVC",
+    "createdAt" : "2025-05-28 17:00:43",
+    "modifiedAt" : "2025-05-28 17:00:43"
+  }, {
+    "modelCode" : "BAGU0268",
+    "modelName" : "오프 더 그리드",
+    "createdAt" : "2025-05-28 16:45:31",
+    "modifiedAt" : "2025-05-28 16:45:31"
+  }, {
+    "modelCode" : "BAGU0267",
+    "modelName" : "GG 수프림_1",
+    "createdAt" : "2025-05-28 16:38:12",
+    "modifiedAt" : "2025-05-28 16:38:12"
+  }, {
+    "modelCode" : "BAGU0266",
+    "modelName" : "1955 홀스빗_쟈가드",
+    "createdAt" : "2025-05-28 16:36:24",
+    "modifiedAt" : "2025-05-28 16:36:24"
+  }, {
+    "modelCode" : "BAGU0265",
+    "modelName" : "로고_레더",
+    "createdAt" : "2025-05-28 16:27:21",
+    "modifiedAt" : "2025-05-28 16:27:21"
+  }, {
+    "modelCode" : "BAGU0264",
+    "modelName" : "실비 1969_페이던트",
+    "createdAt" : "2025-05-28 16:22:02",
+    "modifiedAt" : "2025-08-26 20:28:17"
+  }, {
+    "modelCode" : "BAGU0263",
+    "modelName" : "미니돔",
+    "createdAt" : "2025-05-28 16:17:49",
+    "modifiedAt" : "2025-08-26 12:22:23"
+  }, {
+    "modelCode" : "BAGU0262",
+    "modelName" : "마몽_마틀라세_레더2",
+    "createdAt" : "2025-05-28 16:10:14",
+    "modifiedAt" : "2025-06-13 15:28:02"
+  }, {
+    "modelCode" : "BAGU0261",
+    "modelName" : "소호 테슬",
+    "createdAt" : "2025-05-28 16:01:16",
+    "modifiedAt" : "2025-08-26 12:07:52"
+  }, {
+    "modelCode" : "BAGU0260",
+    "modelName" : "재키 1961_PVC",
+    "createdAt" : "2025-05-28 11:27:38",
+    "modifiedAt" : "2025-08-26 20:29:27"
+  }, {
+    "modelCode" : "BAGU0259",
+    "modelName" : "인터로킹_레더",
+    "createdAt" : "2025-05-28 11:03:15",
+    "modifiedAt" : "2025-08-26 12:17:53"
+  }, {
+    "modelCode" : "BAGU0258",
+    "modelName" : "패드락_PVC",
+    "createdAt" : "2025-05-28 11:01:28",
+    "modifiedAt" : "2025-08-26 12:13:55"
+  }, {
+    "modelCode" : "BAGU0257",
+    "modelName" : "알리_레더",
+    "createdAt" : "2025-05-28 11:00:52",
+    "modifiedAt" : "2025-05-28 11:00:52"
+  }, {
+    "modelCode" : "BAGU0256",
+    "modelName" : "디오니소스_PVC",
+    "createdAt" : "2025-05-28 10:52:16",
+    "modifiedAt" : "2025-08-26 12:00:51"
+  }, {
+    "modelCode" : "BAGU0255",
+    "modelName" : "다이애나_쟈가드",
+    "createdAt" : "2025-05-28 10:51:27",
+    "modifiedAt" : "2025-05-28 10:51:27"
+  }, {
+    "modelCode" : "BAGU0254",
+    "modelName" : "다이애나_레더",
+    "createdAt" : "2025-05-28 10:51:12",
+    "modifiedAt" : "2025-08-26 12:20:34"
+  }, {
+    "modelCode" : "BAGU0253",
+    "modelName" : "실비 1969_레더",
+    "createdAt" : "2025-05-28 10:50:15",
+    "modifiedAt" : "2025-08-26 20:24:36"
+  }, {
+    "modelCode" : "BAGU0252",
+    "modelName" : "실비_레더",
+    "createdAt" : "2025-05-28 10:49:47",
+    "modifiedAt" : "2025-08-26 12:09:13"
+  }, {
+    "modelCode" : "BAGU0251",
+    "modelName" : "오피디아_레더",
+    "createdAt" : "2025-05-28 10:49:06",
+    "modifiedAt" : "2025-05-28 10:49:06"
+  }, {
+    "modelCode" : "BAGU0250",
+    "modelName" : "주미_레더",
+    "createdAt" : "2025-05-28 10:47:10",
+    "modifiedAt" : "2025-08-26 12:16:02"
+  }, {
+    "modelCode" : "BAGU0249",
+    "modelName" : "오피디아_PVC",
+    "createdAt" : "2025-05-28 10:46:04",
+    "modifiedAt" : "2025-05-28 10:46:04"
+  }, {
+    "modelCode" : "BAGU0248",
+    "modelName" : "1955 홀스빗_PVC",
+    "createdAt" : "2025-05-28 10:45:33",
+    "modifiedAt" : "2025-07-16 16:45:07"
+  }, {
+    "modelCode" : "BAGU0247",
+    "modelName" : "1955 홀스빗_레더",
+    "createdAt" : "2025-05-28 10:44:16",
+    "modifiedAt" : "2025-05-28 10:44:16"
+  }, {
+    "modelCode" : "BAGU0246",
+    "modelName" : "마몽_레더",
+    "createdAt" : "2025-05-28 10:41:50",
+    "modifiedAt" : "2025-06-13 15:27:16"
+  }, {
+    "modelCode" : "BAGU0245",
+    "modelName" : "마몽_쟈가드",
+    "createdAt" : "2025-05-28 10:41:31",
+    "modifiedAt" : "2025-05-28 10:41:31"
+  }, {
+    "modelCode" : "BAGU0244",
+    "modelName" : "마몽_마틀라세_벨벳",
+    "createdAt" : "2025-05-28 10:41:06",
+    "modifiedAt" : "2025-05-28 10:41:06"
+  }, {
+    "modelCode" : "BAGU0243",
+    "modelName" : "마몽_마틀라세_레더",
+    "createdAt" : "2025-05-28 10:40:43",
+    "modifiedAt" : "2025-06-13 15:27:30"
+  }, {
+    "modelCode" : "BAFR0061",
+    "modelName" : "페라가모_마고",
+    "createdAt" : "2025-07-29 09:00:02",
+    "modifiedAt" : "2025-07-29 09:00:02"
+  }, {
+    "modelCode" : "BAFR0060",
+    "modelName" : "페라가모_켈리백",
+    "createdAt" : "2025-07-29 09:00:01",
+    "modifiedAt" : "2025-07-29 09:00:01"
+  }, {
+    "modelCode" : "BAFR0059",
+    "modelName" : "페라가모_바라",
+    "createdAt" : "2025-07-28 15:00:21",
+    "modifiedAt" : "2025-07-28 15:00:21"
+  }, {
+    "modelCode" : "BAFR0058",
+    "modelName" : "페라가모_스튜디오",
+    "createdAt" : "2025-07-28 15:00:21",
+    "modifiedAt" : "2025-07-28 15:00:21"
+  }, {
+    "modelCode" : "BAFR0057",
+    "modelName" : "페라가모_에이미",
+    "createdAt" : "2025-07-28 15:00:21",
+    "modifiedAt" : "2025-07-28 15:00:21"
+  }, {
+    "modelCode" : "BAFE0124",
+    "modelName" : "피카부_쁘띠",
+    "createdAt" : "2025-08-27 20:00:31",
+    "modifiedAt" : "2025-08-27 20:00:31"
+  }, {
+    "modelCode" : "BAFE0123",
+    "modelName" : "피카부_이스트웨스트",
+    "createdAt" : "2025-08-27 19:59:25",
+    "modifiedAt" : "2025-08-27 19:59:25"
+  }, {
+    "modelCode" : "BAFE0122",
+    "modelName" : "피카부_라지",
+    "createdAt" : "2025-08-27 19:58:52",
+    "modifiedAt" : "2025-08-27 19:58:52"
+  }, {
+    "modelCode" : "BAFE0121",
+    "modelName" : "피카부_미듐(레귤러)",
+    "createdAt" : "2025-08-27 19:58:20",
+    "modifiedAt" : "2025-08-27 19:58:20"
+  }, {
+    "modelCode" : "BAFE0120",
+    "modelName" : "피카부_미니",
+    "createdAt" : "2025-08-27 19:57:14",
+    "modifiedAt" : "2025-08-27 19:57:14"
+  }, {
+    "modelCode" : "BAFE0119",
+    "modelName" : "바게트_가죽",
+    "createdAt" : "2025-08-22 18:04:32",
+    "modifiedAt" : "2025-08-22 18:04:32"
+  }, {
+    "modelCode" : "BAFE0118",
+    "modelName" : "바게트_패브릭",
+    "createdAt" : "2025-08-22 18:04:16",
+    "modifiedAt" : "2025-08-22 18:04:16"
+  }, {
+    "modelCode" : "BAFE0117",
+    "modelName" : "닷컴",
+    "createdAt" : "2025-08-22 18:03:22",
+    "modifiedAt" : "2025-08-22 18:03:22"
+  }, {
+    "modelCode" : "BAFE0116",
+    "modelName" : "트와쥬르",
+    "createdAt" : "2025-08-22 18:02:56",
+    "modifiedAt" : "2025-08-22 18:02:56"
+  }, {
+    "modelCode" : "BAFE0115",
+    "modelName" : "스파이",
+    "createdAt" : "2025-08-22 18:02:39",
+    "modifiedAt" : "2025-08-22 18:02:39"
+  }, {
+    "modelCode" : "BAFE0114",
+    "modelName" : "투쥬르",
+    "createdAt" : "2025-08-22 18:02:28",
+    "modifiedAt" : "2025-08-22 18:02:28"
+  }, {
+    "modelCode" : "BAFE0113",
+    "modelName" : "퍼스트백",
+    "createdAt" : "2025-08-22 18:02:18",
+    "modifiedAt" : "2025-08-22 18:02:18"
+  }, {
+    "modelCode" : "BAFE0112",
+    "modelName" : "바이더웨이",
+    "createdAt" : "2025-08-22 18:02:02",
+    "modifiedAt" : "2025-08-22 18:02:02"
+  }, {
+    "modelCode" : "BAFE0111",
+    "modelName" : "선샤인",
+    "createdAt" : "2025-08-22 18:01:32",
+    "modifiedAt" : "2025-08-22 18:01:32"
+  }, {
+    "modelCode" : "BAFE0110",
+    "modelName" : "펜디_닷컴",
+    "createdAt" : "2025-07-29 09:00:01",
+    "modifiedAt" : "2025-07-29 09:00:01"
+  }, {
+    "modelCode" : "BAFE0109",
+    "modelName" : "펜디_바이더웨이",
+    "createdAt" : "2025-07-29 09:00:01",
+    "modifiedAt" : "2025-07-29 09:00:01"
+  }, {
+    "modelCode" : "BAFE0108",
+    "modelName" : "펜디_캔아이(1)",
+    "createdAt" : "2025-07-29 09:00:01",
+    "modifiedAt" : "2025-07-29 09:00:01"
+  }, {
+    "modelCode" : "BAFE0107",
+    "modelName" : "펜디_카메라백",
+    "createdAt" : "2025-07-28 15:00:21",
+    "modifiedAt" : "2025-07-28 15:00:21"
+  }, {
+    "modelCode" : "BAFE0106",
+    "modelName" : "펜디_퍼스트백",
+    "createdAt" : "2025-07-28 15:00:21",
+    "modifiedAt" : "2025-07-28 15:00:21"
+  }, {
+    "modelCode" : "BAFE0105",
+    "modelName" : "펜디_펜디그라피",
+    "createdAt" : "2025-07-28 15:00:20",
+    "modifiedAt" : "2025-07-28 15:00:20"
+  }, {
+    "modelCode" : "BAFE0104",
+    "modelName" : "펜디_투쥬르",
+    "createdAt" : "2025-07-28 15:00:20",
+    "modifiedAt" : "2025-07-28 15:00:20"
+  }, {
+    "modelCode" : "BAFE0103",
+    "modelName" : "펜디_피카부",
+    "createdAt" : "2025-07-28 15:00:19",
+    "modifiedAt" : "2025-07-28 15:00:19"
+  }, {
+    "modelCode" : "BAFE0102",
+    "modelName" : "펜디_몬트레조",
+    "createdAt" : "2025-07-28 15:00:19",
+    "modifiedAt" : "2025-07-28 15:00:19"
+  }, {
+    "modelCode" : "BAFE0101",
+    "modelName" : "펜디_바게트",
+    "createdAt" : "2025-07-28 15:00:19",
+    "modifiedAt" : "2025-07-28 15:00:19"
+  }, {
+    "modelCode" : "BAFE0100",
+    "modelName" : "펜디_캔아이",
+    "createdAt" : "2025-07-28 15:00:18",
+    "modifiedAt" : "2025-07-28 15:00:18"
+  }, {
+    "modelCode" : "BAFE0099",
+    "modelName" : "펜디_선샤인",
+    "createdAt" : "2025-07-28 15:00:18",
+    "modifiedAt" : "2025-07-28 15:00:18"
+  }, {
+    "modelCode" : "BAFE0098",
+    "modelName" : "피카부",
+    "createdAt" : "2025-07-03 16:18:32",
+    "modifiedAt" : "2025-07-03 16:18:32"
+  }, {
+    "modelCode" : "BAF70119",
+    "modelName" : "발렌티노_V링",
+    "createdAt" : "2025-07-29 09:00:01",
+    "modifiedAt" : "2025-07-29 09:00:01"
+  }, {
+    "modelCode" : "BAF70118",
+    "modelName" : "발렌티노_락스터드(1)",
+    "createdAt" : "2025-07-29 09:00:01",
+    "modifiedAt" : "2025-07-29 09:00:01"
+  }, {
+    "modelCode" : "BAF70117",
+    "modelName" : "발렌티노_가라바니(1)",
+    "createdAt" : "2025-07-29 09:00:01",
+    "modifiedAt" : "2025-07-29 09:00:01"
+  }, {
+    "modelCode" : "BAF70116",
+    "modelName" : "발렌티노_VLTN",
+    "createdAt" : "2025-07-28 15:00:18",
+    "modifiedAt" : "2025-07-28 15:00:18"
+  }, {
+    "modelCode" : "BAF70115",
+    "modelName" : "발렌티노_가라바니",
+    "createdAt" : "2025-07-28 15:00:18",
+    "modifiedAt" : "2025-07-28 15:00:18"
+  }, {
+    "modelCode" : "BAF70114",
+    "modelName" : "발렌티노_V로고",
+    "createdAt" : "2025-07-28 15:00:17",
+    "modifiedAt" : "2025-07-28 15:00:17"
+  }, {
+    "modelCode" : "BAF70113",
+    "modelName" : "발렌티노_캔디스터드",
+    "createdAt" : "2025-07-28 15:00:17",
+    "modifiedAt" : "2025-07-28 15:00:17"
+  }, {
+    "modelCode" : "BAF70112",
+    "modelName" : "발렌티노_락스터드",
+    "createdAt" : "2025-07-28 15:00:16",
+    "modifiedAt" : "2025-07-28 15:00:16"
+  }, {
+    "modelCode" : "BACH0428",
+    "modelName" : "가브리엘 호보_미듐",
+    "createdAt" : "2025-08-27 19:30:59",
+    "modifiedAt" : "2025-08-27 19:33:14"
+  }, {
+    "modelCode" : "BACH0427",
+    "modelName" : "가브리엘 호보_뉴미듐",
+    "createdAt" : "2025-08-27 19:30:42",
+    "modifiedAt" : "2025-08-27 19:30:42"
+  }, {
+    "modelCode" : "BACH0426",
+    "modelName" : "가브리엘 호보_스몰",
+    "createdAt" : "2025-08-27 19:30:15",
+    "modifiedAt" : "2025-08-27 19:30:15"
+  }, {
+    "modelCode" : "BACH0425",
+    "modelName" : "보이 플랩백_기타소재",
+    "createdAt" : "2025-08-27 19:29:34",
+    "modifiedAt" : "2025-08-27 19:29:34"
+  }, {
+    "modelCode" : "BACH0424",
+    "modelName" : "보이 플랩백_캐비어",
+    "createdAt" : "2025-08-27 19:29:16",
+    "modifiedAt" : "2025-08-27 19:29:16"
+  }, {
+    "modelCode" : "BACH0423",
+    "modelName" : "보이백 라지_기타소재",
+    "createdAt" : "2025-08-27 19:28:54",
+    "modifiedAt" : "2025-08-27 19:28:54"
+  }, {
+    "modelCode" : "BACH0422",
+    "modelName" : "보이백 뉴미듐_기타소재",
+    "createdAt" : "2025-08-27 19:28:35",
+    "modifiedAt" : "2025-08-27 19:28:35"
+  }, {
+    "modelCode" : "BACH0421",
+    "modelName" : "보이백 스몰_기타소재",
+    "createdAt" : "2025-08-27 19:28:21",
+    "modifiedAt" : "2025-08-27 19:28:21"
+  }, {
+    "modelCode" : "BACH0420",
+    "modelName" : "보이백 미듐_기타소재",
+    "createdAt" : "2025-08-27 19:27:57",
+    "modifiedAt" : "2025-08-27 19:27:57"
+  }, {
+    "modelCode" : "BACH0419",
+    "modelName" : "보이백 뉴미듐_캐비어",
+    "createdAt" : "2025-08-27 19:27:02",
+    "modifiedAt" : "2025-08-27 19:27:02"
+  }, {
+    "modelCode" : "BACH0418",
+    "modelName" : "보이백 스몰_캐비어",
+    "createdAt" : "2025-08-27 19:26:52",
+    "modifiedAt" : "2025-08-27 19:26:52"
+  }, {
+    "modelCode" : "BACH0417",
+    "modelName" : "보이백 미듐_캐비어",
+    "createdAt" : "2025-08-27 19:26:40",
+    "modifiedAt" : "2025-08-27 19:26:40"
+  }, {
+    "modelCode" : "BACH0416",
+    "modelName" : "22백 라지_38",
+    "createdAt" : "2025-08-27 19:25:09",
+    "modifiedAt" : "2025-08-27 19:25:09"
+  }, {
+    "modelCode" : "BACH0415",
+    "modelName" : "22백 미듐_35",
+    "createdAt" : "2025-08-27 19:23:21",
+    "modifiedAt" : "2025-08-27 19:23:21"
+  }, {
+    "modelCode" : "BACH0414",
+    "modelName" : "22백 스몰_30",
+    "createdAt" : "2025-08-27 19:22:37",
+    "modifiedAt" : "2025-08-27 19:22:37"
+  }, {
+    "modelCode" : "BACH0413",
+    "modelName" : "22 백팩",
+    "createdAt" : "2025-08-27 19:20:49",
+    "modifiedAt" : "2025-08-27 19:20:49"
+  }, {
+    "modelCode" : "BACH0412",
+    "modelName" : "22백 미니",
+    "createdAt" : "2025-08-27 19:20:17",
+    "modifiedAt" : "2025-08-27 19:20:17"
+  }, {
+    "modelCode" : "BACH0411",
+    "modelName" : "트렌디CC_라지",
+    "createdAt" : "2025-08-27 19:18:35",
+    "modifiedAt" : "2025-08-27 19:18:35"
+  }, {
+    "modelCode" : "BACH0410",
+    "modelName" : "트렌디CC_미듐",
+    "createdAt" : "2025-08-27 19:18:05",
+    "modifiedAt" : "2025-08-27 19:18:05"
+  }, {
+    "modelCode" : "BACH0409",
+    "modelName" : "트렌디CC_스몰",
+    "createdAt" : "2025-08-27 19:15:51",
+    "modifiedAt" : "2025-08-27 19:15:51"
+  }, {
+    "modelCode" : "BACH0408",
+    "modelName" : "코코핸들19_캐비어",
+    "createdAt" : "2025-08-27 19:06:59",
+    "modifiedAt" : "2025-08-27 19:06:59"
+  }, {
+    "modelCode" : "BACH0407",
+    "modelName" : "코코핸들31_캐비어",
+    "createdAt" : "2025-08-27 19:06:37",
+    "modifiedAt" : "2025-08-27 19:08:10"
+  }, {
+    "modelCode" : "BACH0406",
+    "modelName" : "코코핸들28_캐비어",
+    "createdAt" : "2025-08-27 19:06:04",
+    "modifiedAt" : "2025-08-27 19:08:02"
+  }, {
+    "modelCode" : "BACH0405",
+    "modelName" : "코코핸들23_캐비어",
+    "createdAt" : "2025-08-27 19:05:41",
+    "modifiedAt" : "2025-08-27 19:07:56"
+  }, {
+    "modelCode" : "BACH0404",
+    "modelName" : "클래식 뉴미니_기타소재",
+    "createdAt" : "2025-08-27 19:03:49",
+    "modifiedAt" : "2025-08-27 19:03:49"
+  }, {
+    "modelCode" : "BACH0403",
+    "modelName" : "골든볼 뉴미니",
+    "createdAt" : "2025-08-27 19:01:22",
+    "modifiedAt" : "2025-08-27 19:01:22"
+  }, {
+    "modelCode" : "BACH0402",
+    "modelName" : "골든볼 쁘띠삭",
+    "createdAt" : "2025-08-27 19:01:07",
+    "modifiedAt" : "2025-08-27 19:01:07"
+  }, {
+    "modelCode" : "BACH0401",
+    "modelName" : "비지니스 어피니티_백팩",
+    "createdAt" : "2025-08-27 18:57:33",
+    "modifiedAt" : "2025-08-27 18:57:33"
+  }, {
+    "modelCode" : "BACH0400",
+    "modelName" : "19 백팩",
+    "createdAt" : "2025-08-27 18:55:47",
+    "modifiedAt" : "2025-08-27 19:17:37"
+  }, {
+    "modelCode" : "BACH0399",
+    "modelName" : "19 플랩백 맥시",
+    "createdAt" : "2025-08-27 18:54:54",
+    "modifiedAt" : "2025-08-27 18:56:38"
+  }, {
+    "modelCode" : "BACH0398",
+    "modelName" : "19 플랩백 스몰",
+    "createdAt" : "2025-08-27 18:54:24",
+    "modifiedAt" : "2025-08-27 18:56:46"
+  }, {
+    "modelCode" : "BACH0397",
+    "modelName" : "19 플랩백 라지",
+    "createdAt" : "2025-08-27 18:53:43",
+    "modifiedAt" : "2025-08-27 18:56:19"
+  }, {
+    "modelCode" : "BACH0396",
+    "modelName" : "19 플랩백 라지_트위드",
+    "createdAt" : "2025-08-27 18:53:30",
+    "modifiedAt" : "2025-08-27 18:56:25"
+  }, {
+    "modelCode" : "BACH0395",
+    "modelName" : "트래블 맥시 클래식",
+    "createdAt" : "2025-08-27 18:52:56",
+    "modifiedAt" : "2025-08-27 18:52:56"
+  }, {
+    "modelCode" : "BACH0394",
+    "modelName" : "뉴클래식 바게트_캐비어",
+    "createdAt" : "2025-08-27 18:51:04",
+    "modifiedAt" : "2025-08-27 18:58:00"
+  }, {
+    "modelCode" : "BACH0393",
+    "modelName" : "코코 카바스",
+    "createdAt" : "2025-08-27 18:41:54",
+    "modifiedAt" : "2025-08-27 19:14:38"
+  }, {
+    "modelCode" : "BACH0392",
+    "modelName" : "탑핸들 뉴미니_페이던트",
+    "createdAt" : "2025-08-27 18:41:16",
+    "modifiedAt" : "2025-08-27 18:41:16"
+  }, {
+    "modelCode" : "BACH0391",
+    "modelName" : "탑핸들 뉴미니_램스킨",
+    "createdAt" : "2025-08-27 18:41:11",
+    "modifiedAt" : "2025-08-27 18:41:11"
+  }, {
+    "modelCode" : "BACH0390",
+    "modelName" : "탑핸들 뉴미니_캐비어",
+    "createdAt" : "2025-08-27 18:41:06",
+    "modifiedAt" : "2025-08-27 18:41:06"
+  }, {
+    "modelCode" : "BACH0389",
+    "modelName" : "클래식 쁘띠삭_기타소재",
+    "createdAt" : "2025-08-27 18:40:54",
+    "modifiedAt" : "2025-08-27 18:40:54"
+  }, {
+    "modelCode" : "BACH0388",
+    "modelName" : "클래식 WOC_기타소재",
+    "createdAt" : "2025-08-27 18:39:50",
+    "modifiedAt" : "2025-08-27 18:39:50"
+  }, {
+    "modelCode" : "BACH0387",
+    "modelName" : "클래식 WOC_페이던트",
+    "createdAt" : "2025-08-27 18:39:41",
+    "modifiedAt" : "2025-08-27 18:39:41"
+  }, {
+    "modelCode" : "BACH0386",
+    "modelName" : "클래식 WOC_캐비어",
+    "createdAt" : "2025-08-27 18:39:36",
+    "modifiedAt" : "2025-08-27 18:39:36"
+  }, {
+    "modelCode" : "BACH0385",
+    "modelName" : "클래식_빈티지 구형",
+    "createdAt" : "2025-08-27 18:38:30",
+    "modifiedAt" : "2025-08-27 18:38:30"
+  }, {
+    "modelCode" : "BACH0384",
+    "modelName" : "클래식 맥시_기타소재",
+    "createdAt" : "2025-08-27 18:38:15",
+    "modifiedAt" : "2025-08-27 18:38:15"
+  }, {
+    "modelCode" : "BACH0383",
+    "modelName" : "클래식 점보_기타소재",
+    "createdAt" : "2025-08-27 18:38:10",
+    "modifiedAt" : "2025-08-27 18:38:10"
+  }, {
+    "modelCode" : "BACH0382",
+    "modelName" : "클래식 미듐_기타소재",
+    "createdAt" : "2025-08-27 18:38:01",
+    "modifiedAt" : "2025-08-27 18:38:01"
+  }, {
+    "modelCode" : "BACH0381",
+    "modelName" : "클래식 스몰_기타소재",
+    "createdAt" : "2025-08-27 18:37:50",
+    "modifiedAt" : "2025-08-27 18:37:50"
+  }, {
+    "modelCode" : "BACH0380",
+    "modelName" : "클래식 맥시_페이던트",
+    "createdAt" : "2025-08-27 18:37:38",
+    "modifiedAt" : "2025-08-27 18:37:38"
+  }, {
+    "modelCode" : "BACH0379",
+    "modelName" : "클래식 점보_페이던트",
+    "createdAt" : "2025-08-27 18:37:31",
+    "modifiedAt" : "2025-08-27 18:37:31"
+  }, {
+    "modelCode" : "BACH0378",
+    "modelName" : "클래식 미듐_페이던트",
+    "createdAt" : "2025-08-27 18:37:24",
+    "modifiedAt" : "2025-08-27 18:37:24"
+  }, {
+    "modelCode" : "BACH0377",
+    "modelName" : "클래식 스몰_페이던트",
+    "createdAt" : "2025-08-27 18:37:16",
+    "modifiedAt" : "2025-08-27 18:37:16"
+  }, {
+    "modelCode" : "BACH0376",
+    "modelName" : "클래식 뉴미니_페이던트",
+    "createdAt" : "2025-08-27 18:37:09",
+    "modifiedAt" : "2025-08-27 18:37:09"
+  }, {
+    "modelCode" : "BACH0375",
+    "modelName" : "클래식 쁘띠삭_페이던트",
+    "createdAt" : "2025-08-27 18:37:02",
+    "modifiedAt" : "2025-08-27 18:37:02"
+  }, {
+    "modelCode" : "BACH0374",
+    "modelName" : "클래식 쁘띠삭_트위드",
+    "createdAt" : "2025-08-27 18:36:50",
+    "modifiedAt" : "2025-08-27 18:36:50"
+  }, {
+    "modelCode" : "BACH0373",
+    "modelName" : "클래식 쁘띠삭_캐비어",
+    "createdAt" : "2025-08-27 18:36:43",
+    "modifiedAt" : "2025-08-27 18:36:43"
+  }, {
+    "modelCode" : "BACH0372",
+    "modelName" : "클래식 뉴미니_캐비어",
+    "createdAt" : "2025-08-27 18:36:34",
+    "modifiedAt" : "2025-08-27 18:36:34"
+  }, {
+    "modelCode" : "BACH0371",
+    "modelName" : "클래식 뉴미니_트위드",
+    "createdAt" : "2025-08-27 18:36:27",
+    "modifiedAt" : "2025-08-27 18:36:27"
+  }, {
+    "modelCode" : "BACH0370",
+    "modelName" : "클래식 점보_트위드",
+    "createdAt" : "2025-08-27 18:36:06",
+    "modifiedAt" : "2025-08-27 18:36:06"
+  }, {
+    "modelCode" : "BACH0369",
+    "modelName" : "클래식 미듐_트위드",
+    "createdAt" : "2025-08-27 18:36:00",
+    "modifiedAt" : "2025-08-27 18:36:00"
+  }, {
+    "modelCode" : "BACH0368",
+    "modelName" : "클래식 스몰_트위드",
+    "createdAt" : "2025-08-27 18:35:53",
+    "modifiedAt" : "2025-08-27 18:35:53"
+  }, {
+    "modelCode" : "BACH0367",
+    "modelName" : "클래식 맥시_캐비어",
+    "createdAt" : "2025-08-27 18:35:42",
+    "modifiedAt" : "2025-08-27 18:35:42"
+  }, {
+    "modelCode" : "BACH0366",
+    "modelName" : "클래식 점보_캐비어",
+    "createdAt" : "2025-08-27 18:35:35",
+    "modifiedAt" : "2025-08-27 18:35:35"
+  }, {
+    "modelCode" : "BACH0365",
+    "modelName" : "클래식 미듐_캐비어",
+    "createdAt" : "2025-08-27 18:35:27",
+    "modifiedAt" : "2025-08-27 18:35:27"
+  }, {
+    "modelCode" : "BACH0364",
+    "modelName" : "클래식 스몰_캐비어",
+    "createdAt" : "2025-08-27 18:35:20",
+    "modifiedAt" : "2025-08-27 18:35:20"
+  }, {
+    "modelCode" : "BACH0363",
+    "modelName" : "인더믹스",
+    "createdAt" : "2025-08-26 19:18:28",
+    "modifiedAt" : "2025-08-26 19:18:28"
+  }, {
+    "modelCode" : "BACH0362",
+    "modelName" : "마드모아젤_클러치",
+    "createdAt" : "2025-08-26 19:17:59",
+    "modifiedAt" : "2025-08-26 19:17:59"
+  }, {
+    "modelCode" : "BACH0361",
+    "modelName" : "체인 달린 미니 크로스백_페이던트",
+    "createdAt" : "2025-08-25 14:43:51",
+    "modifiedAt" : "2025-08-25 14:45:48"
+  }, {
+    "modelCode" : "BACH0360",
+    "modelName" : "캐슬락",
+    "createdAt" : "2025-08-25 14:32:54",
+    "modifiedAt" : "2025-08-25 14:35:31"
+  }, {
+    "modelCode" : "BACH0359",
+    "modelName" : "비아리츠",
+    "createdAt" : "2025-08-25 14:32:08",
+    "modifiedAt" : "2025-08-25 14:35:04"
+  }, {
+    "modelCode" : "BACH0358",
+    "modelName" : "모던시티",
+    "createdAt" : "2025-08-25 14:31:47",
+    "modifiedAt" : "2025-08-25 14:34:47"
+  }, {
+    "modelCode" : "BACH0357",
+    "modelName" : "쓰리웨이_레더",
+    "createdAt" : "2025-08-25 14:31:31",
+    "modifiedAt" : "2025-08-25 14:36:47"
+  }, {
+    "modelCode" : "BACH0356",
+    "modelName" : "마드모아젤 볼링백",
+    "createdAt" : "2025-08-25 14:31:11",
+    "modifiedAt" : "2025-08-25 14:34:56"
+  }, {
+    "modelCode" : "BACH0355",
+    "modelName" : "이니셜 로고 플랩백",
+    "createdAt" : "2025-08-14 09:14:16",
+    "modifiedAt" : "2025-08-14 09:14:16"
+  }, {
+    "modelCode" : "BACH0354",
+    "modelName" : "샤넬_코코코인백",
+    "createdAt" : "2025-07-29 09:00:01",
+    "modifiedAt" : "2025-07-29 09:00:01"
+  }, {
+    "modelCode" : "BACH0353",
+    "modelName" : "샤넬_가브리엘(1)",
+    "createdAt" : "2025-07-29 09:00:01",
+    "modifiedAt" : "2025-07-29 09:00:01"
+  }, {
+    "modelCode" : "BACH0352",
+    "modelName" : "샤넬_서프백",
+    "createdAt" : "2025-07-29 09:00:01",
+    "modifiedAt" : "2025-07-29 09:00:01"
+  }, {
+    "modelCode" : "BACH0351",
+    "modelName" : "샤넬_19백",
+    "createdAt" : "2025-07-29 09:00:01",
+    "modifiedAt" : "2025-07-29 09:00:01"
+  }, {
+    "modelCode" : "BACH0350",
+    "modelName" : "샤넬_호보백",
+    "createdAt" : "2025-07-29 09:00:01",
+    "modifiedAt" : "2025-07-29 09:00:01"
+  }, {
+    "modelCode" : "BACH0349",
+    "modelName" : "샤넬_보이백",
+    "createdAt" : "2025-07-28 15:00:16",
+    "modifiedAt" : "2025-07-28 15:00:16"
+  }, {
+    "modelCode" : "BACH0348",
+    "modelName" : "샤넬_도빌",
+    "createdAt" : "2025-07-28 15:00:16",
+    "modifiedAt" : "2025-07-28 15:00:16"
+  }, {
+    "modelCode" : "BACH0347",
+    "modelName" : "샤넬_깜봉",
+    "createdAt" : "2025-07-28 15:00:16",
+    "modifiedAt" : "2025-07-28 15:00:16"
+  }, {
+    "modelCode" : "BACH0346",
+    "modelName" : "샤넬_클래식",
+    "createdAt" : "2025-07-28 15:00:16",
+    "modifiedAt" : "2025-07-28 15:00:16"
+  }, {
+    "modelCode" : "BACH0345",
+    "modelName" : "샤넬_코스메틱",
+    "createdAt" : "2025-07-28 15:00:16",
+    "modifiedAt" : "2025-07-28 15:00:16"
+  }, {
+    "modelCode" : "BACH0344",
+    "modelName" : "샤넬_31백",
+    "createdAt" : "2025-07-28 15:00:15",
+    "modifiedAt" : "2025-07-28 15:00:15"
+  }, {
+    "modelCode" : "BACH0343",
+    "modelName" : "샤넬_하트백",
+    "createdAt" : "2025-07-28 15:00:15",
+    "modifiedAt" : "2025-07-28 15:00:15"
+  }, {
+    "modelCode" : "BACH0342",
+    "modelName" : "샤넬_가브리엘",
+    "createdAt" : "2025-07-28 15:00:15",
+    "modifiedAt" : "2025-07-28 15:00:15"
+  }, {
+    "modelCode" : "BACH0341",
+    "modelName" : "보이 WOC",
+    "createdAt" : "2025-06-04 14:42:07",
+    "modifiedAt" : "2025-06-04 14:42:07"
+  }, {
+    "modelCode" : "BACH0340",
+    "modelName" : "19 동그리",
+    "createdAt" : "2025-06-04 14:03:13",
+    "modifiedAt" : "2025-08-25 14:37:16"
+  }, {
+    "modelCode" : "BACH0339",
+    "modelName" : "25백",
+    "createdAt" : "2025-06-04 11:59:06",
+    "modifiedAt" : "2025-06-04 11:59:06"
+  }, {
+    "modelCode" : "BACH0338",
+    "modelName" : "2.55 WOC",
+    "createdAt" : "2025-06-04 11:52:13",
+    "modifiedAt" : "2025-08-25 14:33:30"
+  }, {
+    "modelCode" : "BACH0337",
+    "modelName" : "19 WOC",
+    "createdAt" : "2025-06-04 09:05:06",
+    "modifiedAt" : "2025-08-25 14:33:21"
+  }, {
+    "modelCode" : "BACH0336",
+    "modelName" : "클래식 뉴미니, 쁘띠삭",
+    "createdAt" : "2025-05-29 15:06:25",
+    "modifiedAt" : "2025-08-27 19:03:49"
+  }, {
+    "modelCode" : "BACH0335",
+    "modelName" : "정방백",
+    "createdAt" : "2025-05-28 15:31:45",
+    "modifiedAt" : "2025-05-28 15:31:45"
+  }, {
+    "modelCode" : "BACH0334",
+    "modelName" : "서프",
+    "createdAt" : "2025-05-28 15:02:20",
+    "modifiedAt" : "2025-08-25 14:35:55"
+  }, {
+    "modelCode" : "BACH0333",
+    "modelName" : "호보백_페이던트",
+    "createdAt" : "2025-05-28 15:01:40",
+    "modifiedAt" : "2025-08-25 14:37:46"
+  }, {
+    "modelCode" : "BACH0332",
+    "modelName" : "하트",
+    "createdAt" : "2025-05-28 14:59:19",
+    "modifiedAt" : "2025-08-25 14:37:51"
+  }, {
+    "modelCode" : "BACH0331",
+    "modelName" : "클래식 WOC",
+    "createdAt" : "2025-05-28 14:58:14",
+    "modifiedAt" : "2025-08-27 19:04:31"
+  }, {
+    "modelCode" : "BACH0330",
+    "modelName" : "클래식 베니티",
+    "createdAt" : "2025-05-28 14:56:43",
+    "modifiedAt" : "2025-08-25 14:38:03"
+  }, {
+    "modelCode" : "BACH0329",
+    "modelName" : "클래식 클러치",
+    "createdAt" : "2025-05-28 14:54:42",
+    "modifiedAt" : "2025-08-25 14:38:17"
+  }, {
+    "modelCode" : "BACH0328",
+    "modelName" : "보이 클러치",
+    "createdAt" : "2025-05-28 14:54:17",
+    "modifiedAt" : "2025-05-28 14:54:17"
+  }, {
+    "modelCode" : "BACH0327",
+    "modelName" : "가브리엘 클러치",
+    "createdAt" : "2025-05-28 14:53:50",
+    "modifiedAt" : "2025-08-25 14:33:36"
+  }, {
+    "modelCode" : "BACH0326",
+    "modelName" : "19 클러치",
+    "createdAt" : "2025-05-28 14:53:30",
+    "modifiedAt" : "2025-05-28 14:53:30"
+  }, {
+    "modelCode" : "BACH0325",
+    "modelName" : "코인백",
+    "createdAt" : "2025-05-28 14:52:58",
+    "modifiedAt" : "2025-08-25 14:40:50"
+  }, {
+    "modelCode" : "BACH0324",
+    "modelName" : "비지니스 어피니티",
+    "createdAt" : "2025-05-28 14:51:28",
+    "modifiedAt" : "2025-08-25 14:35:13"
+  }, {
+    "modelCode" : "BACH0323",
+    "modelName" : "어반스피릿 백팩",
+    "createdAt" : "2025-05-28 14:49:35",
+    "modifiedAt" : "2025-08-25 14:36:07"
+  }, {
+    "modelCode" : "BACH0322",
+    "modelName" : "보이",
+    "createdAt" : "2025-05-28 14:48:41",
+    "modifiedAt" : "2025-08-27 19:26:40"
+  }, {
+    "modelCode" : "BACH0321",
+    "modelName" : "듀마백팩",
+    "createdAt" : "2025-05-28 14:44:27",
+    "modifiedAt" : "2025-05-28 14:44:27"
+  }, {
+    "modelCode" : "BACH0320",
+    "modelName" : "네오백",
+    "createdAt" : "2025-05-28 14:43:49",
+    "modifiedAt" : "2025-08-25 14:33:57"
+  }, {
+    "modelCode" : "BACH0319",
+    "modelName" : "깜봉",
+    "createdAt" : "2025-05-28 14:42:13",
+    "modifiedAt" : "2025-08-25 14:33:47"
+  }, {
+    "modelCode" : "BACH0318",
+    "modelName" : "그랜드샤핑",
+    "createdAt" : "2025-05-28 14:41:10",
+    "modifiedAt" : "2025-05-28 14:41:10"
+  }, {
+    "modelCode" : "BACH0317",
+    "modelName" : "코스메틱",
+    "createdAt" : "2025-05-28 14:40:11",
+    "modifiedAt" : "2025-08-25 14:35:47"
+  }, {
+    "modelCode" : "BACH0316",
+    "modelName" : "31 쇼핑",
+    "createdAt" : "2025-05-28 14:39:03",
+    "modifiedAt" : "2025-08-25 14:37:07"
+  }, {
+    "modelCode" : "BACH0315",
+    "modelName" : "가브리엘 호보",
+    "createdAt" : "2025-05-28 10:34:29",
+    "modifiedAt" : "2025-05-28 10:34:29"
+  }, {
+    "modelCode" : "BACH0314",
+    "modelName" : "가브리엘",
+    "createdAt" : "2025-05-21 15:56:10",
+    "modifiedAt" : "2025-05-21 15:56:10"
+  }, {
+    "modelCode" : "BACH0313",
+    "modelName" : "도빌",
+    "createdAt" : "2025-05-21 15:53:57",
+    "modifiedAt" : "2025-05-21 15:53:57"
+  }, {
+    "modelCode" : "BACH0312",
+    "modelName" : "19",
+    "createdAt" : "2025-05-21 15:53:18",
+    "modifiedAt" : "2025-08-27 18:54:24"
+  }, {
+    "modelCode" : "BACH0311",
+    "modelName" : "트렌디CC",
+    "createdAt" : "2025-05-21 15:52:35",
+    "modifiedAt" : "2025-08-27 19:15:51"
+  }, {
+    "modelCode" : "BACH0310",
+    "modelName" : "코코핸들",
+    "createdAt" : "2025-05-21 15:50:24",
+    "modifiedAt" : "2025-08-27 19:05:41"
+  }, {
+    "modelCode" : "BACH0309",
+    "modelName" : "켈리백",
+    "createdAt" : "2025-05-21 15:49:40",
+    "modifiedAt" : "2025-08-25 14:35:40"
+  }, {
+    "modelCode" : "BACH0308",
+    "modelName" : "22백",
+    "createdAt" : "2025-05-21 15:47:49",
+    "modifiedAt" : "2025-08-27 19:22:37"
+  }, {
+    "modelCode" : "BACH0307",
+    "modelName" : "2.55",
+    "createdAt" : "2025-05-21 15:04:18",
+    "modifiedAt" : "2025-05-21 15:04:18"
+  }, {
+    "modelCode" : "BACH0306",
+    "modelName" : "클래식",
+    "createdAt" : "2025-05-21 14:56:40",
+    "modifiedAt" : "2025-08-27 18:43:07"
+  }, {
+    "modelCode" : "BACE0177",
+    "modelName" : "루이즈",
+    "createdAt" : "2025-08-26 16:26:13",
+    "modifiedAt" : "2025-08-26 16:26:42"
+  }, {
+    "modelCode" : "BACE0176",
+    "modelName" : "파니에 숄더백",
+    "createdAt" : "2025-08-26 16:20:50",
+    "modifiedAt" : "2025-08-26 16:22:46"
+  }, {
+    "modelCode" : "BACE0175",
+    "modelName" : "트라이앵글_레더",
+    "createdAt" : "2025-08-26 16:13:13",
+    "modifiedAt" : "2025-08-26 16:13:13"
+  }, {
+    "modelCode" : "BACE0174",
+    "modelName" : "로미백",
+    "createdAt" : "2025-08-26 12:47:48",
+    "modifiedAt" : "2025-08-26 16:27:40"
+  }, {
+    "modelCode" : "BACE0173",
+    "modelName" : "테겔백",
+    "createdAt" : "2025-08-26 12:47:16",
+    "modifiedAt" : "2025-08-26 12:47:16"
+  }, {
+    "modelCode" : "BACE0172",
+    "modelName" : "아폴린",
+    "createdAt" : "2025-08-26 12:46:26",
+    "modifiedAt" : "2025-08-26 12:46:26"
+  }, {
+    "modelCode" : "BACE0171",
+    "modelName" : "트리폴드백",
+    "createdAt" : "2025-08-26 12:46:15",
+    "modifiedAt" : "2025-08-26 16:15:43"
+  }, {
+    "modelCode" : "BACE0170",
+    "modelName" : "크로크",
+    "createdAt" : "2025-08-26 12:46:01",
+    "modifiedAt" : "2025-08-26 12:46:01"
+  }, {
+    "modelCode" : "BACE0169",
+    "modelName" : "프레임백",
+    "createdAt" : "2025-08-26 12:45:39",
+    "modifiedAt" : "2025-08-26 16:25:25"
+  }, {
+    "modelCode" : "BACE0168",
+    "modelName" : "트라이엄프백_PVC_숄더백",
+    "createdAt" : "2025-08-26 12:39:01",
+    "modifiedAt" : "2025-08-26 12:39:22"
+  }, {
+    "modelCode" : "BACE0167",
+    "modelName" : "트라이엄프백_PVC_틴",
+    "createdAt" : "2025-08-26 12:37:20",
+    "modifiedAt" : "2025-08-26 12:38:10"
+  }, {
+    "modelCode" : "BACE0166",
+    "modelName" : "트라이엄프백_레더_숄더백",
+    "createdAt" : "2025-08-26 12:36:15",
+    "modifiedAt" : "2025-08-26 12:39:05"
+  }, {
+    "modelCode" : "BACE0165",
+    "modelName" : "트라이엄프백_레더_스몰",
+    "createdAt" : "2025-08-26 12:35:50",
+    "modifiedAt" : "2025-08-26 12:35:50"
+  }, {
+    "modelCode" : "BACE0164",
+    "modelName" : "트라이엄프백_레더_틴",
+    "createdAt" : "2025-08-26 12:34:57",
+    "modifiedAt" : "2025-08-26 12:37:34"
+  }, {
+    "modelCode" : "BACE0163",
+    "modelName" : "클래식박스_미니",
+    "createdAt" : "2025-08-26 12:33:27",
+    "modifiedAt" : "2025-08-26 12:33:27"
+  }, {
+    "modelCode" : "BACE0162",
+    "modelName" : "클래식박스_틴",
+    "createdAt" : "2025-08-26 12:32:53",
+    "modifiedAt" : "2025-08-26 12:32:53"
+  }, {
+    "modelCode" : "BACE0161",
+    "modelName" : "러기지_나노",
+    "createdAt" : "2025-08-26 12:30:54",
+    "modifiedAt" : "2025-08-26 16:33:46"
+  }, {
+    "modelCode" : "BACE0160",
+    "modelName" : "팬텀 러기지",
+    "createdAt" : "2025-08-26 12:30:28",
+    "modifiedAt" : "2025-08-26 12:30:28"
+  }, {
+    "modelCode" : "BACE0159",
+    "modelName" : "아바 트라이엄프백_레더",
+    "createdAt" : "2025-08-25 12:51:45",
+    "modifiedAt" : "2025-08-25 12:53:50"
+  }, {
+    "modelCode" : "BACE0158",
+    "modelName" : "아바 트라이엄프백_트라이엄프",
+    "createdAt" : "2025-08-25 12:51:26",
+    "modifiedAt" : "2025-08-25 12:51:26"
+  }, {
+    "modelCode" : "BACE0157",
+    "modelName" : "클레아 탑핸들 베사체_레더",
+    "createdAt" : "2025-08-25 12:39:10",
+    "modifiedAt" : "2025-08-25 12:39:18"
+  }, {
+    "modelCode" : "BACE0156",
+    "modelName" : "클레아 탑핸들 베사체_트라이엄프",
+    "createdAt" : "2025-08-25 12:38:56",
+    "modifiedAt" : "2025-08-25 12:39:32"
+  }, {
+    "modelCode" : "BACE0155",
+    "modelName" : "버티칼 카바스_캔버스",
+    "createdAt" : "2025-08-25 12:35:23",
+    "modifiedAt" : "2025-08-25 12:48:56"
+  }, {
+    "modelCode" : "BACE0154",
+    "modelName" : "버킷_드로스트링",
+    "createdAt" : "2025-08-25 12:32:37",
+    "modifiedAt" : "2025-08-25 12:34:08"
+  }, {
+    "modelCode" : "BACE0153",
+    "modelName" : "버킷_레더",
+    "createdAt" : "2025-08-25 12:31:23",
+    "modifiedAt" : "2025-08-25 12:34:15"
+  }, {
+    "modelCode" : "BACE0152",
+    "modelName" : "클레아 베사체_트라이엄프",
+    "createdAt" : "2025-08-25 12:12:27",
+    "modifiedAt" : "2025-08-25 12:37:44"
+  }, {
+    "modelCode" : "BACE0151",
+    "modelName" : "트라이엄프 월렛 온 크로스백",
+    "createdAt" : "2025-08-25 12:12:07",
+    "modifiedAt" : "2025-08-25 12:39:49"
+  }, {
+    "modelCode" : "BACE0150",
+    "modelName" : "퀴르 베사체_트라이엄프",
+    "createdAt" : "2025-08-25 12:11:47",
+    "modifiedAt" : "2025-08-25 12:36:47"
+  }, {
+    "modelCode" : "BACE0149",
+    "modelName" : "시메트리컬",
+    "createdAt" : "2025-08-25 12:07:51",
+    "modifiedAt" : "2025-08-25 12:07:51"
+  }, {
+    "modelCode" : "BACE0148",
+    "modelName" : "크레시 버킷",
+    "createdAt" : "2025-08-25 12:05:46",
+    "modifiedAt" : "2025-08-25 12:37:05"
+  }, {
+    "modelCode" : "BACE0147",
+    "modelName" : "타부백_레더",
+    "createdAt" : "2025-08-25 12:04:59",
+    "modifiedAt" : "2025-08-25 12:39:40"
+  }, {
+    "modelCode" : "BACE0146",
+    "modelName" : "크레시백",
+    "createdAt" : "2025-08-25 12:04:47",
+    "modifiedAt" : "2025-08-26 16:10:55"
+  }, {
+    "modelCode" : "BACE0145",
+    "modelName" : "보니 백팩",
+    "createdAt" : "2025-08-25 12:00:47",
+    "modifiedAt" : "2025-08-25 12:36:28"
+  }, {
+    "modelCode" : "BACE0144",
+    "modelName" : "트라페제",
+    "createdAt" : "2025-08-25 11:59:33",
+    "modifiedAt" : "2025-08-26 12:40:30"
+  }, {
+    "modelCode" : "BACE0143",
+    "modelName" : "버티칼 카바스백_레더",
+    "createdAt" : "2025-08-25 11:59:23",
+    "modifiedAt" : "2025-08-25 12:34:37"
+  }, {
+    "modelCode" : "BACE0142",
+    "modelName" : "팬텀 카바스",
+    "createdAt" : "2025-08-25 11:59:03",
+    "modifiedAt" : "2025-08-25 12:40:30"
+  }, {
+    "modelCode" : "BACE0141",
+    "modelName" : "빅백 나노 버킷",
+    "createdAt" : "2025-08-25 11:58:37",
+    "modifiedAt" : "2025-08-25 12:54:06"
+  }, {
+    "modelCode" : "BACE0140",
+    "modelName" : "16백",
+    "createdAt" : "2025-08-25 11:55:55",
+    "modifiedAt" : "2025-08-25 11:55:55"
+  }, {
+    "modelCode" : "BACE0139",
+    "modelName" : "트라이엄프 로고 클러치",
+    "createdAt" : "2025-08-25 11:54:24",
+    "modifiedAt" : "2025-08-25 11:54:24"
+  }, {
+    "modelCode" : "BACE0138",
+    "modelName" : "트리오",
+    "createdAt" : "2025-08-25 11:54:06",
+    "modifiedAt" : "2025-08-25 11:54:06"
+  }, {
+    "modelCode" : "BACE0137",
+    "modelName" : "엣지백",
+    "createdAt" : "2025-08-25 11:54:01",
+    "modifiedAt" : "2025-08-26 12:42:42"
+  }, {
+    "modelCode" : "BACE0136",
+    "modelName" : "트라이엄프 트라이앵글",
+    "createdAt" : "2025-08-25 11:53:40",
+    "modifiedAt" : "2025-08-26 16:13:16"
+  }, {
+    "modelCode" : "BACE0135",
+    "modelName" : "클래스프",
+    "createdAt" : "2025-08-25 11:53:02",
+    "modifiedAt" : "2025-08-25 11:53:02"
+  }, {
+    "modelCode" : "BACE0134",
+    "modelName" : "트로터",
+    "createdAt" : "2025-08-25 11:52:46",
+    "modifiedAt" : "2025-08-25 12:41:32"
+  }, {
+    "modelCode" : "BACE0133",
+    "modelName" : "클러치 온 체인_트라이엄프",
+    "createdAt" : "2025-08-25 11:52:18",
+    "modifiedAt" : "2025-08-25 12:37:24"
+  }, {
+    "modelCode" : "BACE0132",
+    "modelName" : "베사체_트라이엄프",
+    "createdAt" : "2025-08-25 11:49:53",
+    "modifiedAt" : "2025-08-25 11:49:53"
+  }, {
+    "modelCode" : "BACE0131",
+    "modelName" : "셀린_트레킹",
+    "createdAt" : "2025-07-29 09:00:00",
+    "modifiedAt" : "2025-07-29 09:00:00"
+  }, {
+    "modelCode" : "BACE0130",
+    "modelName" : "셀린느_트리오페",
+    "createdAt" : "2025-07-29 09:00:00",
+    "modifiedAt" : "2025-07-29 09:00:00"
+  }, {
+    "modelCode" : "BACE0129",
+    "modelName" : "셀린_트라이앵글",
+    "createdAt" : "2025-07-29 09:00:00",
+    "modifiedAt" : "2025-07-29 09:00:00"
+  }, {
+    "modelCode" : "BACE0128",
+    "modelName" : "셀린_클러치_온_스트랩",
+    "createdAt" : "2025-07-29 09:00:00",
+    "modifiedAt" : "2025-07-29 09:00:00"
+  }, {
+    "modelCode" : "BACE0127",
+    "modelName" : "셀린_베사체",
+    "createdAt" : "2025-07-29 09:00:00",
+    "modifiedAt" : "2025-07-29 09:00:00"
+  }, {
+    "modelCode" : "BACE0126",
+    "modelName" : "셀린느_폴코백",
+    "createdAt" : "2025-07-29 09:00:00",
+    "modifiedAt" : "2025-07-29 09:00:00"
+  }, {
+    "modelCode" : "BACE0125",
+    "modelName" : "셀린느_루이즈",
+    "createdAt" : "2025-07-28 15:00:15",
+    "modifiedAt" : "2025-07-28 15:00:15"
+  }, {
+    "modelCode" : "BACE0124",
+    "modelName" : "셀린느_버킷백",
+    "createdAt" : "2025-07-28 15:00:15",
+    "modifiedAt" : "2025-07-28 15:00:15"
+  }, {
+    "modelCode" : "BACE0123",
+    "modelName" : "셀린_파니에",
+    "createdAt" : "2025-07-28 15:00:14",
+    "modifiedAt" : "2025-07-28 15:00:14"
+  }, {
+    "modelCode" : "BACE0122",
+    "modelName" : "셀린_클래식박스",
+    "createdAt" : "2025-07-28 15:00:14",
+    "modifiedAt" : "2025-07-28 15:00:14"
+  }, {
+    "modelCode" : "BACE0121",
+    "modelName" : "셀린느_벨트백",
+    "createdAt" : "2025-07-28 15:00:14",
+    "modifiedAt" : "2025-07-28 15:00:14"
+  }, {
+    "modelCode" : "BACE0120",
+    "modelName" : "셀린느_폴코",
+    "createdAt" : "2025-07-28 15:00:13",
+    "modifiedAt" : "2025-07-28 15:00:13"
+  }, {
+    "modelCode" : "BACE0119",
+    "modelName" : "셀린_러기지",
+    "createdAt" : "2025-07-28 15:00:13",
+    "modifiedAt" : "2025-07-28 15:00:13"
+  }, {
+    "modelCode" : "BACE0118",
+    "modelName" : "셀린느_카바스",
+    "createdAt" : "2025-07-28 15:00:12",
+    "modifiedAt" : "2025-07-28 15:00:12"
+  }, {
+    "modelCode" : "BACE0117",
+    "modelName" : "셀린느_아바백",
+    "createdAt" : "2025-07-28 15:00:12",
+    "modifiedAt" : "2025-07-28 15:00:12"
+  }, {
+    "modelCode" : "BACE0116",
+    "modelName" : "셀린_아바",
+    "createdAt" : "2025-07-28 15:00:12",
+    "modifiedAt" : "2025-07-28 15:00:12"
+  }, {
+    "modelCode" : "BACE0115",
+    "modelName" : "셀린_트리옹프",
+    "createdAt" : "2025-07-28 15:00:11",
+    "modifiedAt" : "2025-07-28 15:00:11"
+  }, {
+    "modelCode" : "BACE0114",
+    "modelName" : "셀린느_트리옹프",
+    "createdAt" : "2025-07-28 15:00:11",
+    "modifiedAt" : "2025-07-28 15:00:11"
+  }, {
+    "modelCode" : "BACE0113",
+    "modelName" : "셀린_트로터",
+    "createdAt" : "2025-07-28 15:00:11",
+    "modifiedAt" : "2025-07-28 15:00:11"
+  }, {
+    "modelCode" : "BACE0112",
+    "modelName" : "셀린_카바스",
+    "createdAt" : "2025-07-28 15:00:10",
+    "modifiedAt" : "2025-07-28 15:00:10"
+  }, {
+    "modelCode" : "BACE0111",
+    "modelName" : "셀린_트라페제",
+    "createdAt" : "2025-07-28 15:00:10",
+    "modifiedAt" : "2025-07-28 15:00:10"
+  }, {
+    "modelCode" : "BACE0110",
+    "modelName" : "셀린_트라이엄프",
+    "createdAt" : "2025-07-28 15:00:09",
+    "modifiedAt" : "2025-07-28 15:00:09"
+  }, {
+    "modelCode" : "BACE0109",
+    "modelName" : "셀린_아바백",
+    "createdAt" : "2025-07-28 15:00:08",
+    "modifiedAt" : "2025-07-28 15:00:08"
+  }, {
+    "modelCode" : "BACE0108",
+    "modelName" : "보스턴_트라이엄프",
+    "createdAt" : "2025-06-18 16:01:06",
+    "modifiedAt" : "2025-06-18 16:01:06"
+  }, {
+    "modelCode" : "BACE0107",
+    "modelName" : "상글백",
+    "createdAt" : "2025-05-30 09:17:51",
+    "modifiedAt" : "2025-05-30 09:17:51"
+  }, {
+    "modelCode" : "BACE0106",
+    "modelName" : "카바스_캔버스",
+    "createdAt" : "2025-05-30 09:17:31",
+    "modifiedAt" : "2025-05-30 09:17:31"
+  }, {
+    "modelCode" : "BACE0105",
+    "modelName" : "클러치 온 스트랩_트라이엄프",
+    "createdAt" : "2025-05-30 09:16:58",
+    "modifiedAt" : "2025-08-25 12:36:54"
+  }, {
+    "modelCode" : "BACE0104",
+    "modelName" : "클러치 온 스트랩_레더",
+    "createdAt" : "2025-05-30 09:16:50",
+    "modifiedAt" : "2025-08-25 12:37:16"
+  }, {
+    "modelCode" : "BACE0103",
+    "modelName" : "벨트백",
+    "createdAt" : "2025-05-30 09:15:16",
+    "modifiedAt" : "2025-05-30 09:15:16"
+  }, {
+    "modelCode" : "BACE0102",
+    "modelName" : "클래식박스",
+    "createdAt" : "2025-05-28 15:25:50",
+    "modifiedAt" : "2025-05-28 15:25:50"
+  }, {
+    "modelCode" : "BACE0101",
+    "modelName" : "트라이엄프백_레더",
+    "createdAt" : "2025-05-28 15:20:14",
+    "modifiedAt" : "2025-05-28 15:20:14"
+  }, {
+    "modelCode" : "BACE0100",
+    "modelName" : "트라이엄프백",
+    "createdAt" : "2025-05-28 15:19:33",
+    "modifiedAt" : "2025-05-28 15:19:33"
+  }, {
+    "modelCode" : "BACE0099",
+    "modelName" : "러기지",
+    "createdAt" : "2025-05-28 15:18:36",
+    "modifiedAt" : "2025-08-26 12:42:25"
+  }, {
+    "modelCode" : "BACE0098",
+    "modelName" : "폴코_트라이엄프",
+    "createdAt" : "2025-05-28 15:18:16",
+    "modifiedAt" : "2025-08-25 12:41:23"
+  }, {
+    "modelCode" : "BACE0097",
+    "modelName" : "폴코_레더",
+    "createdAt" : "2025-05-28 15:18:06",
+    "modifiedAt" : "2025-08-25 12:41:06"
+  }, {
+    "modelCode" : "BACE0096",
+    "modelName" : "폴코 백팩",
+    "createdAt" : "2025-05-28 15:17:50",
+    "modifiedAt" : "2025-08-25 12:40:45"
+  }, {
+    "modelCode" : "BACE0095",
+    "modelName" : "아바 호보_레더",
+    "createdAt" : "2025-05-28 15:17:04",
+    "modifiedAt" : "2025-08-25 12:52:24"
+  }, {
+    "modelCode" : "BACE0094",
+    "modelName" : "아바_트라이엄프",
+    "createdAt" : "2025-05-28 15:16:54",
+    "modifiedAt" : "2025-08-25 12:53:01"
+  }, {
+    "modelCode" : "BACE0093",
+    "modelName" : "카바스_트라이엄프",
+    "createdAt" : "2025-05-28 15:16:05",
+    "modifiedAt" : "2025-08-25 12:49:18"
+  }, {
+    "modelCode" : "BACE0092",
+    "modelName" : "버킷_트라이엄프",
+    "createdAt" : "2025-05-28 15:15:27",
+    "modifiedAt" : "2025-08-25 12:33:33"
+  }, {
+    "modelCode" : "BACD0311",
+    "modelName" : "카로_라지_까나쥬",
+    "createdAt" : "2025-08-27 19:48:57",
+    "modifiedAt" : "2025-08-27 19:48:57"
+  }, {
+    "modelCode" : "BACD0310",
+    "modelName" : "카로_미듐_까나쥬",
+    "createdAt" : "2025-08-27 19:48:47",
+    "modifiedAt" : "2025-08-27 19:48:47"
+  }, {
+    "modelCode" : "BACD0309",
+    "modelName" : "카로_스몰_까나쥬",
+    "createdAt" : "2025-08-27 19:48:26",
+    "modifiedAt" : "2025-08-27 19:48:26"
+  }, {
+    "modelCode" : "BACD0308",
+    "modelName" : "뚜쥬르 라지",
+    "createdAt" : "2025-08-27 19:47:45",
+    "modifiedAt" : "2025-08-27 19:47:45"
+  }, {
+    "modelCode" : "BACD0307",
+    "modelName" : "뚜쥬르 미듐",
+    "createdAt" : "2025-08-27 19:47:32",
+    "modifiedAt" : "2025-08-27 19:47:32"
+  }, {
+    "modelCode" : "BACD0306",
+    "modelName" : "뚜쥬르 스몰",
+    "createdAt" : "2025-08-27 19:47:22",
+    "modifiedAt" : "2025-08-27 19:47:22"
+  }, {
+    "modelCode" : "BACD0305",
+    "modelName" : "레이디_미니_페이던트",
+    "createdAt" : "2025-08-27 19:45:44",
+    "modifiedAt" : "2025-08-27 19:45:44"
+  }, {
+    "modelCode" : "BACD0304",
+    "modelName" : "레이디_스몰_페이던트",
+    "createdAt" : "2025-08-27 19:45:24",
+    "modifiedAt" : "2025-08-27 19:45:24"
+  }, {
+    "modelCode" : "BACD0303",
+    "modelName" : "레이디_미듐_페이던트",
+    "createdAt" : "2025-08-27 19:45:00",
+    "modifiedAt" : "2025-08-27 19:45:00"
+  }, {
+    "modelCode" : "BACD0302",
+    "modelName" : "레이디_까나쥬_마이크로",
+    "createdAt" : "2025-08-27 19:43:01",
+    "modifiedAt" : "2025-08-27 19:43:01"
+  }, {
+    "modelCode" : "BACD0301",
+    "modelName" : "레이디_까나쥬_미니",
+    "createdAt" : "2025-08-27 19:42:35",
+    "modifiedAt" : "2025-08-27 19:42:35"
+  }, {
+    "modelCode" : "BACD0300",
+    "modelName" : "레이디_까나쥬_라지",
+    "createdAt" : "2025-08-27 19:42:23",
+    "modifiedAt" : "2025-08-27 19:42:23"
+  }, {
+    "modelCode" : "BACD0299",
+    "modelName" : "레이디_까나쥬_미듐",
+    "createdAt" : "2025-08-27 19:42:03",
+    "modifiedAt" : "2025-08-27 19:42:03"
+  }, {
+    "modelCode" : "BACD0298",
+    "modelName" : "레이디_까나쥬_스몰",
+    "createdAt" : "2025-08-27 19:41:16",
+    "modifiedAt" : "2025-08-27 19:41:16"
+  }, {
+    "modelCode" : "BACD0297",
+    "modelName" : "몽테인_이스트웨스트_오블리크",
+    "createdAt" : "2025-08-26 20:04:03",
+    "modifiedAt" : "2025-08-26 20:04:03"
+  }, {
+    "modelCode" : "BACD0296",
+    "modelName" : "바비_이스트웨스트_오블리크",
+    "createdAt" : "2025-08-26 20:02:57",
+    "modifiedAt" : "2025-08-26 20:04:39"
+  }, {
+    "modelCode" : "BACD0295",
+    "modelName" : "바비_이스트웨스트_레더",
+    "createdAt" : "2025-08-26 19:59:38",
+    "modifiedAt" : "2025-08-26 20:01:48"
+  }, {
+    "modelCode" : "BACD0294",
+    "modelName" : "몽테인_체인 클러치_레더",
+    "createdAt" : "2025-08-26 19:30:50",
+    "modifiedAt" : "2025-08-26 19:30:50"
+  }, {
+    "modelCode" : "BACD0293",
+    "modelName" : "몽테인_체인 클러치_오블리크",
+    "createdAt" : "2025-08-26 19:28:26",
+    "modifiedAt" : "2025-08-26 19:30:04"
+  }, {
+    "modelCode" : "BACD0292",
+    "modelName" : "워커 버킷백",
+    "createdAt" : "2025-08-26 19:21:29",
+    "modifiedAt" : "2025-08-26 19:23:50"
+  }, {
+    "modelCode" : "BACD0291",
+    "modelName" : "퀘이크 클러치_레더",
+    "createdAt" : "2025-08-26 19:20:04",
+    "modifiedAt" : "2025-08-26 19:20:04"
+  }, {
+    "modelCode" : "BACD0290",
+    "modelName" : "옴므",
+    "createdAt" : "2025-08-26 19:14:37",
+    "modifiedAt" : "2025-08-26 19:14:37"
+  }, {
+    "modelCode" : "BACD0289",
+    "modelName" : "퀘이크 클러치_오블리크",
+    "createdAt" : "2025-08-26 19:13:22",
+    "modifiedAt" : "2025-08-26 19:19:09"
+  }, {
+    "modelCode" : "BACD0288",
+    "modelName" : "베니티_캔버스",
+    "createdAt" : "2025-08-26 19:06:53",
+    "modifiedAt" : "2025-08-26 19:07:25"
+  }, {
+    "modelCode" : "BACD0287",
+    "modelName" : "베니티_까나쥬",
+    "createdAt" : "2025-08-26 19:05:01",
+    "modifiedAt" : "2025-08-26 19:07:07"
+  }, {
+    "modelCode" : "BACD0286",
+    "modelName" : "바이브 버킷",
+    "createdAt" : "2025-08-26 18:59:40",
+    "modifiedAt" : "2025-08-26 19:00:43"
+  }, {
+    "modelCode" : "BACD0285",
+    "modelName" : "바이브 볼링백",
+    "createdAt" : "2025-08-26 18:59:31",
+    "modifiedAt" : "2025-08-26 19:01:26"
+  }, {
+    "modelCode" : "BACD0284",
+    "modelName" : "가우초",
+    "createdAt" : "2025-08-26 18:56:32",
+    "modifiedAt" : "2025-08-26 18:57:59"
+  }, {
+    "modelCode" : "BACD0283",
+    "modelName" : "바이브 호보",
+    "createdAt" : "2025-08-26 18:56:13",
+    "modifiedAt" : "2025-08-26 18:56:13"
+  }, {
+    "modelCode" : "BACD0282",
+    "modelName" : "몽테인 에비뉴_오블리크",
+    "createdAt" : "2025-08-26 18:53:43",
+    "modifiedAt" : "2025-08-26 18:54:05"
+  }, {
+    "modelCode" : "BACD0281",
+    "modelName" : "몽테인 에비뉴_탑핸들_레더",
+    "createdAt" : "2025-08-26 18:51:11",
+    "modifiedAt" : "2025-08-26 18:51:35"
+  }, {
+    "modelCode" : "BACD0280",
+    "modelName" : "몽테인 에비뉴_레더",
+    "createdAt" : "2025-08-26 18:50:08",
+    "modifiedAt" : "2025-08-26 18:51:42"
+  }, {
+    "modelCode" : "BACD0279",
+    "modelName" : "몽테인_레더_투인원 파우치",
+    "createdAt" : "2025-08-26 18:47:23",
+    "modifiedAt" : "2025-08-26 18:47:23"
+  }, {
+    "modelCode" : "BACD0278",
+    "modelName" : "어딕트_오블리크",
+    "createdAt" : "2025-08-26 18:43:24",
+    "modifiedAt" : "2025-08-26 18:44:38"
+  }, {
+    "modelCode" : "BACD0277",
+    "modelName" : "디올캠프_레더",
+    "createdAt" : "2025-08-26 18:41:15",
+    "modifiedAt" : "2025-08-26 18:41:15"
+  }, {
+    "modelCode" : "BACD0276",
+    "modelName" : "어딕트",
+    "createdAt" : "2025-08-26 18:34:40",
+    "modifiedAt" : "2025-08-26 18:41:51"
+  }, {
+    "modelCode" : "BACD0275",
+    "modelName" : "자디올",
+    "createdAt" : "2025-08-26 18:34:10",
+    "modifiedAt" : "2025-08-26 18:35:41"
+  }, {
+    "modelCode" : "BACD0274",
+    "modelName" : "디올라마",
+    "createdAt" : "2025-08-26 18:33:18",
+    "modifiedAt" : "2025-08-26 18:38:06"
+  }, {
+    "modelCode" : "BACD0273",
+    "modelName" : "카로_까나쥬_체인 라운드",
+    "createdAt" : "2025-08-26 18:32:04",
+    "modifiedAt" : "2025-08-26 18:32:04"
+  }, {
+    "modelCode" : "BACD0272",
+    "modelName" : "생토노레 카바",
+    "createdAt" : "2025-08-26 18:31:12",
+    "modifiedAt" : "2025-08-26 18:36:10"
+  }, {
+    "modelCode" : "BACD0271",
+    "modelName" : "그랑빌",
+    "createdAt" : "2025-08-26 18:30:37",
+    "modifiedAt" : "2025-08-26 18:36:42"
+  }, {
+    "modelCode" : "BACD0270",
+    "modelName" : "D-BUBBLE 버킷",
+    "createdAt" : "2025-08-26 18:30:01",
+    "modifiedAt" : "2025-08-26 19:20:13"
+  }, {
+    "modelCode" : "BACD0269",
+    "modelName" : "몽테인_폰홀더 크로스백",
+    "createdAt" : "2025-08-26 18:27:59",
+    "modifiedAt" : "2025-08-26 18:35:17"
+  }, {
+    "modelCode" : "BACD0268",
+    "modelName" : "뉴룩_까나쥬",
+    "createdAt" : "2025-08-26 18:26:18",
+    "modifiedAt" : "2025-08-26 18:57:46"
+  }, {
+    "modelCode" : "BACD0267",
+    "modelName" : "폴딩 클러치_오블리크",
+    "createdAt" : "2025-08-26 18:24:27",
+    "modifiedAt" : "2025-08-26 18:24:27"
+  }, {
+    "modelCode" : "BACD0266",
+    "modelName" : "디올_오블리크",
+    "createdAt" : "2025-07-29 09:00:00",
+    "modifiedAt" : "2025-07-29 09:00:00"
+  }, {
+    "modelCode" : "BACD0265",
+    "modelName" : "디올_새들",
+    "createdAt" : "2025-07-29 09:00:00",
+    "modifiedAt" : "2025-07-29 09:00:00"
+  }, {
+    "modelCode" : "BACD0264",
+    "modelName" : "디올_베니티",
+    "createdAt" : "2025-07-29 09:00:00",
+    "modifiedAt" : "2025-07-29 09:00:00"
+  }, {
+    "modelCode" : "BACD0263",
+    "modelName" : "디올_폴딩_클러치",
+    "createdAt" : "2025-07-29 09:00:00",
+    "modifiedAt" : "2025-07-29 09:00:00"
+  }, {
+    "modelCode" : "BACD0262",
+    "modelName" : "디올_리모와",
+    "createdAt" : "2025-07-29 09:00:00",
+    "modifiedAt" : "2025-07-29 09:00:00"
+  }, {
+    "modelCode" : "BACD0261",
+    "modelName" : "디올_몽테인(1)",
+    "createdAt" : "2025-07-29 09:00:00",
+    "modifiedAt" : "2025-07-29 09:00:00"
+  }, {
+    "modelCode" : "BACD0260",
+    "modelName" : "디올_자디올",
+    "createdAt" : "2025-07-29 09:00:00",
+    "modifiedAt" : "2025-07-29 09:00:00"
+  }, {
+    "modelCode" : "BACD0259",
+    "modelName" : "디올_디올캠프",
+    "createdAt" : "2025-07-29 09:00:00",
+    "modifiedAt" : "2025-07-29 09:00:00"
+  }, {
+    "modelCode" : "BACD0258",
+    "modelName" : "디올_새들백",
+    "createdAt" : "2025-07-28 15:00:07",
+    "modifiedAt" : "2025-07-28 15:00:07"
+  }, {
+    "modelCode" : "BACD0257",
+    "modelName" : "디올_뚜쥬르",
+    "createdAt" : "2025-07-28 15:00:07",
+    "modifiedAt" : "2025-07-28 15:00:07"
+  }, {
+    "modelCode" : "BACD0256",
+    "modelName" : "디올_몽테인",
+    "createdAt" : "2025-07-28 15:00:06",
+    "modifiedAt" : "2025-07-28 15:00:06"
+  }, {
+    "modelCode" : "BACD0255",
+    "modelName" : "디올_레이디디올",
+    "createdAt" : "2025-07-28 15:00:06",
+    "modifiedAt" : "2025-07-28 15:00:06"
+  }, {
+    "modelCode" : "BACD0254",
+    "modelName" : "디올_북토트",
+    "createdAt" : "2025-07-28 15:00:05",
+    "modifiedAt" : "2025-07-28 15:00:05"
+  }, {
+    "modelCode" : "BACD0253",
+    "modelName" : "디올_쎄디올",
+    "createdAt" : "2025-07-28 15:00:05",
+    "modifiedAt" : "2025-07-28 15:00:05"
+  }, {
+    "modelCode" : "BACD0252",
+    "modelName" : "디올_카로",
+    "createdAt" : "2025-07-28 15:00:05",
+    "modifiedAt" : "2025-07-28 15:00:05"
+  }, {
+    "modelCode" : "BACD0251",
+    "modelName" : "니스_에스칼",
+    "createdAt" : "2025-06-04 16:31:40",
+    "modifiedAt" : "2025-06-04 16:31:40"
+  }, {
+    "modelCode" : "BACD0250",
+    "modelName" : "쎄디올_오블리크",
+    "createdAt" : "2025-06-04 15:05:23",
+    "modifiedAt" : "2025-08-26 19:17:11"
+  }, {
+    "modelCode" : "BACD0249",
+    "modelName" : "폰홀더 크로스백",
+    "createdAt" : "2025-06-04 15:02:47",
+    "modifiedAt" : "2025-08-26 18:34:53"
+  }, {
+    "modelCode" : "BACD0248",
+    "modelName" : "새들_오블리크",
+    "createdAt" : "2025-06-04 15:01:39",
+    "modifiedAt" : "2025-06-04 15:01:39"
+  }, {
+    "modelCode" : "BACD0247",
+    "modelName" : "미스 디올",
+    "createdAt" : "2025-06-04 15:00:23",
+    "modifiedAt" : "2025-08-26 18:35:07"
+  }, {
+    "modelCode" : "BACD0246",
+    "modelName" : "레이디 95.22",
+    "createdAt" : "2025-06-04 14:58:39",
+    "modifiedAt" : "2025-06-04 14:58:39"
+  }, {
+    "modelCode" : "BACD0245",
+    "modelName" : "레이디 D-JOY",
+    "createdAt" : "2025-06-04 14:48:15",
+    "modifiedAt" : "2025-08-26 18:45:15"
+  }, {
+    "modelCode" : "BACD0244",
+    "modelName" : "새들_레더",
+    "createdAt" : "2025-05-28 15:13:15",
+    "modifiedAt" : "2025-05-28 15:13:15"
+  }, {
+    "modelCode" : "BACD0243",
+    "modelName" : "디올캠프",
+    "createdAt" : "2025-05-28 15:12:18",
+    "modifiedAt" : "2025-05-28 15:12:18"
+  }, {
+    "modelCode" : "BACD0242",
+    "modelName" : "레이디_까나쥬",
+    "createdAt" : "2025-05-28 15:10:18",
+    "modifiedAt" : "2025-05-28 15:10:18"
+  }, {
+    "modelCode" : "BACD0241",
+    "modelName" : "카로 클러치",
+    "createdAt" : "2025-05-28 15:09:34",
+    "modifiedAt" : "2025-08-26 19:58:12"
+  }, {
+    "modelCode" : "BACD0240",
+    "modelName" : "카로_까나쥬",
+    "createdAt" : "2025-05-28 15:09:13",
+    "modifiedAt" : "2025-08-27 19:48:47"
+  }, {
+    "modelCode" : "BACD0239",
+    "modelName" : "쎄디올_레더",
+    "createdAt" : "2025-05-28 15:08:14",
+    "modifiedAt" : "2025-08-26 19:16:57"
+  }, {
+    "modelCode" : "BACD0238",
+    "modelName" : "뚜쥬르",
+    "createdAt" : "2025-05-28 15:07:51",
+    "modifiedAt" : "2025-05-28 15:07:51"
+  }, {
+    "modelCode" : "BACD0237",
+    "modelName" : "몽테인_레더",
+    "createdAt" : "2025-05-28 15:07:21",
+    "modifiedAt" : "2025-05-28 15:07:21"
+  }, {
+    "modelCode" : "BACD0236",
+    "modelName" : "몽테인_오블리크",
+    "createdAt" : "2025-05-28 15:06:55",
+    "modifiedAt" : "2025-05-28 15:06:55"
+  }, {
+    "modelCode" : "BACD0235",
+    "modelName" : "북토트_까나쥬",
+    "createdAt" : "2025-05-28 15:05:12",
+    "modifiedAt" : "2025-05-28 15:05:12"
+  }, {
+    "modelCode" : "BACD0234",
+    "modelName" : "북토트_오블리크",
+    "createdAt" : "2025-05-28 15:04:45",
+    "modifiedAt" : "2025-05-28 15:04:45"
+  }, {
+    "modelCode" : "BACD0233",
+    "modelName" : "바비_오블리크",
+    "createdAt" : "2025-05-28 15:03:31",
+    "modifiedAt" : "2025-05-28 15:03:31"
+  }, {
+    "modelCode" : "BACD0232",
+    "modelName" : "바비",
+    "createdAt" : "2025-05-23 14:40:00",
+    "modifiedAt" : "2025-08-26 19:58:28"
+  }, {
+    "modelCode" : "BABT0211",
+    "modelName" : "아르코_러버",
+    "createdAt" : "2025-08-25 14:12:21",
+    "modifiedAt" : "2025-08-25 14:14:34"
+  }, {
+    "modelCode" : "BABT0210",
+    "modelName" : "포인트백",
+    "createdAt" : "2025-08-25 14:11:29",
+    "modifiedAt" : "2025-08-25 14:16:08"
+  }, {
+    "modelCode" : "BABT0209",
+    "modelName" : "BV 클래식백",
+    "createdAt" : "2025-08-25 14:10:06",
+    "modifiedAt" : "2025-08-25 14:16:43"
+  }, {
+    "modelCode" : "BABT0208",
+    "modelName" : "BV 트위스트",
+    "createdAt" : "2025-08-25 14:09:53",
+    "modifiedAt" : "2025-08-25 14:16:35"
+  }, {
+    "modelCode" : "BABT0207",
+    "modelName" : "숄더 파우치",
+    "createdAt" : "2025-08-25 14:07:19",
+    "modifiedAt" : "2025-08-25 14:14:58"
+  }, {
+    "modelCode" : "BABT0206",
+    "modelName" : "위빙백",
+    "createdAt" : "2025-08-25 14:06:21",
+    "modifiedAt" : "2025-08-25 14:15:49"
+  }, {
+    "modelCode" : "BABT0205",
+    "modelName" : "카세트 버킷",
+    "createdAt" : "2025-08-25 14:02:35",
+    "modifiedAt" : "2025-08-25 14:14:26"
+  }, {
+    "modelCode" : "BABT0204",
+    "modelName" : "뉴 로마",
+    "createdAt" : "2025-08-25 12:54:57",
+    "modifiedAt" : "2025-08-25 14:16:29"
+  }, {
+    "modelCode" : "BABT0203",
+    "modelName" : "루프 카메라백_매쉬",
+    "createdAt" : "2025-08-25 11:20:13",
+    "modifiedAt" : "2025-08-25 14:16:56"
+  }, {
+    "modelCode" : "BABT0202",
+    "modelName" : "팔멜라토",
+    "createdAt" : "2025-08-25 11:19:36",
+    "modifiedAt" : "2025-08-25 12:55:29"
+  }, {
+    "modelCode" : "BABT0201",
+    "modelName" : "패딩 카세트",
+    "createdAt" : "2025-08-25 11:17:24",
+    "modifiedAt" : "2025-08-25 14:20:14"
+  }, {
+    "modelCode" : "BABT0200",
+    "modelName" : "아르코_라운드",
+    "createdAt" : "2025-08-25 11:13:50",
+    "modifiedAt" : "2025-08-25 14:19:22"
+  }, {
+    "modelCode" : "BABT0199",
+    "modelName" : "아르코_스퀘어",
+    "createdAt" : "2025-08-25 11:13:41",
+    "modifiedAt" : "2025-08-25 14:19:34"
+  }, {
+    "modelCode" : "BABT0198",
+    "modelName" : "버터 카프 파우치_매쉬",
+    "createdAt" : "2025-08-25 11:13:04",
+    "modifiedAt" : "2025-08-25 12:54:19"
+  }, {
+    "modelCode" : "BABT0197",
+    "modelName" : "버터 카프 파우치_레더",
+    "createdAt" : "2025-08-25 11:12:56",
+    "modifiedAt" : "2025-08-25 12:54:28"
+  }, {
+    "modelCode" : "BABT0196",
+    "modelName" : "홉",
+    "createdAt" : "2025-08-25 11:12:16",
+    "modifiedAt" : "2025-08-25 12:55:36"
+  }, {
+    "modelCode" : "BABT0195",
+    "modelName" : "로마백",
+    "createdAt" : "2025-08-25 11:10:46",
+    "modifiedAt" : "2025-08-25 12:54:35"
+  }, {
+    "modelCode" : "BABT0194",
+    "modelName" : "놋 클러치",
+    "createdAt" : "2025-08-25 11:05:20",
+    "modifiedAt" : "2025-08-25 11:05:20"
+  }, {
+    "modelCode" : "BABT0193",
+    "modelName" : "마운트백",
+    "createdAt" : "2025-08-25 11:05:11",
+    "modifiedAt" : "2025-08-25 12:55:22"
+  }, {
+    "modelCode" : "BABT0192",
+    "modelName" : "올림피아",
+    "createdAt" : "2025-08-25 11:03:15",
+    "modifiedAt" : "2025-08-25 12:56:05"
+  }, {
+    "modelCode" : "BABT0191",
+    "modelName" : "놋",
+    "createdAt" : "2025-08-25 11:02:57",
+    "modifiedAt" : "2025-08-25 12:55:16"
+  }, {
+    "modelCode" : "BABT0190",
+    "modelName" : "안디아모",
+    "createdAt" : "2025-08-25 11:02:37",
+    "modifiedAt" : "2025-08-25 14:15:58"
+  }, {
+    "modelCode" : "BABT0189",
+    "modelName" : "조디",
+    "createdAt" : "2025-08-25 10:58:07",
+    "modifiedAt" : "2025-08-25 12:56:10"
+  }, {
+    "modelCode" : "BABT0188",
+    "modelName" : "카세트",
+    "createdAt" : "2025-08-13 13:57:33",
+    "modifiedAt" : "2025-08-25 14:16:15"
+  }, {
+    "modelCode" : "BABT0187",
+    "modelName" : "보테가베네타_안디아모",
+    "createdAt" : "2025-07-28 15:00:05",
+    "modifiedAt" : "2025-07-28 15:00:05"
+  }, {
+    "modelCode" : "BABT0186",
+    "modelName" : "보테가베네타_아르코",
+    "createdAt" : "2025-07-28 15:00:04",
+    "modifiedAt" : "2025-07-28 15:00:04"
+  }, {
+    "modelCode" : "BABT0185",
+    "modelName" : "보테가베네타_카세트",
+    "createdAt" : "2025-07-28 15:00:04",
+    "modifiedAt" : "2025-07-28 15:00:04"
+  }, {
+    "modelCode" : "BABT0184",
+    "modelName" : "보테가베네타_인트레치아토",
+    "createdAt" : "2025-07-28 15:00:04",
+    "modifiedAt" : "2025-07-28 15:00:04"
+  }, {
+    "modelCode" : "BABT0183",
+    "modelName" : "보테가베네타_카세트백",
+    "createdAt" : "2025-07-28 15:00:04",
+    "modifiedAt" : "2025-07-28 15:00:04"
+  }, {
+    "modelCode" : "BABT0182",
+    "modelName" : "보테가베네타_조디백",
+    "createdAt" : "2025-07-28 15:00:04",
+    "modifiedAt" : "2025-07-28 15:00:04"
+  }, {
+    "modelCode" : "BABT0181",
+    "modelName" : "보테가베네타_파우치",
+    "createdAt" : "2025-07-28 15:00:04",
+    "modifiedAt" : "2025-07-28 15:00:04"
+  }, {
+    "modelCode" : "BABC0150",
+    "modelName" : "네오 클래식_업사이드다운",
+    "createdAt" : "2025-08-27 19:38:11",
+    "modifiedAt" : "2025-08-27 19:38:33"
+  }, {
+    "modelCode" : "BABC0149",
+    "modelName" : "네오 클래식_호보",
+    "createdAt" : "2025-08-27 19:37:51",
+    "modifiedAt" : "2025-08-27 19:38:40"
+  }, {
+    "modelCode" : "BABC0148",
+    "modelName" : "에브리데이_노스사우스",
+    "createdAt" : "2025-08-27 19:35:52",
+    "modifiedAt" : "2025-08-27 19:35:52"
+  }, {
+    "modelCode" : "BABC0147",
+    "modelName" : "모터 오피스_자이언트",
+    "createdAt" : "2025-08-27 16:00:41",
+    "modifiedAt" : "2025-08-27 16:00:41"
+  }, {
+    "modelCode" : "BABC0146",
+    "modelName" : "모터 다운타운",
+    "createdAt" : "2025-08-27 16:00:03",
+    "modifiedAt" : "2025-08-27 16:00:03"
+  }, {
+    "modelCode" : "BABC0145",
+    "modelName" : "모터 벨로백",
+    "createdAt" : "2025-08-27 15:59:52",
+    "modifiedAt" : "2025-08-27 16:33:47"
+  }, {
+    "modelCode" : "BABC0144",
+    "modelName" : "모터 파트타임",
+    "createdAt" : "2025-08-27 15:59:27",
+    "modifiedAt" : "2025-08-27 15:59:27"
+  }, {
+    "modelCode" : "BABC0143",
+    "modelName" : "모터_클립 클러치",
+    "createdAt" : "2025-08-27 15:58:54",
+    "modifiedAt" : "2025-08-27 16:09:47"
+  }, {
+    "modelCode" : "BABC0142",
+    "modelName" : "모터 오피스",
+    "createdAt" : "2025-08-27 15:58:24",
+    "modifiedAt" : "2025-08-27 16:06:44"
+  }, {
+    "modelCode" : "BABC0141",
+    "modelName" : "모터 시티백_엣지",
+    "createdAt" : "2025-08-27 15:58:17",
+    "modifiedAt" : "2025-08-27 15:58:17"
+  }, {
+    "modelCode" : "BABC0140",
+    "modelName" : "모터 퍼스트",
+    "createdAt" : "2025-08-27 15:57:58",
+    "modifiedAt" : "2025-08-27 15:57:58"
+  }, {
+    "modelCode" : "BABC0139",
+    "modelName" : "모터_엔벨롭 클러치",
+    "createdAt" : "2025-08-27 15:57:44",
+    "modifiedAt" : "2025-08-27 16:07:52"
+  }, {
+    "modelCode" : "BABC0138",
+    "modelName" : "모터 시티백_미니",
+    "createdAt" : "2025-08-27 15:57:29",
+    "modifiedAt" : "2025-08-27 15:57:29"
+  }, {
+    "modelCode" : "BABC0137",
+    "modelName" : "모터 시티백_뉴자이언트",
+    "createdAt" : "2025-08-27 15:55:40",
+    "modifiedAt" : "2025-08-27 16:02:19"
+  }, {
+    "modelCode" : "BABC0136",
+    "modelName" : "모터 시티백",
+    "createdAt" : "2025-08-27 15:55:05",
+    "modifiedAt" : "2025-08-27 15:55:05"
+  }, {
+    "modelCode" : "BABC0135",
+    "modelName" : "벨에어",
+    "createdAt" : "2025-08-25 11:40:58",
+    "modifiedAt" : "2025-08-25 11:40:58"
+  }, {
+    "modelCode" : "BABC0134",
+    "modelName" : "르딕스",
+    "createdAt" : "2025-08-25 11:40:40",
+    "modifiedAt" : "2025-08-25 11:40:40"
+  }, {
+    "modelCode" : "BABC0133",
+    "modelName" : "트라이앵글",
+    "createdAt" : "2025-08-25 11:37:03",
+    "modifiedAt" : "2025-08-25 11:37:03"
+  }, {
+    "modelCode" : "BABC0132",
+    "modelName" : "쇼핑 토트",
+    "createdAt" : "2025-08-25 11:36:38",
+    "modifiedAt" : "2025-08-27 16:07:15"
+  }, {
+    "modelCode" : "BABC0131",
+    "modelName" : "카바스백_레더",
+    "createdAt" : "2025-08-25 11:35:00",
+    "modifiedAt" : "2025-08-25 11:35:00"
+  }, {
+    "modelCode" : "BABC0130",
+    "modelName" : "카바스백_캔버스",
+    "createdAt" : "2025-08-25 11:34:52",
+    "modifiedAt" : "2025-08-25 11:34:52"
+  }, {
+    "modelCode" : "BABC0129",
+    "modelName" : "아워글래스 탑핸들",
+    "createdAt" : "2025-08-25 11:31:54",
+    "modifiedAt" : "2025-08-25 11:31:54"
+  }, {
+    "modelCode" : "BABC0128",
+    "modelName" : "파피에르",
+    "createdAt" : "2025-08-25 11:30:38",
+    "modifiedAt" : "2025-08-25 11:30:38"
+  }, {
+    "modelCode" : "BABC0127",
+    "modelName" : "쇼핑 폰 홀더",
+    "createdAt" : "2025-08-25 11:30:10",
+    "modifiedAt" : "2025-08-27 16:07:25"
+  }, {
+    "modelCode" : "BABC0126",
+    "modelName" : "빌 탑핸들",
+    "createdAt" : "2025-08-25 11:29:42",
+    "modifiedAt" : "2025-08-27 19:35:16"
+  }, {
+    "modelCode" : "BABC0125",
+    "modelName" : "바자르_클러치",
+    "createdAt" : "2025-08-25 11:29:05",
+    "modifiedAt" : "2025-08-27 16:09:40"
+  }, {
+    "modelCode" : "BABC0124",
+    "modelName" : "바자르",
+    "createdAt" : "2025-08-25 11:29:00",
+    "modifiedAt" : "2025-08-27 16:08:21"
+  }, {
+    "modelCode" : "BABC0123",
+    "modelName" : "르카골",
+    "createdAt" : "2025-08-25 11:28:41",
+    "modifiedAt" : "2025-08-25 11:28:41"
+  }, {
+    "modelCode" : "BABC0122",
+    "modelName" : "로데오",
+    "createdAt" : "2025-08-25 11:28:13",
+    "modifiedAt" : "2025-08-27 16:06:56"
+  }, {
+    "modelCode" : "BABC0121",
+    "modelName" : "에브리데이_카메라백",
+    "createdAt" : "2025-08-25 11:27:40",
+    "modifiedAt" : "2025-08-27 19:36:43"
+  }, {
+    "modelCode" : "BABC0120",
+    "modelName" : "에브리데이_쇼퍼",
+    "createdAt" : "2025-08-25 11:26:58",
+    "modifiedAt" : "2025-08-25 11:26:58"
+  }, {
+    "modelCode" : "BABC0119",
+    "modelName" : "네오 클래식",
+    "createdAt" : "2025-08-25 11:26:22",
+    "modifiedAt" : "2025-08-25 11:26:22"
+  }, {
+    "modelCode" : "BABC0118",
+    "modelName" : "발렌시아가_해커프로젝트",
+    "createdAt" : "2025-07-29 09:00:00",
+    "modifiedAt" : "2025-07-29 09:00:00"
+  }, {
+    "modelCode" : "BABC0117",
+    "modelName" : "발렌시아가_에브리데이(1)",
+    "createdAt" : "2025-07-29 09:00:00",
+    "modifiedAt" : "2025-07-29 09:00:00"
+  }, {
+    "modelCode" : "BABC0116",
+    "modelName" : "발렌시아가_카바스",
+    "createdAt" : "2025-07-28 15:00:04",
+    "modifiedAt" : "2025-07-28 15:00:04"
+  }, {
+    "modelCode" : "BABC0115",
+    "modelName" : "발렌시아가_쇼핑백",
+    "createdAt" : "2025-07-28 15:00:04",
+    "modifiedAt" : "2025-07-28 15:00:04"
+  }, {
+    "modelCode" : "BABC0114",
+    "modelName" : "발렌시아가_빌탑핸들",
+    "createdAt" : "2025-07-28 15:00:03",
+    "modifiedAt" : "2025-07-28 15:00:03"
+  }, {
+    "modelCode" : "BABC0113",
+    "modelName" : "발렌시아가_로데오",
+    "createdAt" : "2025-07-28 15:00:03",
+    "modifiedAt" : "2025-07-28 15:00:03"
+  }, {
+    "modelCode" : "BABC0112",
+    "modelName" : "발렌시아가_휠",
+    "createdAt" : "2025-07-28 15:00:03",
+    "modifiedAt" : "2025-07-28 15:00:03"
+  }, {
+    "modelCode" : "BABC0111",
+    "modelName" : "발렌시아가_모터백",
+    "createdAt" : "2025-07-28 15:00:03",
+    "modifiedAt" : "2025-07-28 15:00:03"
+  }, {
+    "modelCode" : "BABC0110",
+    "modelName" : "발렌시아가_익스플로러",
+    "createdAt" : "2025-07-28 15:00:03",
+    "modifiedAt" : "2025-07-28 15:00:03"
+  }, {
+    "modelCode" : "BABC0109",
+    "modelName" : "발렌시아가_아워글래스",
+    "createdAt" : "2025-07-28 15:00:02",
+    "modifiedAt" : "2025-07-28 15:00:02"
+  }, {
+    "modelCode" : "BABC0108",
+    "modelName" : "발렌시아가_르카골",
+    "createdAt" : "2025-07-28 15:00:01",
+    "modifiedAt" : "2025-07-28 15:00:01"
+  }, {
+    "modelCode" : "BABC0107",
+    "modelName" : "발렌시아가_모터",
+    "createdAt" : "2025-07-28 15:00:01",
+    "modifiedAt" : "2025-07-28 15:00:01"
+  }, {
+    "modelCode" : "BABC0106",
+    "modelName" : "발렌시아가_에브리데이",
+    "createdAt" : "2025-07-28 15:00:01",
+    "modifiedAt" : "2025-07-28 15:00:01"
+  }, {
+    "modelCode" : "BABC0105",
+    "modelName" : "발렌시아가_바자르",
+    "createdAt" : "2025-07-28 15:00:00",
+    "modifiedAt" : "2025-07-28 15:00:00"
+  }, {
+    "modelCode" : "BABB0110",
+    "modelName" : "버버리_럭색",
+    "createdAt" : "2025-07-29 09:00:00",
+    "modifiedAt" : "2025-07-29 09:00:00"
+  }, {
+    "modelCode" : "BABB0109",
+    "modelName" : "버버리_포이베",
+    "createdAt" : "2025-07-29 09:00:00",
+    "modifiedAt" : "2025-07-29 09:00:00"
+  }, {
+    "modelCode" : "BABB0108",
+    "modelName" : "버버리_롤라",
+    "createdAt" : "2025-07-28 15:00:00",
+    "modifiedAt" : "2025-07-28 15:00:00"
+  }, {
+    "modelCode" : "BABB0107",
+    "modelName" : "버버리_캠벌리",
+    "createdAt" : "2025-07-28 15:00:00",
+    "modifiedAt" : "2025-07-28 15:00:00"
+  }, {
+    "modelCode" : "BABB0106",
+    "modelName" : "버버리_체크",
+    "createdAt" : "2025-07-28 15:00:00",
+    "modifiedAt" : "2025-07-28 15:00:00"
+  }, {
+    "modelCode" : "BABB0105",
+    "modelName" : "버버리_크로스백",
+    "createdAt" : "2025-07-28 15:00:00",
+    "modifiedAt" : "2025-07-28 15:00:00"
+  }, {
+    "modelCode" : "BABB0104",
+    "modelName" : "버버리_포켓백",
+    "createdAt" : "2025-07-28 15:00:00",
+    "modifiedAt" : "2025-07-28 15:00:00"
+  }, {
+    "modelCode" : "BABB0103",
+    "modelName" : "버버리_오차드",
+    "createdAt" : "2025-07-28 15:00:00",
+    "modifiedAt" : "2025-07-28 15:00:00"
+  }, {
+    "modelCode" : "BABB0102",
+    "modelName" : "버버리_TB",
+    "createdAt" : "2025-07-28 15:00:00",
+    "modifiedAt" : "2025-07-28 15:00:00"
+  }, {
+    "modelCode" : "BABB0101",
+    "modelName" : "버버리_애쉬비",
+    "createdAt" : "2025-07-28 15:00:00",
+    "modifiedAt" : "2025-07-28 15:00:00"
+  }, {
+    "modelCode" : "BABB0100",
+    "modelName" : "버버리_배너백",
+    "createdAt" : "2025-07-28 15:00:00",
+    "modifiedAt" : "2025-07-28 15:00:00"
+  }, {
+    "modelCode" : "WLLV0106",
+    "modelName" : "로미 카드홀더_멀티",
+    "createdAt" : "2025-06-23 17:57:00",
+    "modifiedAt" : "2025-06-23 17:57:00"
+  }, {
+    "modelCode" : "WLGY0019",
+    "modelName" : "생쉴피스",
+    "createdAt" : "2025-08-13 13:59:14",
+    "modifiedAt" : "2025-08-13 13:59:14"
+  } ],
+  "page" : 1,
+  "pageSize" : 911,
+  "totalPage" : 1,
+  "totalCount" : 911
+}

@@ -1,0 +1,692 @@
+{
+  "data" : [ {
+    "brandCode" : "SK",
+    "brandName" : "세이코",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "HA",
+    "brandName" : "해밀턴",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "VM",
+    "brandName" : "베트멍",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "DV",
+    "brandName" : "드리스반노튼",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "VW",
+    "brandName" : "비비안 웨스트우드",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "VB",
+    "brandName" : "바네사 브루노",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "TB",
+    "brandName" : "토리버치",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "T1",
+    "brandName" : "띠어리",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "S2",
+    "brandName" : "사카이",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "N2",
+    "brandName" : "닐바렛",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "FF",
+    "brandName" : "파비아나 필리피",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "CG",
+    "brandName" : "꼼데가르송",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "P1",
+    "brandName" : "필립림",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "OW",
+    "brandName" : "오프화이트",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "GG",
+    "brandName" : "골든구스",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "M2",
+    "brandName" : "마쥬",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "ZV",
+    "brandName" : "쟈딕앤볼테르",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "N1",
+    "brandName" : "넘버21",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "M1",
+    "brandName" : "엠에스지엠",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "H1",
+    "brandName" : "에르노",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "AM",
+    "brandName" : "아미",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "SI",
+    "brandName" : "스톤 아일랜드",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "기타",
+    "brandName" : "기타",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "TS",
+    "brandName" : "티에스이",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "JS",
+    "brandName" : "조셉",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "YG",
+    "brandName" : "생로랑",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "VR",
+    "brandName" : "베르사체",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "VA",
+    "brandName" : "반클립앤 아펠",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "UN",
+    "brandName" : "율리스 나르당",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "TR",
+    "brandName" : "더 로우",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "TO",
+    "brandName" : "토즈",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "TM",
+    "brandName" : "토템",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "TI",
+    "brandName" : "티파니",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "TD",
+    "brandName" : "튜더",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "TA",
+    "brandName" : "다사끼",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "SP",
+    "brandName" : "셀프 포트레이트",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "SM",
+    "brandName" : "스텔라 매카트니",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "S3",
+    "brandName" : "자크뮈스",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "RX",
+    "brandName" : "롤렉스",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "RS",
+    "brandName" : "로샤스",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "RM",
+    "brandName" : "리차드 밀",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "PR",
+    "brandName" : "프라다",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "PI",
+    "brandName" : "피아제",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "OR",
+    "brandName" : "오리스",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "MU",
+    "brandName" : "멀버리",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "MO",
+    "brandName" : "모스키노",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "MN",
+    "brandName" : "모이나",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "MM",
+    "brandName" : "미우미우",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "ML",
+    "brandName" : "마놀로 블라닉",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "MJ",
+    "brandName" : "마크 제이콥스",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "MB",
+    "brandName" : "몽블랑",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "MA",
+    "brandName" : "마르니",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "LV",
+    "brandName" : "루이비통",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "LS",
+    "brandName" : "랑에 운트 죄네",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "LR",
+    "brandName" : "르메르",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "LG",
+    "brandName" : "론진",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "LA",
+    "brandName" : "모리스 라크로와",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "KN",
+    "brandName" : "콴펜",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "K3",
+    "brandName" : "벨루티",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "K2",
+    "brandName" : "알라이아",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "K1",
+    "brandName" : "로저비비에",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "JC",
+    "brandName" : "지미추",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "J9",
+    "brandName" : "필립플레인",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "J8",
+    "brandName" : "델보",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "J7",
+    "brandName" : "파네라이",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "J5",
+    "brandName" : "아크네 스튜디오",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "J4",
+    "brandName" : "톰브라운",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "J2",
+    "brandName" : "위블로",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "J1",
+    "brandName" : "프레드",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "I9",
+    "brandName" : "부쉐론",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "I8",
+    "brandName" : "IWC",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "I7",
+    "brandName" : "제니스",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "I6",
+    "brandName" : "로저 드뷔",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "I5",
+    "brandName" : "파텍필립",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "I4",
+    "brandName" : "오메가",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "I3",
+    "brandName" : "예거 르꿀뜨르",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "I2",
+    "brandName" : "크로노 스위스",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "I1",
+    "brandName" : "브라이틀링",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "HW",
+    "brandName" : "해리윈스턴",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "HK",
+    "brandName" : "헬렌카민스키",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "He",
+    "brandName" : "에르메스",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "H9",
+    "brandName" : "오데마피게",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "H8",
+    "brandName" : "릭오웬",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "H6",
+    "brandName" : "몽클레르",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "H5",
+    "brandName" : "브루넬로 쿠치넬리",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "H3",
+    "brandName" : "발렉스트라",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "H2",
+    "brandName" : "바쉐론 콘스탄틴",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "GY",
+    "brandName" : "고야드",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "GU",
+    "brandName" : "구찌",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "GR",
+    "brandName" : "글라슈테 오리지널",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "GP",
+    "brandName" : "제라 페리고",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "GN",
+    "brandName" : "가니",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "GH",
+    "brandName" : "그라함",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "GB",
+    "brandName" : "가브리엘 허스트",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "G9",
+    "brandName" : "태그호이어",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "G8",
+    "brandName" : "프로엔자 슐러",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "G7",
+    "brandName" : "쥬세페 자노티",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "G5",
+    "brandName" : "브레게",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "G4",
+    "brandName" : "발망",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "G3",
+    "brandName" : "알렉산더왕",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "G2",
+    "brandName" : "탐포드",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "G0",
+    "brandName" : "알렉산더 맥퀸",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "FR",
+    "brandName" : "페레가모",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "FK",
+    "brandName" : "프랭크뮬러",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "FE",
+    "brandName" : "펜디",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "FC",
+    "brandName" : "프레드릭 콘스탄트",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "F7",
+    "brandName" : "발렌티노",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "ET",
+    "brandName" : "에뜨로",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "E8",
+    "brandName" : "막스마라",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "E6",
+    "brandName" : "메종 마르지엘라",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "E3",
+    "brandName" : "로로피아나",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "E2",
+    "brandName" : "로에베",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "DG",
+    "brandName" : "돌체앤가바나",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "DA",
+    "brandName" : "다미아니",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "D8",
+    "brandName" : "겐조",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "D4",
+    "brandName" : "질샌더",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "D0",
+    "brandName" : "랑방",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "CT",
+    "brandName" : "크리스찬 루부탱",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "CP",
+    "brandName" : "쇼파드",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "CM",
+    "brandName" : "쇼메",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "CL",
+    "brandName" : "끌로에",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "CH",
+    "brandName" : "샤넬",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "CE",
+    "brandName" : "셀린",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "CD",
+    "brandName" : "크리스찬 디올",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "CC",
+    "brandName" : "콜롬보",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "CA",
+    "brandName" : "까르띠에",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "C9",
+    "brandName" : "이자벨마랑",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "C6",
+    "brandName" : "지방시",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "C0",
+    "brandName" : "이세이 미야케",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "BV",
+    "brandName" : "불가리",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "BT",
+    "brandName" : "보테가 베네타",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "BR",
+    "brandName" : "벨앤로스",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "BP",
+    "brandName" : "블랑팡",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "BC",
+    "brandName" : "발렌시아가",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "BB",
+    "brandName" : "버버리",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "BA",
+    "brandName" : "발리",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "brandCode" : "B7",
+    "brandName" : "디스퀘어드2",
+    "createdAt" : null,
+    "modifiedAt" : null
+  } ],
+  "page" : 1,
+  "pageSize" : 200,
+  "totalPage" : 1,
+  "totalCount" : 137
+}

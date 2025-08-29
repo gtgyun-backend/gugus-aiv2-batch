@@ -1,0 +1,47 @@
+{
+  "data" : [ {
+    "categoryCode" : "BA",
+    "categoryName" : "가방",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "categoryCode" : "CL",
+    "categoryName" : "의류",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "categoryCode" : "WA",
+    "categoryName" : "시계",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "categoryCode" : "JW",
+    "categoryName" : "주얼리",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "categoryCode" : "AC",
+    "categoryName" : "액세서리",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "categoryCode" : "SH",
+    "categoryName" : "신발",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "categoryCode" : "WL",
+    "categoryName" : "지갑",
+    "createdAt" : null,
+    "modifiedAt" : null
+  }, {
+    "categoryCode" : null,
+    "categoryName" : "키즈",
+    "createdAt" : null,
+    "modifiedAt" : null
+  } ],
+  "page" : 1,
+  "pageSize" : 200,
+  "totalPage" : 1,
+  "totalCount" : 8
+}
