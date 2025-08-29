@@ -47,7 +47,7 @@ public class Models {
     @Column(name = "name_english", length = 100, nullable = false)
     private String nameEnglish;
 
-    @Column(name = "code", length = 5, nullable = false)
+    @Column(name = "code", length = 32, nullable = false)
     private String code;
 
     @Column(name = "category_no", nullable = false)

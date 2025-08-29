@@ -9,9 +9,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
-import jakarta.persistence.Lob;
 import jakarta.persistence.ManyToOne;
-import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 import java.time.LocalDateTime;
 import lombok.AccessLevel;
@@ -22,62 +20,26 @@ import org.hibernate.annotations.UpdateTimestamp;
 
 /**
  * @author : smk
- * @fileName : Goods
- * @date : 2025. 1. 27.
+ * @fileName : ProductModels
+ * @date : 2025. 8. 29.
  */
 @Entity
 @Getter
-@Table(name = "goods")
+@Table(name = "product_models")
 @Auditable
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
-public class Goods {
+public class ProductModels {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "goods_no")
-    private Long goodsNo;
-
-    @Column(name = "appraisal_history_no")
-    private Long appraisalHistoryNo;
-
-    @Column(name = "legacy_goods_no")
-    private Integer legacyGoodsNo;
+    @Column(name = "product_model_no")
+    private Long productModelNo;
 
     @Column(name = "name", length = 100, nullable = false)
     private String name;
 
-    @Column(name = "name_english", length = 100, nullable = false)
-    private String nameEnglish;
-
-    @Column(name = "product_model_code", length = 32)
-    private String productModelCode;
-
-    @Column(name = "model_no")
-    private Long modelNo;
-
-    @JsonIgnore
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "model_no", insertable = false, updatable = false)
-    private Models model;
-
-    @Column(name = "material_no")
-    private Integer materialNo;
-
-    @Column(name = "color_no")
-    private Integer colorNo;
-
-    @Column(name = "origin_no")
-    private Integer originNo;
-
-    @Lob
-    @Column(name = "goods_image_url", columnDefinition = "TEXT")
-    private String goodsImageUrl;
-
-    @Column(name = "serial_no")
-    private String serialNo;
-
-    @Column(name = "brand_model_no")
-    private String brandModelNo;
+    @Column(name = "code", length = 32, nullable = false)
+    private String code;
 
     @CreationTimestamp
     @Column(name = "created_at", nullable = false, updatable = false)
@@ -86,11 +48,35 @@ public class Goods {
     @Column(name = "created_by")
     private Long createdBy;
 
+    @JsonIgnore
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "created_by", insertable = false, updatable = false)
+    private Users creator;
+
     @UpdateTimestamp
-    @Column(name = "updated_at")
+    @Column(name = "updated_at", nullable = false)
     private LocalDateTime updatedAt;
 
     @Column(name = "updated_by")
     private Long updatedBy;
 
+    @JsonIgnore
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "updated_by", insertable = false, updatable = false)
+    private Users updater;
+
+    private static final Long SYSTEM_USER_NO = 1L;
+
+    public static ProductModels createByBatch(String code, String name) {
+        ProductModels productModel = new ProductModels();
+        productModel.code = code;
+        productModel.name = name;
+        productModel.createdBy = SYSTEM_USER_NO;
+        return productModel;
+    }
+
+    public void updateNameByBatch(String name) {
+        this.name = name;
+        this.updatedBy = SYSTEM_USER_NO;
+    }
 }
