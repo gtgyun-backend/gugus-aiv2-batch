@@ -85,7 +85,7 @@ public class AppraisalPointSyncService {
      * 테스트용 감정포인트 동기화 (JSON 파일 사용)
      */
     @Transactional
-    public void syncAppraisalPointWithTestData(String modelCode) {
+    public void syncAppraisalPointWithTestData() {
         log.info("[AppraisalPointSyncService] Starting appraisal point sync with test data");
         
         // 모델 정보 조회

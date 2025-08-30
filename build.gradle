@@ -79,9 +79,6 @@ dependencies {
 	// cache
 	implementation 'org.springframework.boot:spring-boot-starter-cache'
 	implementation 'com.github.ben-manes.caffeine:caffeine'
-
-	// Swagger/OpenAPI
-	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.4.0'
 }
 
 // QueryDSL 설정 부분
