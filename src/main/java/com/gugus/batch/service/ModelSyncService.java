@@ -11,6 +11,7 @@ import com.gugus.batch.dto.ModelItem;
 import com.gugus.batch.dto.ModelSearchReq;
 import com.gugus.batch.dto.ModelsResponse;
 import com.gugus.batch.util.TestDataLoader;
+import jakarta.persistence.EntityManager;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
@@ -37,6 +38,7 @@ public class ModelSyncService {
     private final BrandsRepository brandsRepository;       // 필요 시 전체 조합 생성용
     private final CategoriesRepository categoriesRepository; // 필요 시 전체 조합 생성용
     private final TestDataLoader testDataLoader;
+    private final EntityManager entityManager;
 
     @Value("${sync.model.page-size:200}")
     private int defaultPageSize;
@@ -143,6 +145,11 @@ public class ModelSyncService {
                     productModelsRepository.save(newEntity);
                     createdCount++;
                 }
+                
+                // 영속성 컨텍스트 메모리 최적화
+                entityManager.flush();
+                entityManager.clear();
+                
             } catch (Exception e) {
                 log.error("[ModelSyncService] Error during upsert for model: code={}, name={}", 
                          item.modelCode(), item.modelName(), e);

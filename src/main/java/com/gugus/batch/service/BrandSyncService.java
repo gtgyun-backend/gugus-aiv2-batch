@@ -7,6 +7,7 @@ import com.gugus.batch.dto.BrandItem;
 import com.gugus.batch.dto.BrandSearchReq;
 import com.gugus.batch.dto.BrandsResponse;
 import com.gugus.batch.util.TestDataLoader;
+import jakarta.persistence.EntityManager;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 import lombok.RequiredArgsConstructor;
@@ -28,6 +29,7 @@ public class BrandSyncService {
     private final LetsurExternalClient client;
     private final BrandsRepository brandsRepository;
     private final TestDataLoader testDataLoader;
+    private final EntityManager entityManager;
 
     private static final DateTimeFormatter DF = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
 
@@ -86,6 +88,10 @@ public class BrandSyncService {
                 brandsRepository.save(newEntity);
                 createdCount++;
             }
+            
+            // 영속성 컨텍스트 메모리 최적화
+            entityManager.flush();
+            entityManager.clear();
         }
         
         if (createdCount > 0 || updatedCount > 0) {

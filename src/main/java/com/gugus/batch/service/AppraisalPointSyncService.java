@@ -11,6 +11,7 @@ import com.gugus.batch.dto.AppraisalPointSearchReq;
 import com.gugus.batch.dto.AppraisalPointsResponse;
 import com.gugus.batch.externals.LetsurExternalClient;
 import com.gugus.batch.util.TestDataLoader;
+import jakarta.persistence.EntityManager;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
@@ -36,6 +37,7 @@ public class AppraisalPointSyncService {
     // private final ModelAppraisalPointsRepository modelAppraisalPointsRepository;
     private final ProductModelsRepository productModelsRepository;
     private final TestDataLoader testDataLoader;
+    private final EntityManager entityManager;
 
     @Value("${sync.appraisal-point.page-size:200}")
     private int defaultPageSize;
@@ -181,6 +183,11 @@ public class AppraisalPointSyncService {
                     modelAppraisalPointsRepository.save(existingModelPoint);
                 }
                 */
+                
+                // 영속성 컨텍스트 메모리 최적화
+                entityManager.flush();
+                entityManager.clear();
+                
             } catch (Exception e) {
                 log.error("[AppraisalPointSyncService] Failed to upsert appraisal point: pointNo={}, modelNo={}", 
                         item.pointNo(), modelNo, e);

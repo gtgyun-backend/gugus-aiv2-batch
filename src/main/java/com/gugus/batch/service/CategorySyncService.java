@@ -7,6 +7,7 @@ import com.gugus.batch.dto.CategoryItem;
 import com.gugus.batch.dto.CategorySearchReq;
 import com.gugus.batch.externals.LetsurExternalClient;
 import com.gugus.batch.util.TestDataLoader;
+import jakarta.persistence.EntityManager;
 
 import java.time.format.DateTimeFormatter;
 import java.util.List;
@@ -31,6 +32,7 @@ public class CategorySyncService {
     private final LetsurExternalClient client;
     private final CategoriesRepository categoriesRepository;
     private final TestDataLoader testDataLoader;
+    private final EntityManager entityManager;
 
     private static final DateTimeFormatter DF = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
 
@@ -95,7 +97,11 @@ public class CategorySyncService {
                 var newEntity = Categories.createByBatch(item.categoryCode(), item.categoryName());
                 categoriesRepository.save(newEntity);
                 createdCount++;
-            }            
+            }
+            
+            // 영속성 컨텍스트 메모리 최적화
+            entityManager.flush();
+            entityManager.clear();
         }
         
         if (createdCount > 0 || updatedCount > 0 || skippedCount > 0) {
