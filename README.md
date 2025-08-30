@@ -91,7 +91,7 @@ spring:
 ### 애플리케이션 속성
 
 ```properties
-server.port=8080
+server.port=8008
 
 # JPA 설정
 spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
@@ -132,7 +132,7 @@ java -jar -Dspring.profiles.active=[profile] build/libs/batch-0.0.1-SNAPSHOT.jar
 
 ```bash
 docker build -t gugus-batch .
-docker run -p 8080:8080 -e SPRING_PROFILES_ACTIVE=[profile] gugus-batch
+docker run -p 8008:8008 -e SPRING_PROFILES_ACTIVE=[profile] gugus-batch
 ```
 
 ## 개발 가이드
@@ -151,10 +151,10 @@ syncJob.runAll(200); // pageSize 200으로 실행
 **HTTP API를 통한 수동 실행:**
 ```bash
 # 실제 API를 사용한 전체 동기화 실행
-curl -X POST "http://localhost:8080/api/test/sync-all?pageSize=200"
+curl -X POST "http://localhost:8008/api/test/sync-all?pageSize=200"
 
 # 테스트 데이터를 사용한 전체 동기화 실행
-curl -X POST "http://localhost:8080/api/test/sync-all-test?pageSize=200"
+curl -X POST "http://localhost:8008/api/test/sync-all-test?pageSize=200"
 ```
 
 ### API 문서화 (Swagger)
@@ -162,8 +162,8 @@ curl -X POST "http://localhost:8080/api/test/sync-all-test?pageSize=200"
 프로젝트에는 Swagger UI가 포함되어 있어 API 문서를 쉽게 확인할 수 있습니다.
 
 **Swagger UI 접속:**
-- 로컬 환경: http://localhost:8080/swagger-ui.html
-- API 문서 JSON: http://localhost:8080/api-docs
+- 로컬 환경: http://localhost:8008/swagger-ui.html
+- API 문서 JSON: http://localhost:8008/api-docs
 
 **주요 API 엔드포인트:**
 - `POST /api/test/sync-all` - 실제 API를 사용한 전체 동기화

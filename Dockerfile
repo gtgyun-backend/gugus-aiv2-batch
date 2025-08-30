@@ -24,14 +24,14 @@ FROM eclipse-temurin:21-jre
 WORKDIR /app
 
 # 빌드 단계에서 생성된 JAR 파일 복사
-COPY --from=builder /app/build/libs/backend-0.0.1-SNAPSHOT.jar app.jar
+COPY --from=builder /app/build/libs/batch-0.0.1-SNAPSHOT.jar app.jar
 
 # Spring Profile 환경변수 설정
 ARG SPRING_PROFILES_ACTIVE=local
 ENV SPRING_PROFILES_ACTIVE=${SPRING_PROFILES_ACTIVE}
 
 # 포트 노출
-EXPOSE 8080
+EXPOSE 8008
 
 # 애플리케이션 실행
 ENTRYPOINT ["java", "-jar", "app.jar"]
