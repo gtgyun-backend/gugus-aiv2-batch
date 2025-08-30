@@ -57,51 +57,53 @@ public class FullSyncScheduler {
 
         try {
             // 1) 카테고리 동기화
-            if (categoryEnabled) {
+            if(fullsyncEnabled){
+            
                 log.info("[FullSyncScheduler] Category sync started");
                 categorySyncService.syncAll(categoryPageSize);
                 log.info("[FullSyncScheduler] Category sync completed");
-            }
+            
 
-            // 2) 브랜드 동기화
-            if (brandEnabled) {
-                log.info("[FullSyncScheduler] Brand sync started");
-                brandSyncService.syncAll(brandPageSize);
-                log.info("[FullSyncScheduler] Brand sync completed");
-            }
+                // 2) 브랜드 동기화
+                if (brandEnabled) {
+                    log.info("[FullSyncScheduler] Brand sync started");
+                    brandSyncService.syncAll(brandPageSize);
+                    log.info("[FullSyncScheduler] Brand sync completed");
+                }
 
-            // 3) 모델 동기화 (모든 브랜드-카테고리 조합)
-            if (modelEnabled) {
-                log.info("[FullSyncScheduler] Model sync started");
-                var pairs = pairProvider.allPairsForModels();
-                log.info("[FullSyncScheduler] Processing {} brand-category pairs", pairs.size());
+                // 3) 모델 동기화 (모든 브랜드-카테고리 조합)
+                if (modelEnabled) {
+                    log.info("[FullSyncScheduler] Model sync started");
+                    var pairs = pairProvider.allPairsForModels();
+                    log.info("[FullSyncScheduler] Processing {} brand-category pairs", pairs.size());
 
-                int successCount = 0;
-                int failCount = 0;
-                for (var pair : pairs) {
+                    int successCount = 0;
+                    int failCount = 0;
+                    for (var pair : pairs) {
+                        try {
+                            modelSyncService.syncPair(pair.brandCode(), pair.categoryCode(), modelPageSize);
+                            successCount++;
+                        } catch (Exception e) {
+                            log.error("[FullSyncScheduler] Model sync failed for {}-{}", pair.brandCode(), pair.categoryCode(), e);
+                            failCount++;
+                        }
+                    }
+                    log.info("[FullSyncScheduler] Model sync completed - Success: {}, Failed: {}", successCount, failCount);
+                }
+
+                // 4) 감정포인트 동기화 (모든 모델)
+                if (appraisalPointEnabled) {
+                    log.info("[FullSyncScheduler] Appraisal point sync started");
                     try {
-                        modelSyncService.syncPair(pair.brandCode(), pair.categoryCode(), modelPageSize);
-                        successCount++;
+                        appraisalPointSyncService.syncAppraisalPointByModelCode();
+                        log.info("[FullSyncScheduler] Appraisal point sync completed");
                     } catch (Exception e) {
-                        log.error("[FullSyncScheduler] Model sync failed for {}-{}", pair.brandCode(), pair.categoryCode(), e);
-                        failCount++;
+                        log.error("[FullSyncScheduler] Appraisal point sync failed", e);
                     }
                 }
-                log.info("[FullSyncScheduler] Model sync completed - Success: {}, Failed: {}", successCount, failCount);
-            }
 
-            // 4) 감정포인트 동기화 (모든 모델)
-            if (appraisalPointEnabled) {
-                log.info("[FullSyncScheduler] Appraisal point sync started");
-                try {
-                    appraisalPointSyncService.syncAppraisalPointByModelCode();
-                    log.info("[FullSyncScheduler] Appraisal point sync completed");
-                } catch (Exception e) {
-                    log.error("[FullSyncScheduler] Appraisal point sync failed", e);
-                }
+                log.info("[FullSyncScheduler] Full sync job completed successfully");
             }
-
-            log.info("[FullSyncScheduler] Full sync job completed successfully");
         } catch (Exception e) {
             log.error("[FullSyncScheduler] Full sync job failed", e);
         }
@@ -117,59 +119,44 @@ public class FullSyncScheduler {
 
         try {
             // 1) 카테고리 동기화
-            if (categoryEnabled) {
-                log.info("[FullSyncScheduler] Category sync with test data started");
-                categorySyncService.syncAllWithTestData();
-                log.info("[FullSyncScheduler] Category sync with test data completed");
-            }
+            
+            log.info("[FullSyncScheduler] Category sync with test data started");
+            categorySyncService.syncAllWithTestData();
+            log.info("[FullSyncScheduler] Category sync with test data completed");
+            
 
             // 2) 브랜드 동기화
-            if (brandEnabled) {
-                log.info("[FullSyncScheduler] Brand sync with test data started");
-                brandSyncService.syncAllWithTestData();
-                log.info("[FullSyncScheduler] Brand sync with test data completed");
-            }
+            
+            log.info("[FullSyncScheduler] Brand sync with test data started");
+            brandSyncService.syncAllWithTestData();
+            log.info("[FullSyncScheduler] Brand sync with test data completed");
+            
 
             // 3) 모델 동기화 (모든 브랜드-카테고리 조합)
-            if (modelEnabled) {
-                log.info("[FullSyncScheduler] Model sync with test data started");
-                var pairs = pairProvider.allPairsForModels();
-                log.info("[FullSyncScheduler] Processing {} brand-category pairs", pairs.size());
+            log.info("[FullSyncScheduler] Model sync with test data started");
+            var pairs = pairProvider.allPairsForModels();
+            log.info("[FullSyncScheduler] Processing {} brand-category pairs", pairs.size());
 
-                int successCount = 0;
-                int failCount = 0;
-                for (var pair : pairs) {
-                    try {
-                        modelSyncService.syncPairWithTestData(pair.brandCode(), pair.categoryCode(), modelPageSize);
-                        successCount++;
-                    } catch (Exception e) {
-                        log.error("[FullSyncScheduler] Model sync with test data failed for {}-{}", pair.brandCode(), pair.categoryCode(), e);
-                        failCount++;
-                    }
+            int successCount = 0;
+            int failCount = 0;
+            for (var pair : pairs) {
+                try {
+                    modelSyncService.syncPairWithTestData(pair.brandCode(), pair.categoryCode(), modelPageSize);
+                    successCount++;
+                } catch (Exception e) {
+                    log.error("[FullSyncScheduler] Model sync with test data failed for {}-{}", pair.brandCode(), pair.categoryCode(), e);
+                    failCount++;
                 }
-                log.info("[FullSyncScheduler] Model sync with test data completed - Success: {}, Failed: {}", successCount, failCount);
             }
+            log.info("[FullSyncScheduler] Model sync with test data completed - Success: {}, Failed: {}", successCount, failCount);
+            
 
             // 4) 감정포인트 동기화 (모든 모델)
-            if (appraisalPointEnabled) {
-                log.info("[FullSyncScheduler] Appraisal point sync with test data started");
-                var pairs = pairProvider.allPairsForModels();
-                log.info("[FullSyncScheduler] Processing {} pairs for appraisal points", pairs.size());
-
-                int successCount = 0;
-                int failCount = 0;
-                for (var pair : pairs) {
-                    try {
-                        appraisalPointSyncService.syncAppraisalPointWithTestData(pair.brandCode() + "_" + pair.categoryCode());
-                        successCount++;
-                    } catch (Exception e) {
-                        log.error("[FullSyncScheduler] Appraisal point sync with test data failed for {}-{}", pair.brandCode(), pair.categoryCode(), e);
-                        failCount++;
-                    }
-                }
-                log.info("[FullSyncScheduler] Appraisal point sync with test data completed - Success: {}, Failed: {}", successCount, failCount);
-            }
-
+            log.info("[FullSyncScheduler] Appraisal point sync with test data started");
+            log.info("[FullSyncScheduler] Processing appraisal points");
+            appraisalPointSyncService.syncAppraisalPointByModelCode();
+            log.info("[FullSyncScheduler] Appraisal point sync with test data completed");
+            log.info("[FullSyncScheduler] Appraisal point sync with test data completed");
             log.info("[FullSyncScheduler] Full sync with test data completed successfully");
         } catch (Exception e) {
             log.error("[FullSyncScheduler] Full sync with test data failed", e);

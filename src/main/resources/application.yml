@@ -32,11 +32,11 @@ sync:
     zone: Asia/Seoul
   # 통합 스케줄러 - 운영 시 사용
   fullsync:
-    enabled: false
-    cron: "0 10 2 * * *"
+    enabled: true
+    cron: "0 0 1 * * *"
   # 개별 스케줄러 - 운영 시 미사용
   category:
-    enabled: true
+    enabled: false
     cron: "0 5 2 * * *"
     page-size: 200
   brand:
@@ -48,7 +48,7 @@ sync:
     cron: "0 30 2 * * *"
     page-size: 200
   appraisal-point:
-    enabled: true
+    enabled: false
     cron: "0 40 2 * * *"
     page-size: 200
   goods:
