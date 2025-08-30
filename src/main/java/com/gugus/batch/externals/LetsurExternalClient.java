@@ -29,6 +29,9 @@ public class LetsurExternalClient {
 
     private final WebClientUtil webClientUtil;
 
+    @Value("${externals.letsur.base-url}")
+    private String baseUrl;
+
     @Value("${externals.letsur.api-key}")
     private String apiKey;
 
@@ -55,27 +58,27 @@ public class LetsurExternalClient {
     }
 
     public Mono<BrandsResponse> getBrands(BrandSearchReq req) {
-        return webClientUtil.api(HttpMethod.GET, brandPath, req.toQueryMap(),
+        return webClientUtil.api(HttpMethod.GET, baseUrl + brandPath, req.toQueryMap(),
                 BrandsResponse.class, defaultHeaders());
     }
 
     public Mono<CategoriesResponse> getCategories(CategorySearchReq req) {
-        return webClientUtil.api(HttpMethod.GET, categoryPath, req.toQueryMap(),
+        return webClientUtil.api(HttpMethod.GET, baseUrl + categoryPath, req.toQueryMap(),
                 CategoriesResponse.class, defaultHeaders());
     }
 
     public Mono<ModelsResponse> getModels(ModelSearchReq req) {
-        return webClientUtil.api(HttpMethod.GET, modelPath, req.toQueryMap(),
+        return webClientUtil.api(HttpMethod.GET, baseUrl + modelPath, req.toQueryMap(),
                 ModelsResponse.class, defaultHeaders());
     }
 
     public Mono<GoodsResponse> getGoods(GoodsSearchReq req) {
-        return webClientUtil.api(HttpMethod.GET, goodsPath, req.toQueryMap(),
+        return webClientUtil.api(HttpMethod.GET, baseUrl + goodsPath, req.toQueryMap(),
                 GoodsResponse.class, defaultHeaders());
     }
 
     public Mono<AppraisalPointsResponse> getAppraisalPoints(AppraisalPointSearchReq req) {
-        return webClientUtil.api(HttpMethod.GET, appraisalPointsPath, req.toQueryMap(),
+        return webClientUtil.api(HttpMethod.GET, baseUrl + appraisalPointsPath, req.toQueryMap(),
                 AppraisalPointsResponse.class, defaultHeaders());
     }
 }
