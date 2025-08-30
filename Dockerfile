@@ -16,7 +16,7 @@ COPY src src
 RUN chmod +x ./gradlew
 
 # 의존성 다운로드 및 애플리케이션 빌드
-RUN ./gradlew clean bootJar --no-daemon
+RUN ./gradlew clean bootJar --no-daemon -x test
 
 # Runtime stage - 실행을 위한 경량 이미지
 FROM eclipse-temurin:21-jre

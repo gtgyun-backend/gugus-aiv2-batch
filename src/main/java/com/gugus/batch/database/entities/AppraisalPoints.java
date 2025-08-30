@@ -4,6 +4,7 @@ import com.gugus.batch.auditlog.service.Auditable;
 import com.gugus.batch.constants.SystemConstants;
 import com.gugus.batch.database.entities.base.AppraisalPointRelationBase;
 
+import com.gugus.batch.dto.AppraisalPointItem;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -37,18 +38,27 @@ public class AppraisalPoints extends AppraisalPointRelationBase {
     @Column(name = "name_english", length = 100, nullable = false)
     private String nameEnglish;
 
-    public static AppraisalPoints createByBatch(String pointName, String nameEnglish) {
+    public static AppraisalPoints createByBatch(AppraisalPointItem item) {
         var appraisalPoint = new AppraisalPoints();
-        appraisalPoint.name = pointName;
-        appraisalPoint.nameEnglish = nameEnglish != null ? nameEnglish : pointName;
+        appraisalPoint.name = item.pointName();
+        appraisalPoint.nameEnglish = item.pointName();
+        appraisalPoint.imageCount = item.imageCount();
+        appraisalPoint.required = "Y".equals(item.mandatoryYn());
         appraisalPoint.createdBy = SystemConstants.SYSTEM_USER_NO;
         return appraisalPoint;
     }
 
-    public void updateByBatch(String pointName, String nameEnglish) {
-        // 이름이 실제로 변경된 경우에만 업데이트
-        if (!name.equals(pointName)) {
-            this.name = pointName;
+    public void updateByBatch(AppraisalPointItem item) {
+        boolean isUpdated = false;
+        if(!this.imageCount.equals(item.imageCount())) {
+            this.imageCount = item.imageCount();
+            isUpdated = true;
+        }
+        if(!this.required.equals("Y".equals(item.mandatoryYn()))) {
+            this.required = "Y".equals(item.mandatoryYn());
+            isUpdated = true;
+        }
+        if(isUpdated) {
             this.updatedBy = SystemConstants.SYSTEM_USER_NO;
         }
     }

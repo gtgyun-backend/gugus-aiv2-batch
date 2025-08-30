@@ -1,10 +1,8 @@
 package com.gugus.batch.service;
 
 import com.gugus.batch.database.entities.AppraisalPoints;
-// import com.gugus.batch.database.entities.ModelAppraisalPoints;
 import com.gugus.batch.database.entities.ProductModels;
 import com.gugus.batch.database.repositories.AppraisalPointsRepository;
-// import com.gugus.batch.database.repositories.ModelAppraisalPointsRepository;
 import com.gugus.batch.database.repositories.ProductModelsRepository;
 import com.gugus.batch.dto.AppraisalPointItem;
 import com.gugus.batch.dto.AppraisalPointSearchReq;
@@ -12,7 +10,6 @@ import com.gugus.batch.dto.AppraisalPointsResponse;
 import com.gugus.batch.externals.LetsurExternalClient;
 import com.gugus.batch.util.TestDataLoader;
 import jakarta.persistence.EntityManager;
-import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 import lombok.RequiredArgsConstructor;
@@ -34,7 +31,6 @@ public class AppraisalPointSyncService {
 
     private final LetsurExternalClient client;
     private final AppraisalPointsRepository appraisalPointsRepository;
-    // private final ModelAppraisalPointsRepository modelAppraisalPointsRepository;
     private final ProductModelsRepository productModelsRepository;
     private final TestDataLoader testDataLoader;
     private final EntityManager entityManager;
@@ -136,54 +132,18 @@ public class AppraisalPointSyncService {
                 Long pointNo;
                 if (existingPoint == null) {
                     // 새로 생성
-                    AppraisalPoints newPoint = AppraisalPoints.createByBatch(
-                            item.pointName(),
-                            item.pointName() // 영어명은 일단 한글명과 동일하게 설정
-                    );
+                    AppraisalPoints newPoint = AppraisalPoints.createByBatch(item);
                     AppraisalPoints savedPoint = appraisalPointsRepository.save(newPoint);
                     pointNo = savedPoint.getPointNo(); // 저장 후 생성된 ID 사용
                     createdCount++;
                 } else {
                     // 기존 데이터 업데이트
-                    existingPoint.updateByBatch(
-                            item.pointName(),
-                            item.pointName() // 영어명은 일단 한글명과 동일하게 설정
-                    );
+                    existingPoint.updateByBatch(item);
                     appraisalPointsRepository.save(existingPoint);
                     pointNo = existingPoint.getPointNo(); // 기존 ID 사용
                     updatedCount++;
                 }
 
-                // 2. ModelAppraisalPoints 테이블에 모델별 설정 저장/업데이트 (임시로 주석 처리)
-                // TODO: ModelAppraisalPoints 저장 로직은 나중에 구현
-                /*
-                ModelAppraisalPoints existingModelPoint = modelAppraisalPointsRepository
-                        .findByModelNoAndPointNo(modelNo, pointNo)
-                        .orElse(null);
-
-                if (existingModelPoint == null) {
-                    // 새로 생성
-                    ModelAppraisalPoints newModelPoint = ModelAppraisalPoints.createByBatch(
-                            modelNo,
-                            pointNo,
-                            item.imageCount(),
-                            item.guideImageUrl(),
-                            item.mandatoryYn(),
-                            i + 1 // listOrder는 순서대로 설정
-                    );
-                    modelAppraisalPointsRepository.save(newModelPoint);
-                } else {
-                    // 기존 데이터 업데이트
-                    existingModelPoint.updateByBatch(
-                            item.imageCount(),
-                            item.guideImageUrl(),
-                            item.mandatoryYn(),
-                            i + 1 // listOrder는 순서대로 설정
-                    );
-                    modelAppraisalPointsRepository.save(existingModelPoint);
-                }
-                */
-                
                 // 영속성 컨텍스트 메모리 최적화
                 entityManager.flush();
                 entityManager.clear();

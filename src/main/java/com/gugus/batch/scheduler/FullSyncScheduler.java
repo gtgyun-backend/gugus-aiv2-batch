@@ -39,7 +39,7 @@ public class FullSyncScheduler {
     @Value("${sync.fullsync.enabled:true}")
     private boolean fullsyncEnabled;
 
-    @Scheduled(cron = "0 30 19 * * *", zone = "Asia/Seoul") // 매일 새벽 2시 30분
+    @Scheduled(cron = "0 30 2 * * *", zone = "Asia/Seoul") // 매일 새벽 2시 30분
     public void runFullSync() {
         log.info("[FullSyncScheduler] Full sync job started");
 
